@@ -40,7 +40,11 @@ public class RoomSwicher : MonoBehaviour
 
         _transitionSequence.Append(_transitionEffect.DoTransition());
         _transitionSequence.Append(_transitionScreen.DOFade(0, _transitionSpeed));
-        _transitionSequence.AppendCallback(() => { _transitionScreen.blocksRaycasts = false; });
+        _transitionSequence.AppendCallback(() =>
+        {
+            _transitionScreen.blocksRaycasts = false;
+            GameTimeHolder.Instance.IncreaseTime(GameTimeHolder.Instance.RoomTimeCost);
+        });
     }
 
     private void CreateRoom(Room newRoom)
