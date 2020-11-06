@@ -9,9 +9,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0dc5a2e2d9a2e02429a7f6e92e396599, type: 3}
-  m_Name: Floor_1
+  m_Script: {fileID: 11500000, guid: 681abda9dec641e40b83c29be9ab6236, type: 3}
+  m_Name: Room_1
   m_EditorClassIdentifier: 
-  _rooms:
-  - {fileID: 11400000, guid: 621cb18ebe708e647b5d3a3690f5d643, type: 2}
+  _roomPrefab: {fileID: 2915356422314218501, guid: a729d2bc85856b24f83cc75f16db831a,
+    type: 3}
+  _connectedRoom:
   - {fileID: 11400000, guid: 66d1714063c75114a8742281dd32086c, type: 2}

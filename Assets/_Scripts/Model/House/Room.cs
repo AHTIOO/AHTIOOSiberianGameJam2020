@@ -6,11 +6,11 @@ using UnityEngine;
 public class Room : ScriptableObject
 {
     [Header("Room data")]
-    [SerializeField] private GameObject _sprite;
+    [SerializeField] private RoomView _roomPrefab;
 
     [Header("Connected Rooms")]
     [SerializeField] private List<Room> _connectedRoom = new List<Room>();
 
-    public GameObject Sprite => _sprite;
+    public RoomView RoomPrefab => _roomPrefab;
     public List<Room> ConnectedRoom => _connectedRoom;
 }
