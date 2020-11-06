@@ -21,6 +21,7 @@ public class RoomSwicher : MonoBehaviour
     public void GoToRoom(int goesToRoom)
     {
         transitionScreen.DOFade(1, transitionSpeed);
+
         Room roomToGo = _curentRoom.ConnectedRoom[goesToRoom];
         Destroy(_currentRoomView.gameObject);
 
