@@ -5,13 +5,18 @@ using DG.Tweening;
 public class RoomSwicher : MonoBehaviour
 {
     public Room InitialRoom;
-
-    public CanvasGroup transitionScreen;
-    public float transitionSpeed = 0.012f;
     public GameObject RoomParent;
+
+    [Header("Transition Parameters")]
+    [SerializeField] private CanvasGroup _transitionScreen;
+    [SerializeField] private float _transitionSpeed = 0.15f;
+    [SerializeField] private RoomTransitionEffect _transitionEffect;
+
 
     private RoomView _currentRoomView;
     private Room _curentRoom;
+
+    private Sequence _transitionSequence;
 
     private void Awake()
     {
@@ -20,14 +25,22 @@ public class RoomSwicher : MonoBehaviour
 
     public void GoToRoom(int goesToRoom)
     {
-        transitionScreen.DOFade(1, transitionSpeed);
+        _transitionSequence?.Kill();
+        _transitionSequence = DOTween.Sequence();
 
-        Room roomToGo = _curentRoom.ConnectedRoom[goesToRoom];
-        Destroy(_currentRoomView.gameObject);
+        _transitionScreen.blocksRaycasts = true;
+        _transitionSequence.Append(_transitionScreen.DOFade(1, _transitionSpeed));
+        _transitionSequence.AppendCallback(() =>
+        {
+            Room roomToGo = _curentRoom.ConnectedRoom[goesToRoom];
+            Destroy(_currentRoomView.gameObject);
 
-        CreateRoom(roomToGo);
+            CreateRoom(roomToGo);
+        });
 
-        transitionScreen.DOFade(0, transitionSpeed);
+        _transitionSequence.Append(_transitionEffect.DoTransition());
+        _transitionSequence.Append(_transitionScreen.DOFade(0, _transitionSpeed));
+        _transitionSequence.AppendCallback(() => { _transitionScreen.blocksRaycasts = false; });
     }
 
     private void CreateRoom(Room newRoom)
