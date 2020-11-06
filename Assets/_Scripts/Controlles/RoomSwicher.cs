@@ -1,18 +1,22 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
-public class RoomSwich : MonoBehaviour
+using DG.Tweening;
+public class RoomSwicher : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public CanvasGroup transitionScreen;
+    public float transitionSpeed = 0.012f;
+    public GameObject RoomParent;
 
-    // Update is called once per frame
-    void Update()
+    private Room curentRoom;
+
+    public void GoToRoom(Room goesToRoom)
     {
-        
+        transitionScreen.DOFade(1, transitionSpeed);
+        Destroy(curentRoom);
+        curentRoom = goesToRoom;
+        Instantiate(curentRoom, RoomParent.transform);
+        transitionScreen.DOFade(0, transitionSpeed);
     }
 }
+
