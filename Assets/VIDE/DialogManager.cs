@@ -62,6 +62,10 @@ public class DialogManager : MonoBehaviour
             pushDialogNext.gameObject.SetActive(true);
             container_NPC.SetActive(true);
             text_NPC.text = data.comments[data.commentIndex];
+            if (VD.GetNext(true, false).isPlayer)
+            {
+                VD.Next();
+            }
             //Play Audio if any
             if (audioSource != null)
             {
