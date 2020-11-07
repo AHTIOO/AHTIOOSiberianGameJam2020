@@ -7,9 +7,11 @@ public class Character : ScriptableObject
 {
     [SerializeField] private string _name;
     [SerializeField] private Sprite _dialogSprite;
+    [SerializeField] private string _deathDialog;
     [SerializeField] private List<CharacterDefinition> _characterDefinitions;
 
     public string Name => _name;
     public Sprite DialogSprite => _dialogSprite;
     public List<CharacterDefinition> CharacterDefinitions => _characterDefinitions;
+    public string DeathDialog => _deathDialog;
 }
