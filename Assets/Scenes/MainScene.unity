@@ -236,12 +236,12 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1288444905}
-        m_MethodName: 
+      - m_Target: {fileID: 1288444907}
+        m_MethodName: pushDialog
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -1169,6 +1169,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _floors:
   - {fileID: 11400000, guid: 261e8504f2989114dbd73eeed3644dc3, type: 2}
+  - {fileID: 11400000, guid: 0c19fc31bd6697241b9ec87ed57a59f9, type: 2}
+  - {fileID: 11400000, guid: 774e0c20281472c409bad13fd1285f3a, type: 2}
   _levers: []
 --- !u!4 &981759501
 Transform:
@@ -1466,7 +1468,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b64bb807cbd9edf4495fc71f7553113e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  InitialRoom: {fileID: 11400000, guid: 621cb18ebe708e647b5d3a3690f5d643, type: 2}
+  InitialRoom: {fileID: 11400000, guid: 45ce9f2595074c945b972120a242ff88, type: 2}
   RoomParent: {fileID: 1568534100}
   DialogManager: {fileID: 1288444907}
   _transitionScreen: {fileID: 1798680637}
@@ -1803,6 +1805,7 @@ MonoBehaviour:
   - {fileID: 1589353638}
   - {fileID: 1018967504}
   audioSource: {fileID: 0}
+  stopClicking: {fileID: 255621855}
 --- !u!114 &1288444908
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1816,9 +1819,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   diags:
+  - Anna
+  - Artur
+  - Maitat
+  - Rockwell
   - TestDialog2
   - TetstDialog
-  assignedIndex: 0
+  - Victor
+  assignedIndex: 4
   assignedID: 5210
   assignedDialogue: TestDialog2
   interactionCount: 0

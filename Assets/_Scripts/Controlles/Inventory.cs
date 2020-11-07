@@ -19,4 +19,25 @@ public class Inventory : Singleton<Inventory>
         CurrentItems.Remove(item);
         RemovedItems.Add(item);
     }
+
+    public bool InventoryHadItem(InventoryItem item)
+    {
+        return CurrentItems.Contains(item);
+    }
+
+    public bool InventoryHadItems(IEnumerable<InventoryItem> items)
+    {
+        bool result = true;
+
+        foreach (var item in items)
+        {
+            if (!CurrentItems.Contains(item))
+            {
+                result = false;
+                break;
+            }
+        }
+
+        return result;
+    }
 }
