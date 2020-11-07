@@ -17,12 +17,12 @@ MonoBehaviour:
   isLightDefault: 1
   _connectedRoom:
   - connectedRoom: {fileID: 11400000, guid: 654455b16d34d35409c762fa3aa8e2a7, type: 2}
-    isAvailableByDefault: 0
+    isAvailableByDefault: 1
   - connectedRoom: {fileID: 11400000, guid: 3229606d4f536f04eb9ab37c0c3414a7, type: 2}
-    isAvailableByDefault: 0
+    isAvailableByDefault: 1
   - connectedRoom: {fileID: 11400000, guid: 45bf28e2f1cadcf4c9353b4ef136fff9, type: 2}
     isAvailableByDefault: 0
   - connectedRoom: {fileID: 11400000, guid: 0f4e934db2198114aba2ea96a206cadb, type: 2}
-    isAvailableByDefault: 0
+    isAvailableByDefault: 1
   - connectedRoom: {fileID: 11400000, guid: f7b24964f16de8442b307d007e1e096a, type: 2}
     isAvailableByDefault: 1
