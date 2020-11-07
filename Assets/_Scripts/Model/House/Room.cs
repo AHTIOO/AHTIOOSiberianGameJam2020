@@ -11,6 +11,12 @@ public class Room : ScriptableObject
     {
         public Room connectedRoom;
         public bool isAvailableByDefault;
+
+        public RoomConnection(RoomConnection roomConnection)
+        {
+            this.connectedRoom = roomConnection.connectedRoom;
+            this.isAvailableByDefault = roomConnection.isAvailableByDefault;
+        }
     }
 
     [Header("Room data")]

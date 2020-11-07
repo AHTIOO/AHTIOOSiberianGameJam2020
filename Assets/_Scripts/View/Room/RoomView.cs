@@ -22,7 +22,6 @@ public class RoomView : MonoBehaviour
 
         foreach (var button in _roomSwitchButtons)
         {
-            button.Initialize();
             button.OnSwitchClick += SwitchRoom;
         }
     }

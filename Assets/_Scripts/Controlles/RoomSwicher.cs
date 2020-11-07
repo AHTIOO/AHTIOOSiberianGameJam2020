@@ -8,6 +8,8 @@ public class RoomSwicher : MonoBehaviour
     public GameObject RoomParent;
     public DialogManager DialogManager;
 
+    [SerializeField] private string _darkRoomMessage;
+
     [Header("Transition Parameters")]
     [SerializeField] private CanvasGroup _transitionScreen;
     [SerializeField] private float _transitionSpeed = 0.15f;
@@ -25,6 +27,12 @@ public class RoomSwicher : MonoBehaviour
 
     public void GoToRoom(int goesToRoom)
     {
+        if (!HouseState.Instance.GetRoomState(_curentRoom.ConnectedRoom[goesToRoom].connectedRoom).isLighting)
+        {
+            MessegePopUp.Instance.MessegePlayer(_darkRoomMessage);
+            return;
+        }
+
         _transitionSequence?.Kill();
         _transitionSequence = DOTween.Sequence();
 
