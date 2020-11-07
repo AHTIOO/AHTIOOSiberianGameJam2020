@@ -26,9 +26,10 @@ public class DialogManager : MonoBehaviour
 
 
 
-    public void Begin(string dialog, Character character)
+    public void Begin(string dialog, Character character, bool isCharAlive)
     {
         characterImage.sprite = character.DialogSprite;
+        characterImage.color = isCharAlive ? Color.white : Color.black;
         characterName.text = character.Name;
         pushDialogNext.gameObject.SetActive(true);
         stopClicking.gameObject.SetActive(true);

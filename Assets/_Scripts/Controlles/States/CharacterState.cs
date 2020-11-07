@@ -30,6 +30,7 @@ public class CharacterState
 
     public CharacterState(Character character)
     {
+        IsAlive = true;
         _model = character;
         CurrentCharacterDefinition = character.CharacterDefinitions[0];
     }

@@ -14,10 +14,26 @@ public class Inventory : Singleton<Inventory>
         CurrentItems.Add(item);
     }
 
+    public void AddList(List<InventoryItem> items)
+    {
+        foreach (var item in items)
+        {
+            Add(item);
+        }
+    }
+
     public void Remove(InventoryItem item)
     {
-        CurrentItems.Remove(item);
-        RemovedItems.Add(item);
+        if (CurrentItems.Remove(item))
+            RemovedItems.Add(item);
+    }
+
+    public void RemoveList(List<InventoryItem> items)
+    {
+        foreach (var item in items)
+        {
+            Remove(item);
+        }
     }
 
     public bool InventoryHadItem(InventoryItem item)
