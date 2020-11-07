@@ -9,6 +9,7 @@ public class HouseState : Singleton<HouseState>
 
     private Dictionary<Room, RoomState> _rooms;
     private Dictionary<Character, CharacterState> _characters;
+    private Dictionary<Lever, LeverState> _levers;
 
     public RoomState GetRoomState(Room room)
     {
@@ -20,12 +21,18 @@ public class HouseState : Singleton<HouseState>
         return _characters[character];
     }
 
+    public LeverState GetLeverState(Lever lever)
+    {
+        return _levers[lever];
+    }
+
     protected override void Awake()
     {
         base.Awake();
 
        InitializeRooms();
        InitializeCharacters();
+       InitializeLever();
     }
 
     private void InitializeRooms()
@@ -46,6 +53,16 @@ public class HouseState : Singleton<HouseState>
         foreach (var character in _charactersModel.Characters)
         {
             _characters.Add(character, new CharacterState(character));
+        }
+    }
+
+    private void InitializeLever()
+    {
+        _levers = new Dictionary<Lever, LeverState>();
+
+        foreach (var lever in _houseModel.Lever)
+        {
+            _levers.Add(lever, new LeverState(lever));
         }
     }
 }

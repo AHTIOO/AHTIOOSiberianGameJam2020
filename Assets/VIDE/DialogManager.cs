@@ -34,7 +34,6 @@ public class DialogManager : MonoBehaviour
         VIDE_Assign Dial = GetComponent<VIDE_Assign>();
         Dial.alias = "Кеноби";
         Dial.assignedDialogue = dialog;
-        print((string)VD.nodeData.extraVars["avaleble"]);
         VD.OnNodeChange += UpdateUI;
         VD.OnEnd += End;
         VD.BeginDialogue(GetComponent<VIDE_Assign>());
