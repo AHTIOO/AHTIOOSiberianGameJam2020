@@ -3,7 +3,7 @@ using System.Collections;
 using VIDE_Data; //Access VD class to retrieve node data
 using UnityEngine.UI;
 
-public class DialogManager : MonoBehaviour
+public class DialogManager : Singleton<DialogManager>
 {
     public GameObject container_NPC;
     public GameObject container_PLAYER;

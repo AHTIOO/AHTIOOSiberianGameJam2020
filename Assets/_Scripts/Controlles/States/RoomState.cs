@@ -2,9 +2,25 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class RoomState 
+public class RoomState
 {
-    public bool isLighting { get; set; }
+    private bool _isLighted;
+
+    public bool isLighting
+    {
+        get => _isLighted;
+        set
+        {
+            isLighting = value;
+            if (!isLighting)
+            {
+                foreach (var character in CharactersOnLocations)
+                {
+                    HouseState.Instance.GetCharacterState(character).SetToDark();
+                }
+            }
+        }
+    }
     public readonly List<Character> CharactersOnLocations;
 
     public readonly List<Room.RoomConnection> RoomConnections;

@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -24,6 +25,19 @@ public class HouseState : Singleton<HouseState>
     public LeverState GetLeverState(Lever lever)
     {
         return _levers[lever];
+    }
+
+    public Room GetCharacterCurrentRoom(Character character)
+    {
+        foreach (var room in _rooms.Keys)
+        {
+            if (GetRoomState(room).CharactersOnLocations.Contains(character))
+            {
+                return room;
+            }
+        }
+        
+        throw new ArgumentException($"Character - {character.Name} is in the void (there is no room which contains this character - wtf?)");
     }
 
     protected override void Awake()

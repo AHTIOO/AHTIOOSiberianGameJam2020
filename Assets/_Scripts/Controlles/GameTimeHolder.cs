@@ -5,6 +5,8 @@ using UnityEngine;
 
 public class GameTimeHolder : Singleton<GameTimeHolder>
 {
+    public Action<GameTime> OnGameTimeChanged = (time => { }); 
+
     [SerializeField] private GameTime _startGameTime;
     [SerializeField] private GameTime _endGameTime;
 
@@ -12,6 +14,7 @@ public class GameTimeHolder : Singleton<GameTimeHolder>
     [SerializeField] private GameTime _roomTimeCost;
     [SerializeField] private GameTime _dialogTimeCost;
     [SerializeField] private GameTime _objectInteractionTimeCost;
+    [SerializeField] private GameTime _timeToDie;
 
     private GameTime _currentTime;
 
@@ -24,6 +27,10 @@ public class GameTimeHolder : Singleton<GameTimeHolder>
     public GameTime DialogTimeCost => _dialogTimeCost;
 
     public GameTime ObjectInteractionTimeCost => _objectInteractionTimeCost;
+
+    public GameTime EndGameTime => _endGameTime;
+
+    public GameTime TimeToDie => _timeToDie;
 
     public GameTime CurrentTime => _currentTime;
 
@@ -39,6 +46,7 @@ public class GameTimeHolder : Singleton<GameTimeHolder>
     public void IncreaseTime(GameTime time)
     {
         _currentTime.Add(time);
+        OnGameTimeChanged.Invoke(_currentTime);
         Debug.Log(_currentTime);
     }
 }
@@ -91,6 +99,46 @@ public class GameTime
         Minutes += gameTime.Minutes;
         Hours += gameTime.Hours;
         Day += gameTime.Day;
+    }
+
+    public float GetTotalMinutes()
+    {
+        float result = Day * 24 * 60;
+        result += Hours * 60;
+        result += Minutes;
+
+        return result;
+    }
+
+    public static bool operator <(GameTime a, GameTime b)
+    {
+        return a.GetTotalMinutes() < b.GetTotalMinutes();
+    }
+
+    public static bool operator >(GameTime a, GameTime b)
+    {
+        return a.GetTotalMinutes() > b.GetTotalMinutes();
+    }
+
+    public static GameTime operator +(GameTime a, GameTime b)
+    {
+         a.Add(b);
+
+         return a;
+    }
+
+    public GameTime(int day, int hours, int minutes)
+    {
+        _day = day;
+        _hours = hours;
+        _minutes = minutes;
+    }
+
+    public GameTime(GameTime time)
+    {
+        _day = time.Day;
+        _hours = time.Hours;
+        _minutes = time.Minutes;
     }
 
     public override string ToString()
