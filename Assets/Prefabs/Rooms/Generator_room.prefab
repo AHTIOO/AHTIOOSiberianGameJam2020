@@ -115,13 +115,13 @@ PrefabInstance:
     - target: {fileID: 2915356422314218503, guid: cabc62fd77d7c88409f6e892bba7eeab,
         type: 3}
       propertyPath: m_Name
-      value: Coridor2_room
+      value: Generator_room
       objectReference: {fileID: 0}
     - target: {fileID: 2915356422939664321, guid: cabc62fd77d7c88409f6e892bba7eeab,
         type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 47e1d05b0d11b8a4798f90291f6023ed,
+      objectReference: {fileID: 21300000, guid: be2273a207e37b745ae0ae8c0e429e86,
         type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cabc62fd77d7c88409f6e892bba7eeab, type: 3}

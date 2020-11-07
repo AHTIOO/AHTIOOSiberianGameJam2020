@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 681abda9dec641e40b83c29be9ab6236, type: 3}
   m_Name: Room_Basement_Warehouse
   m_EditorClassIdentifier: 
-  _roomPrefab: {fileID: 1868926662664604242, guid: e57cc4474ab0eac4a8e0d673677ec723,
+  _roomPrefab: {fileID: 6998306108923643214, guid: 07630d865e3ba874e80926eb56e02125,
     type: 3}
   isLightDefault: 0
   _connectedRoom:
