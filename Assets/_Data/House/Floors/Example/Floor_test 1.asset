@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: Floor_test 1
   m_EditorClassIdentifier: 
   _rooms:
-  - {fileID: 11400000, guid: 621cb18ebe708e647b5d3a3690f5d643, type: 2}
-  - {fileID: 11400000, guid: 66d1714063c75114a8742281dd32086c, type: 2}
+  - {fileID: 0}
+  - {fileID: 0}
