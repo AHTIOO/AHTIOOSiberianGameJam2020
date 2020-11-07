@@ -10,8 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0dc5a2e2d9a2e02429a7f6e92e396599, type: 3}
-  m_Name: Floor_1
+  m_Name: Floor_Main
   m_EditorClassIdentifier: 
   _rooms:
-  - {fileID: 11400000, guid: 621cb18ebe708e647b5d3a3690f5d643, type: 2}
-  - {fileID: 11400000, guid: 66d1714063c75114a8742281dd32086c, type: 2}
+  - {fileID: 11400000, guid: 1e2ad3b616ae4f14d893ad436f86c5f9, type: 2}
+  - {fileID: 11400000, guid: 654455b16d34d35409c762fa3aa8e2a7, type: 2}
+  - {fileID: 11400000, guid: a69983136b2799b4e9228e16730f243c, type: 2}
+  - {fileID: 11400000, guid: 38ea2c75cd2538d4788d0fff519d59d1, type: 2}

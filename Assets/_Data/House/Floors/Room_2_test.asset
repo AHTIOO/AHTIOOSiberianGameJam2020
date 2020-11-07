@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 681abda9dec641e40b83c29be9ab6236, type: 3}
+  m_Name: Room_2_test
+  m_EditorClassIdentifier: 
+  _roomPrefab: {fileID: 3320744494610136013, guid: aa734e27cc5336d4587d429a6319e86f,
+    type: 3}
+  isLightDefault: 0
+  _connectedRoom:
+  - {fileID: 11400000, guid: 621cb18ebe708e647b5d3a3690f5d643, type: 2}
