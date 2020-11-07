@@ -6,6 +6,7 @@ using UnityEngine;
 public class GameTimeHolder : Singleton<GameTimeHolder>
 {
     [SerializeField] private GameTime _startGameTime;
+    [SerializeField] private GameTime _endGameTime;
 
     [Header("Actions Cost")]
     [SerializeField] private GameTime _roomTimeCost;
