@@ -16,6 +16,9 @@ MonoBehaviour:
     type: 3}
   isLightDefault: 0
   _connectedRoom:
-  - {fileID: 11400000, guid: e0a4b43c4ccbe144db4273a349aa5224, type: 2}
-  - {fileID: 11400000, guid: 52fbd143049db8640bfce259245fead5, type: 2}
-  - {fileID: 11400000, guid: 8b9cdd734f5b7bf4bacce7885446e060, type: 2}
+  - connectedRoom: {fileID: 11400000, guid: e0a4b43c4ccbe144db4273a349aa5224, type: 2}
+    isAvailableByDefault: 1
+  - connectedRoom: {fileID: 11400000, guid: 52fbd143049db8640bfce259245fead5, type: 2}
+    isAvailableByDefault: 0
+  - connectedRoom: {fileID: 11400000, guid: 8b9cdd734f5b7bf4bacce7885446e060, type: 2}
+    isAvailableByDefault: 0
