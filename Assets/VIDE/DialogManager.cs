@@ -24,8 +24,6 @@ public class DialogManager : MonoBehaviour
         pushDialogNext.gameObject.SetActive(false);
     }
 
-
-
     public void Begin(string dialog, Character character, bool isCharAlive)
     {
         characterImage.sprite = character.DialogSprite;
@@ -74,14 +72,14 @@ public class DialogManager : MonoBehaviour
         }
     }
 
-
     void End(VD.NodeData data)
     {
         container_NPC.SetActive(false);
         container_PLAYER.SetActive(false);
         pushDialogNext.gameObject.SetActive(false);
         stopClicking.gameObject.SetActive(false);
-        VD.OnNodeChange -= UpdateUI; 
+        GameTimeHolder.Instance.IncreaseTime(GameTimeHolder.Instance.DialogTimeCost);
+        VD.OnNodeChange -= UpdateUI;
         VD.OnEnd -= End;
         VD.EndDialogue();
     }
