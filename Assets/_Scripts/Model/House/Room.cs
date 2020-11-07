@@ -1,18 +1,26 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 [CreateAssetMenu(menuName = "DATA/House/Room", fileName = "Room")]
 public class Room : ScriptableObject
 {
+    [Serializable]
+    public class RoomConnection
+    {
+        public Room connectedRoom;
+        public bool isAvailableByDefault;
+    }
+
     [Header("Room data")]
     [SerializeField] private RoomView _roomPrefab;
     [SerializeField] private bool isLightDefault;
 
     [Header("Connected Rooms")]
-    [SerializeField] private List<Room> _connectedRoom = new List<Room>();
+    [SerializeField] private List<RoomConnection> _connectedRoom = new List<RoomConnection>();
     
     public RoomView RoomPrefab => _roomPrefab;
-    public List<Room> ConnectedRoom => _connectedRoom;
+    public List<RoomConnection> ConnectedRoom => _connectedRoom;
     public bool IsLightDefault => isLightDefault;
 }

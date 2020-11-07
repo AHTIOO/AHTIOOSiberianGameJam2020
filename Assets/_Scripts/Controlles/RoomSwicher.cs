@@ -32,7 +32,7 @@ public class RoomSwicher : MonoBehaviour
         _transitionSequence.Append(_transitionScreen.DOFade(1, _transitionSpeed));
         _transitionSequence.AppendCallback(() =>
         {
-            Room roomToGo = _curentRoom.ConnectedRoom[goesToRoom];
+            Room roomToGo = _curentRoom.ConnectedRoom[goesToRoom].connectedRoom;
             Destroy(_currentRoomView.gameObject);
 
             CreateRoom(roomToGo);
