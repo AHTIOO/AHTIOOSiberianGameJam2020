@@ -6,27 +6,14 @@ using UnityEngine;
 using UnityEngine.UI;
 
 [RequireComponent(typeof(Button))]
-public class RoomSwitchButton : MonoBehaviour
+public class RoomSwitchButton : InteractableObject
 {
     public Action<int> OnSwitchClick = i => { };
 
     [SerializeField] private int _roomIndex;
 
-    private Button _button;
-
-    public void Initialize()
-    {
-        _button = GetComponent<Button>();
-        _button.onClick.AddListener(SwitchRoom);
-    }
-
-    private void SwitchRoom()
+    protected override void InteractionAction()
     {
         OnSwitchClick.Invoke(_roomIndex);
-    }
-
-    private void OnDestroy()
-    {
-        _button.onClick.AddListener(SwitchRoom);
     }
 }

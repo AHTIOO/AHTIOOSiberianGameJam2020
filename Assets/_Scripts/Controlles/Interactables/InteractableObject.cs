@@ -8,7 +8,8 @@ public class InteractableObject : MonoBehaviour
 {
     [SerializeField] protected List<GameTrigger> _gameTriggers = new List<GameTrigger>();
     [SerializeField] private InteractionCondition _condition;
-    [SerializeField] private bool _isOneUse;
+    [SerializeField] private List<GameObject> _objectsToDeactivateOnInteract;
+    [SerializeField] private List<GameObject> _objectsToActivateOnInteract;
 
     [Header("Audio")]
     [SerializeField] private AudioClip _successClip;
@@ -59,9 +60,16 @@ public class InteractableObject : MonoBehaviour
                 trigger.ActivateTrigger();
             }
 
-            if (_isOneUse)
+            InteractionAction();
+
+            foreach (var o in _objectsToActivateOnInteract)
             {
-                gameObject.SetActive(false);
+                o.SetActive(true);
+            }
+
+            foreach (var o in _objectsToDeactivateOnInteract)
+            {
+                o.SetActive(false);
             }
         }
         else
@@ -69,5 +77,10 @@ public class InteractableObject : MonoBehaviour
             _audioSource.clip = _failClip;
             _audioSource.Play();
         }
+    }
+
+    protected virtual void InteractionAction()
+    {
+        
     }
 }
