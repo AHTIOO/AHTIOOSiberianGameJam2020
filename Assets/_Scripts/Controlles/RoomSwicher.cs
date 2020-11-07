@@ -58,8 +58,13 @@ public class RoomSwicher : MonoBehaviour
     public void InitializeDialog(int characterIndex)
     {
         var character = HouseState.Instance.GetRoomState(_curentRoom).CharactersOnLocations[characterIndex];
-        string dialog = HouseState.Instance.GetCharacterState(character).CurrentCharacterDefinition.Dialog;
-        DialogManager.Begin(dialog, character);
+        var characterState = HouseState.Instance.GetCharacterState(character);
+
+        string dialog = characterState.IsAlive
+            ? characterState.CurrentCharacterDefinition.Dialog
+            : character.DeathDialog;
+
+        DialogManager.Begin(dialog, character, characterState.IsAlive);
     }
 
     private void CreateRoom(Room newRoom)

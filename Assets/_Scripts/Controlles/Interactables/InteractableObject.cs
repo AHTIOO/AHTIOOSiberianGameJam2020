@@ -52,6 +52,7 @@ public class InteractableObject : MonoBehaviour
 
         if (success)
         {
+            GameTimeHolder.Instance.IncreaseTime(GameTimeHolder.Instance.ObjectInteractionTimeCost);
             _audioSource.clip = _successClip;
             _audioSource.Play();
 

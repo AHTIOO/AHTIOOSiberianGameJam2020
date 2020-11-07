@@ -24,11 +24,10 @@ public class DialogManager : MonoBehaviour
         pushDialogNext.gameObject.SetActive(false);
     }
 
-
-
-    public void Begin(string dialog, Character character)
+    public void Begin(string dialog, Character character, bool isCharAlive)
     {
         characterImage.sprite = character.DialogSprite;
+        characterImage.color = isCharAlive ? Color.white : Color.black;
         characterName.text = character.Name;
         pushDialogNext.gameObject.SetActive(true);
         stopClicking.gameObject.SetActive(true);
@@ -63,6 +62,10 @@ public class DialogManager : MonoBehaviour
             pushDialogNext.gameObject.SetActive(true);
             container_NPC.SetActive(true);
             text_NPC.text = data.comments[data.commentIndex];
+            if (VD.GetNext(true, false).isPlayer)
+            {
+                VD.Next();
+            }
             //Play Audio if any
             if (audioSource != null)
             {
@@ -73,14 +76,14 @@ public class DialogManager : MonoBehaviour
         }
     }
 
-
     void End(VD.NodeData data)
     {
         container_NPC.SetActive(false);
         container_PLAYER.SetActive(false);
         pushDialogNext.gameObject.SetActive(false);
         stopClicking.gameObject.SetActive(false);
-        VD.OnNodeChange -= UpdateUI; 
+        GameTimeHolder.Instance.IncreaseTime(GameTimeHolder.Instance.DialogTimeCost);
+        VD.OnNodeChange -= UpdateUI;
         VD.OnEnd -= End;
         VD.EndDialogue();
     }
