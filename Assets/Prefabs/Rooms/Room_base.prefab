@@ -341,6 +341,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 086278c762b0b3c48ba00f3bd0e068db, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _isMultiInteractable: 0
   _gameTriggers: []
   _condition: {fileID: 0}
   _objectsToDeactivateOnInteract: []

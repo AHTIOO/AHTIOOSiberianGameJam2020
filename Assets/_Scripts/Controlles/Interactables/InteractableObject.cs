@@ -6,6 +6,8 @@ using UnityEngine.UI;
 [RequireComponent(typeof(Button), typeof(AudioSource))]
 public class InteractableObject : MonoBehaviour
 {
+    [SerializeField] private bool _isMultiInteractable;
+
     [SerializeField] protected List<GameTrigger> _gameTriggers = new List<GameTrigger>();
     [SerializeField] private InteractionCondition _condition;
     [SerializeField] private List<GameObject> _objectsToDeactivateOnInteract;
@@ -15,6 +17,7 @@ public class InteractableObject : MonoBehaviour
     [SerializeField] private AudioClip _successClip;
     [SerializeField] private AudioClip _failClip;
 
+    private bool _wasInteracted;
     private AudioSource _audioSource;
     private Button _button;
 
@@ -50,8 +53,9 @@ public class InteractableObject : MonoBehaviour
         if (!success)
             success = _condition.CanBeInteracted();
 
-        if (success)
+        if (success && CanBeInteracted())
         {
+            _wasInteracted = true; 
             GameTimeHolder.Instance.IncreaseTime(GameTimeHolder.Instance.ObjectInteractionTimeCost);
             _audioSource.clip = _successClip;
             _audioSource.Play();
@@ -78,6 +82,12 @@ public class InteractableObject : MonoBehaviour
             _audioSource.clip = _failClip;
             _audioSource.Play();
         }
+    }
+
+
+    protected virtual bool CanBeInteracted()
+    {
+        return (_isMultiInteractable || !_wasInteracted);
     }
 
     protected virtual void InteractionAction()
