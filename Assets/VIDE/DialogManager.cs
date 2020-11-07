@@ -22,7 +22,7 @@ public class DialogManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Return) )
+        if (Input.GetKeyDown(KeyCode.Return) &&(VD.isActive))
         {
             VD.Next();
         }
@@ -34,7 +34,7 @@ public class DialogManager : MonoBehaviour
         VIDE_Assign Dial = GetComponent<VIDE_Assign>();
         Dial.alias = "Кеноби";
         Dial.assignedDialogue = dialog;
-        
+        print((string)VD.nodeData.extraVars["avaleble"]);
         VD.OnNodeChange += UpdateUI;
         VD.OnEnd += End;
         VD.BeginDialogue(GetComponent<VIDE_Assign>());
