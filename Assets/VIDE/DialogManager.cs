@@ -8,8 +8,12 @@ public class DialogManager : MonoBehaviour
     public GameObject container_NPC;
     public GameObject container_PLAYER;
     public Text text_NPC;
+    public Image characterImage;
+    public Text characterName;
+    public Button pushDialogNext;
     public Text[] text_Choices;
     public AudioSource audioSource;
+    public Image stopClicking;
 
     // Use this for initialization
     void Start()
@@ -17,35 +21,29 @@ public class DialogManager : MonoBehaviour
         VD.LoadDialogues();
         container_NPC.SetActive(false);
         container_PLAYER.SetActive(false);
+        pushDialogNext.gameObject.SetActive(false);
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        if (Input.GetKeyDown(KeyCode.Return) &&(VD.isActive))
-        {
-            VD.Next();
-        }
-    }
+
 
     public void Begin(string dialog, Character character)
     {
-        Debug.Log("!");
-        VIDE_Assign Dial = GetComponent<VIDE_Assign>();
-        Dial.alias = "Кеноби";
-        Dial.assignedDialogue = dialog;
+        characterImage.sprite = character.DialogSprite;
+        characterName.text = character.Name;
+        pushDialogNext.gameObject.SetActive(true);
+        stopClicking.gameObject.SetActive(true);
         VD.OnNodeChange += UpdateUI;
         VD.OnEnd += End;
-        VD.BeginDialogue(GetComponent<VIDE_Assign>());
+        VD.BeginDialogue(dialog);
     }
 
     void UpdateUI(VD.NodeData data)
     {
-        container_NPC.SetActive(false);
         container_PLAYER.SetActive(false);
         if (data.isPlayer)
         {
             container_PLAYER.SetActive(true);
+            pushDialogNext.gameObject.SetActive(false);
             for (int i = 0; i < text_Choices.Length; i++)
             {
                 if (i < data.comments.Length)
@@ -62,6 +60,7 @@ public class DialogManager : MonoBehaviour
         }
         else
         {
+            pushDialogNext.gameObject.SetActive(true);
             container_NPC.SetActive(true);
             text_NPC.text = data.comments[data.commentIndex];
             //Play Audio if any
@@ -79,7 +78,9 @@ public class DialogManager : MonoBehaviour
     {
         container_NPC.SetActive(false);
         container_PLAYER.SetActive(false);
-        VD.OnNodeChange -= UpdateUI;
+        pushDialogNext.gameObject.SetActive(false);
+        stopClicking.gameObject.SetActive(false);
+        VD.OnNodeChange -= UpdateUI; 
         VD.OnEnd -= End;
         VD.EndDialogue();
     }
@@ -95,5 +96,9 @@ public class DialogManager : MonoBehaviour
        VD.nodeData.commentIndex = choice;
        if (Input.GetMouseButtonUp(0))
             VD.Next();
+    }
+    public void pushDialog()
+    {
+        VD.Next();
     }
 }
