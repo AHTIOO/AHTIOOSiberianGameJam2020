@@ -228,6 +228,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 086278c762b0b3c48ba00f3bd0e068db, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _isMultiInteractable: 0
   _gameTriggers: []
   _condition: {fileID: 0}
   _objectsToDeactivateOnInteract: []
@@ -272,7 +273,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 225, y: 78}
+  m_AnchoredPosition: {x: 227, y: 78}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &7126374585302343450
@@ -463,6 +464,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ba075e698b2ebea41b1479fff83b78e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _isMultiInteractable: 0
+  _gameTriggers: []
+  _condition: {fileID: 0}
+  _objectsToDeactivateOnInteract: []
+  _objectsToActivateOnInteract: []
+  _successClip: {fileID: 0}
+  _failClip: {fileID: 0}
+  _lever: {fileID: 11400000, guid: ddf9880c3fbf4e144b1939d3ff2e1e1a, type: 2}
+  _leverImage: {fileID: 785700086633192704}
+  _upSprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  _downSprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  _brokeSprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
 --- !u!1001 &5290488675684471115
 PrefabInstance:
   m_ObjectHideFlags: 0
