@@ -5,25 +5,47 @@ using UnityEngine;
 public class HouseState : Singleton<HouseState>
 {
     [SerializeField]private HouseModel _houseModel;
+    [SerializeField]private CharactersModel _charactersModel;
 
-    private Dictionary<Room, RoomState> _houseState;
+    private Dictionary<Room, RoomState> _rooms;
+    private Dictionary<Character, CharacterState> _characters;
 
-    public RoomState getRoomState(Room room)
+    public RoomState GetRoomState(Room room)
     {
-        return _houseState[room];
+        return _rooms[room];
+    }
+
+    public CharacterState GetCharacterState(Character character)
+    {
+        return _characters[character];
     }
 
     protected override void Awake()
     {
         base.Awake();
 
-        _houseState = new Dictionary<Room, RoomState>();
+       InitializeRooms();
+       InitializeCharacters();
+    }
+
+    private void InitializeRooms()
+    {
+        _rooms = new Dictionary<Room, RoomState>();
         foreach(Floor floor in _houseModel.floors)
         {
             foreach(Room room in floor.Rooms)
             {
-                _houseState.Add(room, new RoomState(room));
+                _rooms.Add(room, new RoomState(room));
             }
+        }
+    }
+
+    private void InitializeCharacters()
+    {
+        _characters = new Dictionary<Character, CharacterState>();
+        foreach (var character in _charactersModel.Characters)
+        {
+            _characters.Add(character, new CharacterState(character));
         }
     }
 }

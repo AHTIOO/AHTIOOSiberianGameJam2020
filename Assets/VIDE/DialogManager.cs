@@ -28,8 +28,9 @@ public class DialogManager : MonoBehaviour
         }
     }
 
-    public void Begin(string dialog)
+    public void Begin(string dialog, Character character)
     {
+        Debug.Log("!");
         VIDE_Assign Dial = GetComponent<VIDE_Assign>();
         Dial.alias = "Кеноби";
         Dial.assignedDialogue = dialog;

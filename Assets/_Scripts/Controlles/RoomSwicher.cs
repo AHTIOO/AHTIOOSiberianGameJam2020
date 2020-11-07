@@ -6,13 +6,13 @@ public class RoomSwicher : MonoBehaviour
 {
     public Room InitialRoom;
     public GameObject RoomParent;
+    public DialogManager DialogManager;
 
     [Header("Transition Parameters")]
     [SerializeField] private CanvasGroup _transitionScreen;
     [SerializeField] private float _transitionSpeed = 0.15f;
     [SerializeField] private RoomTransitionEffect _transitionEffect;
-
-
+    
     private RoomView _currentRoomView;
     private Room _curentRoom;
 
@@ -47,13 +47,21 @@ public class RoomSwicher : MonoBehaviour
         });
     }
 
+    public void InitializeDialog(int characterIndex)
+    {
+        var character = HouseState.Instance.GetRoomState(_curentRoom).CharactersOnLocations[characterIndex];
+        string dialog = HouseState.Instance.GetCharacterState(character).CurrentCharacterDefinition.Dialog;
+        DialogManager.Begin(dialog, character);
+    }
+
     private void CreateRoom(Room newRoom)
     {
         _curentRoom = newRoom;
         _currentRoomView = Instantiate(_curentRoom.RoomPrefab, RoomParent.transform);
-        _currentRoomView.Initialize();
+        _currentRoomView.Initialize(newRoom);
 
         _currentRoomView.OnRoomSwitchClick += GoToRoom;
+        _currentRoomView.OnCharacterTalkClick += InitializeDialog;
     }
 }
 
