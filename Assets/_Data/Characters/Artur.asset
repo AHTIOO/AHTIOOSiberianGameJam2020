@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63464cacbc352484483016338a767b82, type: 3}
+  m_Name: Artur
+  m_EditorClassIdentifier: 
+  _name: "\u0410\u0440\u0442\u0443\u0440"
+  _dialogSprite: {fileID: 21300000, guid: 2d137bb7db310554081b111b3639754c, type: 3}
+  _deathDialog: 
+  _characterDefinitions:
+  - {fileID: 11400000, guid: c3b06d2c49b8fef499e8295f19223dcb, type: 2}
+  - {fileID: 11400000, guid: 29768ebbb481db64e83bbd34b77fb2e4, type: 2}

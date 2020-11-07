@@ -115,7 +115,13 @@ PrefabInstance:
     - target: {fileID: 2915356422314218503, guid: cabc62fd77d7c88409f6e892bba7eeab,
         type: 3}
       propertyPath: m_Name
-      value: Room_base
+      value: Coridor1_room
       objectReference: {fileID: 0}
+    - target: {fileID: 2915356422939664321, guid: cabc62fd77d7c88409f6e892bba7eeab,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: e2a4ef4acfbf8014586ad0775da4e619,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cabc62fd77d7c88409f6e892bba7eeab, type: 3}
