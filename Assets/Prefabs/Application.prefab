@@ -334,6 +334,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1210183856260401224}
   - component: {fileID: 1210183856260401225}
+  - component: {fileID: 2814903381543689980}
+  - component: {fileID: 4366614146027351536}
   m_Layer: 0
   m_Name: GameTIme
   m_TagString: Untagged
@@ -369,28 +371,56 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _startGameTime:
     _day: 0
-    _hours: 9
-    _minutes: 0
+    _hours: 19
+    _minutes: 30
   _endGameTime:
-    _day: 0
+    _day: 1
     _hours: 0
     _minutes: 0
   _roomTimeCost:
     _day: 0
     _hours: 0
-    _minutes: 30
+    _minutes: 1
   _dialogTimeCost:
     _day: 0
     _hours: 0
-    _minutes: 10
+    _minutes: 1
   _objectInteractionTimeCost:
     _day: 0
     _hours: 0
-    _minutes: 5
+    _minutes: 1
   _timeToDie:
     _day: 0
     _hours: 0
-    _minutes: 0
+    _minutes: 1
+--- !u!114 &2814903381543689980
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1210183856260401227}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d3ae9dc6434046449fcc951c4220e6e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _initialTimeTriggers: []
+--- !u!114 &4366614146027351536
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1210183856260401227}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30bb9dfd3cd32074d8a029fadb4b3fdf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _winIteamList: []
+  TransitionScreen: {fileID: 1210183856462504020}
+  TransitionSpeed: 2
 --- !u!1 &1210183856427612395
 GameObject:
   m_ObjectHideFlags: 0
