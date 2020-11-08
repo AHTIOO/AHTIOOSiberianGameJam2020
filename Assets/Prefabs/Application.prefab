@@ -909,7 +909,7 @@ MonoBehaviour:
   - key: AddVictorPart
     gameTriggers:
     - {fileID: 11400000, guid: ee8e40c39b10beb4e8277c7314a44559, type: 2}
-    - {fileID: 11400000, guid: 51e15cacc1d30c045bce306dd9d5154b, type: 2}
+    - {fileID: 11400000, guid: fc0fb93c9248e2641aa10a6ed7fb0531, type: 2}
     - {fileID: 11400000, guid: 7fda29f8ab9bf6040b2949129ccacf2a, type: 2}
   - key: AddMaitatPart
     gameTriggers:
@@ -1161,6 +1161,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 6916343917130574f80bbe4af11d1243, type: 2}
   - {fileID: 11400000, guid: 9a8bd9abb26758f42a4a1a73237df48c, type: 2}
   - {fileID: 11400000, guid: 90c87458d6b9e8548a9a8fb3a5152b54, type: 2}
+  - {fileID: 11400000, guid: 6c54f8c256bbf984ebd6b35776bf091c, type: 2}
 --- !u!1 &1210183857179704039
 GameObject:
   m_ObjectHideFlags: 0

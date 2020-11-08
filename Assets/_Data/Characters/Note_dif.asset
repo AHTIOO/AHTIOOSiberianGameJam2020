@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 78e4414156bba5c4eb4cac5edecb7095, type: 3}
   m_Name: Note_dif
   m_EditorClassIdentifier: 
-  _dialog: Victor
+  _dialog: GeneratorNote
   _position: {fileID: 11400000, guid: 45ce9f2595074c945b972120a242ff88, type: 2}
