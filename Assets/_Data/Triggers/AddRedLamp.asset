@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: AddRedLamp
   m_EditorClassIdentifier: 
   _items:
-  - {fileID: 11400000, guid: cebad0d3d42e0ea458e9a43a34562020, type: 2}
+  - {fileID: 11400000, guid: c61c69b480514a143b7d65a762fdb85a, type: 2}

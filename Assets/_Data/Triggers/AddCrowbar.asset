@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8b13da97ecea74545a94c1148c1ffdd6, type: 3}
-  m_Name: AddCrowbar 3
+  m_Name: AddCrowbar
   m_EditorClassIdentifier: 
   _items:
   - {fileID: 11400000, guid: 93db0849dd0207247b563f1bbe923b93, type: 2}

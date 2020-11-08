@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: AddPhoto
   m_EditorClassIdentifier: 
   _items:
-  - {fileID: 11400000, guid: cebad0d3d42e0ea458e9a43a34562020, type: 2}
+  - {fileID: 11400000, guid: fb6f91822d7a9464e834cf67d429efbe, type: 2}
