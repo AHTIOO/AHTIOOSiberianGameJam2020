@@ -231,7 +231,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _isMultiInteractable: 1
   _gameTriggers: []
-  _condition: {fileID: 0}
+  _condition: {fileID: 8652749224880211060}
   _objectsToDeactivateOnInteract: []
   _objectsToActivateOnInteract: []
   _idsToDeactivateOnInteract: []
@@ -722,7 +722,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _isMultiInteractable: 1
   _gameTriggers: []
-  _condition: {fileID: 0}
+  _condition: {fileID: 7833582582907624726}
   _objectsToDeactivateOnInteract: []
   _objectsToActivateOnInteract: []
   _idsToDeactivateOnInteract: []
