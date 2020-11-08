@@ -12,6 +12,8 @@ public class InteractableObject : MonoBehaviour
     [SerializeField] private InteractionCondition _condition;
     [SerializeField] private List<GameObject> _objectsToDeactivateOnInteract;
     [SerializeField] private List<GameObject> _objectsToActivateOnInteract;
+    [SerializeField] private List<string> _idsToDeactivateOnInteract;
+    [SerializeField] private List<string> _idsToActivateOnInteract;
 
     [Header("Audio")]
     [SerializeField] private AudioClip _successClip;
@@ -75,6 +77,16 @@ public class InteractableObject : MonoBehaviour
             foreach (var o in _objectsToDeactivateOnInteract)
             {
                 o.SetActive(false);
+            }
+
+            foreach (var o in _idsToActivateOnInteract)
+            {
+                IDActivationManager.Instance.SetObjectActive(o, true);
+            }
+
+            foreach (var o in _idsToDeactivateOnInteract)
+            {
+                IDActivationManager.Instance.SetObjectActive(o, false);
             }
         }
         else
