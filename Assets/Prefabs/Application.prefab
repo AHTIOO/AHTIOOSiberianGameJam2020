@@ -932,7 +932,7 @@ MonoBehaviour:
     - {fileID: 11400000, guid: 5014a008a3015b34c964a55a66e2551c, type: 2}
     - {fileID: 11400000, guid: 146cefba03aec0742b4c6b60dd7546da, type: 2}
     - {fileID: 11400000, guid: eba5afde4c63b2545a8e7791e0e8232d, type: 2}
-  - key: AddArthurPart
+  - key: AddArturPart
     gameTriggers:
     - {fileID: 11400000, guid: 324ee939d38b45d4083b991255225645, type: 2}
     - {fileID: 11400000, guid: 1453b600a5a85b34e9f7ea9ca1e88d53, type: 2}
