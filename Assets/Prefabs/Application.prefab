@@ -392,7 +392,7 @@ MonoBehaviour:
   _timeToDie:
     _day: 0
     _hours: 0
-    _minutes: 1
+    _minutes: 2
 --- !u!114 &2814903381543689980
 MonoBehaviour:
   m_ObjectHideFlags: 0
