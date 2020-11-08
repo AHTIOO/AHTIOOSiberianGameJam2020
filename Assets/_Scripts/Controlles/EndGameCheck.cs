@@ -20,7 +20,7 @@ public class EndGameCheck : MonoBehaviour
     }
     void CheckEndTime(GameTime time)
     {
-         if(time == GameTimeHolder.Instance.EndGameTime)
+         if((time > GameTimeHolder.Instance.EndGameTime)||(time == GameTimeHolder.Instance.EndGameTime))
         {
             TransitionScreen.gameObject.SetActive(true);
             TransitionScreen.DOFade(1, TransitionSpeed);
