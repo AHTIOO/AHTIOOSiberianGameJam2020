@@ -228,9 +228,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 66b5f87398ed4004db648cf7628929fd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _gameTriggers: []
+  _isMultiInteractable: 0
+  _gameTriggers:
+  - {fileID: 11400000, guid: a2dda27214bf0dc4989d10c8439fe27f, type: 2}
   _condition: {fileID: 0}
-  _objectsToDeactivateOnInteract: []
+  _objectsToDeactivateOnInteract:
+  - {fileID: 2100292573028909186}
   _objectsToActivateOnInteract: []
   _successClip: {fileID: 0}
   _failClip: {fileID: 0}
@@ -462,6 +465,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 086278c762b0b3c48ba00f3bd0e068db, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _isMultiInteractable: 1
   _gameTriggers: []
   _condition: {fileID: 0}
   _objectsToDeactivateOnInteract: []
