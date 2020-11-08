@@ -20,11 +20,11 @@ public class EndGameCheck : MonoBehaviour
     }
     void CheckEndTime(GameTime time)
     {
-         if((time > GameTimeHolder.Instance.EndGameTime)||(time == GameTimeHolder.Instance.EndGameTime))
+         if((time.Hours == GameTimeHolder.Instance.EndGameTime.Hours)&&(time.Minutes >= GameTimeHolder.Instance.EndGameTime.Minutes))
         {
             TransitionScreen.gameObject.SetActive(true);
             TransitionScreen.DOFade(1, TransitionSpeed);
-            SceneManager.LoadScene("EndOutOfTime");
+            SceneManager.LoadScene(3);
         }
          else
         {
@@ -74,13 +74,13 @@ public class EndGameCheck : MonoBehaviour
             {
                 TransitionScreen.gameObject.SetActive(true);
                 TransitionScreen.DOFade(1, TransitionSpeed);
-                SceneManager.LoadScene("EndSomeOneAlive");
+                SceneManager.LoadScene(2);
             }
             else
             {
                 TransitionScreen.gameObject.SetActive(true);
                 TransitionScreen.DOFade(1, TransitionSpeed);
-                SceneManager.LoadScene("EndNoOneAlive");
+                SceneManager.LoadScene(1); //"EndNoOneAlive"
             }
         }
 

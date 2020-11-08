@@ -4,5 +4,17 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/MainScene.unity
+    guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/EndNoOneAlive.unity
+    guid: 348d3e259f712dc4fba0cfec53f5865f
+  - enabled: 1
+    path: Assets/Scenes/EndSomeOneAlive.unity
+    guid: 157a8d03af9fdf240a98d4c6ac4d0bae
+  - enabled: 1
+    path: Assets/Scenes/EndTimeOut.unity
+    guid: 03e931f58ea7c9246a6ed61cfb77f8ed
   m_configObjects: {}
