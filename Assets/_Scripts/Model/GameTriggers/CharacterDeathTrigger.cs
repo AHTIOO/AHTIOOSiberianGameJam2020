@@ -9,7 +9,7 @@ public class CharacterDeathTrigger : GameTrigger
 
     public override void ActivateTrigger()
     {
-        HouseState.Instance.GetCharacterState(_character).IsAlive = false;
+        HouseState.Instance.GetCharacterState(_character).TryToDie();
     }
 
     public CharacterDeathTrigger(Character character)
