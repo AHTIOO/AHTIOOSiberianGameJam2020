@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using DG.Tweening;
-public class RoomSwicher : MonoBehaviour
+public class RoomSwicher : Singleton<RoomSwicher>
 {
     public Room InitialRoom;
     public GameObject RoomParent;
@@ -47,7 +47,7 @@ public class RoomSwicher : MonoBehaviour
 
         _transitionSequence?.Kill();
         _transitionSequence = DOTween.Sequence();
-
+        
         _transitionScreen.blocksRaycasts = true;
         _transitionSequence.Append(_transitionScreen.DOFade(1, _transitionSpeed));
         _transitionSequence.AppendCallback(() =>
@@ -58,6 +58,8 @@ public class RoomSwicher : MonoBehaviour
             _curentRoom = roomToGo;
             _roomViews[_curentRoom].gameObject.SetActive(true);
             _roomViews[_curentRoom].UpdateRoom(_curentRoom);
+            
+            Map.Instance.UpdateMap(_curentRoom);
         });
 
         _transitionSequence.Append(_transitionEffect.DoTransition());
@@ -79,6 +81,11 @@ public class RoomSwicher : MonoBehaviour
             : character.DeathDialog;
 
         DialogManager.Begin(dialog, character, characterState.IsAlive);
+    }
+
+    public void ForceUpdate()
+    {
+        _roomViews[_curentRoom].UpdateRoom(_curentRoom);
     }
 }
 
