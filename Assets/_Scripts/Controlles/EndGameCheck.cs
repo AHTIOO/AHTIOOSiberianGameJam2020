@@ -22,7 +22,7 @@ public class EndGameCheck : MonoBehaviour
     {
          if((time.Hours == GameTimeHolder.Instance.EndGameTime.Hours)&&(time.Minutes >= GameTimeHolder.Instance.EndGameTime.Minutes))
         {
-            CheckCharsAlives();
+            
             TransitionScreen.gameObject.SetActive(true);
             TransitionScreen.DOFade(1, TransitionSpeed);
             SceneManager.LoadScene(3);
@@ -56,7 +56,7 @@ public class EndGameCheck : MonoBehaviour
 
     void CheckCharsAlives()
     {
-        _charactersToCheck = HouseState.Instance.GetCharacters();
+       
         foreach(var ch in HouseState.Instance.GetCharacters())
         {
             _charactersToCheck.Add(ch);
