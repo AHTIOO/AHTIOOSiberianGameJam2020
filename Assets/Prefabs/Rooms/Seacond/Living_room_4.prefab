@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 5521821557377838046}
   - component: {fileID: 983844512896858374}
   - component: {fileID: 8508125102435499252}
+  - component: {fileID: 4250611021222629376}
   m_Layer: 5
   m_Name: DoorToInfinityKey
   m_TagString: Untagged
@@ -33,12 +34,12 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 5807535884201078362}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 106, y: 73}
-  m_SizeDelta: {x: 100, y: 100}
+  m_AnchoredPosition: {x: -829.8, y: -58.1}
+  m_SizeDelta: {x: 149.14954, y: 144.69421}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &258219137598414276
 CanvasRenderer:
@@ -67,9 +68,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10901, guid: 0000000000000000f000000000000000, type: 0}
+  m_Sprite: {fileID: 21300000, guid: 4e27c2c2e65fc34439630430c3a7f865, type: 3}
   m_Type: 0
-  m_PreserveAspect: 0
+  m_PreserveAspect: 1
   m_FillCenter: 1
   m_FillMethod: 4
   m_FillAmount: 1
@@ -240,6 +241,21 @@ MonoBehaviour:
   _idsToActivateOnInteract: []
   _successClip: {fileID: 0}
   _failClip: {fileID: 0}
+--- !u!114 &4250611021222629376
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 768703827729683261}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0438d19023648c04b9985294ff933010, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _sizeChanegeOn: 1.1
+  _animSpeed: 0.25
+  ease: 27
 --- !u!1 &1932856203478322848
 GameObject:
   m_ObjectHideFlags: 0
@@ -255,6 +271,7 @@ GameObject:
   - component: {fileID: 7067483065499378476}
   - component: {fileID: 7270216446976539325}
   - component: {fileID: 2133932286740128775}
+  - component: {fileID: 7490883403438456491}
   m_Layer: 5
   m_Name: DoorToPhotoTableWhithLamp
   m_TagString: Untagged
@@ -274,12 +291,12 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 5807535884201078362}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 110, y: 233}
-  m_SizeDelta: {x: 100, y: 100}
+  m_AnchoredPosition: {x: -483.17, y: -216.5}
+  m_SizeDelta: {x: 856.34705, y: 647.0042}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &8831809866806459643
 CanvasRenderer:
@@ -308,9 +325,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10901, guid: 0000000000000000f000000000000000, type: 0}
+  m_Sprite: {fileID: 21300000, guid: db242fad4d110d542841a6716b0554b7, type: 3}
   m_Type: 0
-  m_PreserveAspect: 0
+  m_PreserveAspect: 1
   m_FillCenter: 1
   m_FillMethod: 4
   m_FillAmount: 1
@@ -503,6 +520,21 @@ MonoBehaviour:
   _nessesaryItems:
   - {fileID: 11400000, guid: c61c69b480514a143b7d65a762fdb85a, type: 2}
   - {fileID: 11400000, guid: b4e37954031b48e4eadc4da67d3c45be, type: 2}
+--- !u!114 &7490883403438456491
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1932856203478322848}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0438d19023648c04b9985294ff933010, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _sizeChanegeOn: 1.1
+  _animSpeed: 0.25
+  ease: 27
 --- !u!1 &5247455540249217537
 GameObject:
   m_ObjectHideFlags: 0
@@ -517,6 +549,7 @@ GameObject:
   - component: {fileID: 2510472210066998114}
   - component: {fileID: 7820343600966184722}
   - component: {fileID: 2322743610755256311}
+  - component: {fileID: 1598492471314581363}
   m_Layer: 5
   m_Name: LightToDinerAndCoridor2
   m_TagString: Untagged
@@ -536,12 +569,12 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 5807535884201078362}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 224, y: 157}
-  m_SizeDelta: {x: 100, y: 100}
+  m_AnchoredPosition: {x: -605, y: 0.000021935}
+  m_SizeDelta: {x: 172.69745, y: 197.13885}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &499866675628168457
 CanvasRenderer:
@@ -570,9 +603,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
+  m_Sprite: {fileID: 21300000, guid: dd705f068815379439c8a39f7f2b3e2f, type: 3}
   m_Type: 0
-  m_PreserveAspect: 0
+  m_PreserveAspect: 1
   m_FillCenter: 1
   m_FillMethod: 4
   m_FillAmount: 1
@@ -742,9 +775,24 @@ MonoBehaviour:
   _failClip: {fileID: 0}
   _lever: {fileID: 11400000, guid: f213f4f212eeaf240ac46326284b7f55, type: 2}
   _leverImage: {fileID: 4734650495565583131}
-  _upSprite: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
-  _downSprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  _brokeSprite: {fileID: 10911, guid: 0000000000000000f000000000000000, type: 0}
+  _upSprite: {fileID: 21300000, guid: dd705f068815379439c8a39f7f2b3e2f, type: 3}
+  _downSprite: {fileID: 21300000, guid: 40ee6b5aa430dbf4e8c24a8215cff11a, type: 3}
+  _brokeSprite: {fileID: 21300000, guid: 40ee6b5aa430dbf4e8c24a8215cff11a, type: 3}
+--- !u!114 &1598492471314581363
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5247455540249217537}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0438d19023648c04b9985294ff933010, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _sizeChanegeOn: 1.1
+  _animSpeed: 0.25
+  ease: 27
 --- !u!1 &5374567783052295553
 GameObject:
   m_ObjectHideFlags: 0
@@ -759,6 +807,7 @@ GameObject:
   - component: {fileID: 6676807928309479289}
   - component: {fileID: 1764069835442088619}
   - component: {fileID: 2808205358093912700}
+  - component: {fileID: 4492160138452618911}
   m_Layer: 5
   m_Name: DoorToCoridor
   m_TagString: Untagged
@@ -778,12 +827,12 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 5807535884201078362}
-  m_RootOrder: 0
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 361, y: 157}
-  m_SizeDelta: {x: 100, y: 100}
+  m_AnchoredPosition: {x: 0, y: -400}
+  m_SizeDelta: {x: 110, y: 110}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &3456732053103447095
 CanvasRenderer:
@@ -812,9 +861,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
-  m_PreserveAspect: 0
+  m_Sprite: {fileID: 21300000, guid: c313a0908ac2b0840abf0038024ec824, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 1
   m_FillCenter: 1
   m_FillMethod: 4
   m_FillAmount: 1
@@ -983,6 +1032,21 @@ MonoBehaviour:
   _successClip: {fileID: 0}
   _failClip: {fileID: 0}
   _roomIndex: 0
+--- !u!114 &4492160138452618911
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5374567783052295553}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0438d19023648c04b9985294ff933010, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _sizeChanegeOn: 1.1
+  _animSpeed: 0.25
+  ease: 27
 --- !u!1001 &5290488675684471115
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1144,7 +1208,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: f3f63441b75b3a14d981763230f6950d,
+      objectReference: {fileID: 21300000, guid: f8e85fb5c4f31a3428458bf2d489351a,
         type: 3}
     - target: {fileID: 3963817937506721407, guid: cabc62fd77d7c88409f6e892bba7eeab,
         type: 3}

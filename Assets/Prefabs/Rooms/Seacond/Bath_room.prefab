@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 1335333035533690649}
   - component: {fileID: 677513248302809645}
   - component: {fileID: 1190364458705898134}
+  - component: {fileID: 3917105817833408197}
   m_Layer: 5
   m_Name: Mirror
   m_TagString: Untagged
@@ -34,7 +35,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 5807535884201078362}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -260,6 +261,21 @@ MonoBehaviour:
   _timeForMessage: 2
   _nessesaryItems:
   - {fileID: 11400000, guid: 51ec57fc020a4a141ae706cffddb6a09, type: 2}
+--- !u!114 &3917105817833408197
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 101066273700157463}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0438d19023648c04b9985294ff933010, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _sizeChanegeOn: 1.1
+  _animSpeed: 0.25
+  ease: 27
 --- !u!1 &3100886290740662791
 GameObject:
   m_ObjectHideFlags: 0
@@ -274,6 +290,7 @@ GameObject:
   - component: {fileID: 6812323659018745555}
   - component: {fileID: 6439008020997706671}
   - component: {fileID: 761943191389614948}
+  - component: {fileID: 8038517360512921746}
   m_Layer: 5
   m_Name: DoorToRoom3
   m_TagString: Untagged
@@ -293,7 +310,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 5807535884201078362}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -498,6 +515,21 @@ MonoBehaviour:
   _successClip: {fileID: 0}
   _failClip: {fileID: 0}
   _roomIndex: 0
+--- !u!114 &8038517360512921746
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3100886290740662791}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0438d19023648c04b9985294ff933010, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _sizeChanegeOn: 1.1
+  _animSpeed: 0.25
+  ease: 27
 --- !u!1 &3138555874961745349
 GameObject:
   m_ObjectHideFlags: 0
@@ -512,6 +544,7 @@ GameObject:
   - component: {fileID: 4146309274983359216}
   - component: {fileID: 8921937350777459778}
   - component: {fileID: 7581179479841792165}
+  - component: {fileID: 2673422956317553326}
   m_Layer: 5
   m_Name: LightsToRoom1
   m_TagString: Untagged
@@ -531,7 +564,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 5807535884201078362}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -740,6 +773,21 @@ MonoBehaviour:
   _upSprite: {fileID: 21300000, guid: 0dee200053cba614bb52fbab5c0fc2ef, type: 3}
   _downSprite: {fileID: 21300000, guid: 9ef3bed18c8666c4b8e28b0dde467f61, type: 3}
   _brokeSprite: {fileID: 21300000, guid: 9ef3bed18c8666c4b8e28b0dde467f61, type: 3}
+--- !u!114 &2673422956317553326
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3138555874961745349}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0438d19023648c04b9985294ff933010, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _sizeChanegeOn: 1.1
+  _animSpeed: 0.25
+  ease: 27
 --- !u!1 &3672721432120605924
 GameObject:
   m_ObjectHideFlags: 0
@@ -755,6 +803,7 @@ GameObject:
   - component: {fileID: 5948454349970752396}
   - component: {fileID: 8686352007613376806}
   - component: {fileID: 6573650250330526287}
+  - component: {fileID: 2365210377348712959}
   m_Layer: 5
   m_Name: Bath
   m_TagString: Untagged
@@ -774,7 +823,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 5807535884201078362}
-  m_RootOrder: 3
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -1000,6 +1049,21 @@ MonoBehaviour:
   _timeForMessage: 2
   _nessesaryItems:
   - {fileID: 11400000, guid: 7fe87a04fadc1004c9b3cdb7efff9575, type: 2}
+--- !u!114 &2365210377348712959
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3672721432120605924}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0438d19023648c04b9985294ff933010, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _sizeChanegeOn: 1.1
+  _animSpeed: 0.25
+  ease: 27
 --- !u!1001 &5290488675684471115
 PrefabInstance:
   m_ObjectHideFlags: 0

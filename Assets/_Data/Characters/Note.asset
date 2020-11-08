@@ -12,11 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 63464cacbc352484483016338a767b82, type: 3}
   m_Name: Note
   m_EditorClassIdentifier: 
-  _name: "\u0417\u0430\u043F\u0438\u0441\u043A\u0430"
+  _name: 
   _dialogSprite: {fileID: 10917, guid: 0000000000000000f000000000000000, type: 0}
-  _menuIcon: {fileID: 0}
+  _menuIcon: {fileID: 21300000, guid: d0ac3975bc152ce49be8ae7c092be853, type: 3}
   _deathDialog: VictorDeadBody
   _endgameDialog: 
-  _inDarkDialog: VictorScream
+  _inDarkDialog: 
   _characterDefinitions:
   - {fileID: 11400000, guid: 0f44a93741aab074799214cb19b68e81, type: 2}
