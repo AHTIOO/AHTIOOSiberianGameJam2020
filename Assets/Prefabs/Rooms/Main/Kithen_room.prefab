@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 6171262911153640224}
   - component: {fileID: 1530507319688436426}
   - component: {fileID: 3182215650763461872}
+  - component: {fileID: 1734737631305363516}
   m_Layer: 5
   m_Name: PortretOn
   m_TagString: Untagged
@@ -37,7 +38,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 104, y: 167}
+  m_AnchoredPosition: {x: 347, y: 221}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &6161940913711082292
@@ -67,7 +68,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10901, guid: 0000000000000000f000000000000000, type: 0}
+  m_Sprite: {fileID: 21300000, guid: e82a55f70d9a49842999e1ffe31c15ba, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -240,6 +241,21 @@ MonoBehaviour:
   _idsToActivateOnInteract: []
   _successClip: {fileID: 0}
   _failClip: {fileID: 0}
+--- !u!114 &1734737631305363516
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1434964918421670539}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0438d19023648c04b9985294ff933010, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _sizeChanegeOn: 1.1
+  _animSpeed: 0.25
+  ease: 27
 --- !u!1 &3964961053564839367
 GameObject:
   m_ObjectHideFlags: 0
@@ -254,6 +270,7 @@ GameObject:
   - component: {fileID: 4037673806023570384}
   - component: {fileID: 7806426744713065584}
   - component: {fileID: 7411080152199707802}
+  - component: {fileID: 5039557873468336896}
   m_Layer: 5
   m_Name: DoorToStorage
   m_TagString: Untagged
@@ -277,7 +294,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 361, y: -90.3}
+  m_AnchoredPosition: {x: -283, y: -463}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1633051184140820457
@@ -307,8 +324,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: c313a0908ac2b0840abf0038024ec824, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -478,6 +495,21 @@ MonoBehaviour:
   _successClip: {fileID: 0}
   _failClip: {fileID: 0}
   _roomIndex: 2
+--- !u!114 &5039557873468336896
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3964961053564839367}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0438d19023648c04b9985294ff933010, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _sizeChanegeOn: 1.1
+  _animSpeed: 0.25
+  ease: 27
 --- !u!1 &4316329201491539307
 GameObject:
   m_ObjectHideFlags: 0
@@ -492,6 +524,7 @@ GameObject:
   - component: {fileID: 5247131903196088358}
   - component: {fileID: 6494740110546280918}
   - component: {fileID: 682244837550355808}
+  - component: {fileID: 1475529702059968644}
   m_Layer: 5
   m_Name: DoorToFireplace
   m_TagString: Untagged
@@ -515,7 +548,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 361, y: 39.7}
+  m_AnchoredPosition: {x: -841, y: -217}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &700795613969228436
@@ -545,8 +578,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: c313a0908ac2b0840abf0038024ec824, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -716,6 +749,21 @@ MonoBehaviour:
   _successClip: {fileID: 0}
   _failClip: {fileID: 0}
   _roomIndex: 1
+--- !u!114 &1475529702059968644
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4316329201491539307}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0438d19023648c04b9985294ff933010, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _sizeChanegeOn: 1.1
+  _animSpeed: 0.25
+  ease: 27
 --- !u!1 &4572301423385947452
 GameObject:
   m_ObjectHideFlags: 0
@@ -730,6 +778,7 @@ GameObject:
   - component: {fileID: 1696956663890905572}
   - component: {fileID: 1274868300451114099}
   - component: {fileID: 495004119752543881}
+  - component: {fileID: 8582044286980076929}
   m_Layer: 5
   m_Name: DoorToDinner
   m_TagString: Untagged
@@ -753,7 +802,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 361, y: 157}
+  m_AnchoredPosition: {x: 781, y: 10}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &5076060643361102077
@@ -783,8 +832,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: c313a0908ac2b0840abf0038024ec824, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -954,6 +1003,21 @@ MonoBehaviour:
   _successClip: {fileID: 0}
   _failClip: {fileID: 0}
   _roomIndex: 0
+--- !u!114 &8582044286980076929
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4572301423385947452}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0438d19023648c04b9985294ff933010, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _sizeChanegeOn: 1.1
+  _animSpeed: 0.25
+  ease: 27
 --- !u!1 &5256342832233714285
 GameObject:
   m_ObjectHideFlags: 0
@@ -968,6 +1032,7 @@ GameObject:
   - component: {fileID: 3028956849534262854}
   - component: {fileID: 6055184552432319750}
   - component: {fileID: 3162556850185357415}
+  - component: {fileID: 1987870082616914408}
   m_Layer: 5
   m_Name: LightsToDinnerAndFireplace
   m_TagString: Untagged
@@ -991,9 +1056,9 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 224, y: 157}
+  m_AnchoredPosition: {x: 564, y: 0}
   m_SizeDelta: {x: 100, y: 100}
-  m_Pivot: {x: 0.5, y: 0.5}
+  m_Pivot: {x: 0.5, y: 0.4999999}
 --- !u!222 &4045866158934771142
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1194,9 +1259,24 @@ MonoBehaviour:
   _failClip: {fileID: 0}
   _lever: {fileID: 11400000, guid: bf84f6177182e0548878eb614d3f4900, type: 2}
   _leverImage: {fileID: 5282635897644526878}
-  _upSprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  _downSprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  _upSprite: {fileID: 21300000, guid: 0dee200053cba614bb52fbab5c0fc2ef, type: 3}
+  _downSprite: {fileID: 21300000, guid: 9ef3bed18c8666c4b8e28b0dde467f61, type: 3}
   _brokeSprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+--- !u!114 &1987870082616914408
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5256342832233714285}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0438d19023648c04b9985294ff933010, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _sizeChanegeOn: 1.1
+  _animSpeed: 0.25
+  ease: 27
 --- !u!1 &5901313790628022509
 GameObject:
   m_ObjectHideFlags: 0
@@ -1233,7 +1313,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 106, y: 74.2}
+  m_AnchoredPosition: {x: 235, y: -292}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &6945248632163958292
@@ -1263,7 +1343,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10901, guid: 0000000000000000f000000000000000, type: 0}
+  m_Sprite: {fileID: 21300000, guid: ee9b4c3dab7cce3469435bfe7b72579e, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1427,6 +1507,7 @@ GameObject:
   - component: {fileID: 3091122578802685332}
   - component: {fileID: 5545384533703369654}
   - component: {fileID: 1233592659771220044}
+  - component: {fileID: 7535366665220698870}
   m_Layer: 5
   m_Name: DoorToStorageBlocker
   m_TagString: Untagged
@@ -1450,7 +1531,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -148, y: 194}
+  m_AnchoredPosition: {x: -230, y: -453}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &4468630079157610445
@@ -1480,7 +1561,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10901, guid: 0000000000000000f000000000000000, type: 0}
+  m_Sprite: {fileID: 21300000, guid: 5e4df82f9ddf8b34294cc317fd43f51c, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1671,6 +1752,21 @@ MonoBehaviour:
   _timeForMessage: 2
   _nessesaryItems:
   - {fileID: 11400000, guid: 4d1402b88339c634c82bad015ac460c9, type: 2}
+--- !u!114 &7535366665220698870
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7307325756918381286}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0438d19023648c04b9985294ff933010, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _sizeChanegeOn: 1.1
+  _animSpeed: 0.25
+  ease: 27
 --- !u!1001 &5290488675684471115
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1832,7 +1928,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 22fd8de7328ef8647ab3bda5e107d2d0,
+      objectReference: {fileID: 21300000, guid: fef2982b4bc324249a405f19324dfde3,
         type: 3}
     - target: {fileID: 3963817937506721407, guid: cabc62fd77d7c88409f6e892bba7eeab,
         type: 3}

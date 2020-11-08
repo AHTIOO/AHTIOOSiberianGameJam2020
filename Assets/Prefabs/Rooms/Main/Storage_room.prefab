@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 5404283948856451915}
   - component: {fileID: 7098322399980516909}
   - component: {fileID: 8376223192326263338}
+  - component: {fileID: 7718373186300386377}
   m_Layer: 5
   m_Name: SnakeOilBottle
   m_TagString: Untagged
@@ -37,7 +38,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 106, y: 167}
+  m_AnchoredPosition: {x: -733, y: 81}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &6058997817706920953
@@ -67,7 +68,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10901, guid: 0000000000000000f000000000000000, type: 0}
+  m_Sprite: {fileID: 21300000, guid: e3113069849ae4542a42cc75ab641b49, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -240,6 +241,21 @@ MonoBehaviour:
   _idsToActivateOnInteract: []
   _successClip: {fileID: 0}
   _failClip: {fileID: 0}
+--- !u!114 &7718373186300386377
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2100292573028909186}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0438d19023648c04b9985294ff933010, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _sizeChanegeOn: 1.1
+  _animSpeed: 0.25
+  ease: 27
 --- !u!1 &7793050066082130030
 GameObject:
   m_ObjectHideFlags: 0
@@ -254,6 +270,7 @@ GameObject:
   - component: {fileID: 1013880649185381089}
   - component: {fileID: 117412809955219590}
   - component: {fileID: 270944520367162688}
+  - component: {fileID: 6039351352919468145}
   m_Layer: 5
   m_Name: DoorToKithen
   m_TagString: Untagged
@@ -277,7 +294,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 361, y: 157}
+  m_AnchoredPosition: {x: -50, y: -490}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1046197632344634642
@@ -307,8 +324,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: c313a0908ac2b0840abf0038024ec824, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -478,6 +495,21 @@ MonoBehaviour:
   _successClip: {fileID: 0}
   _failClip: {fileID: 0}
   _roomIndex: 0
+--- !u!114 &6039351352919468145
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7793050066082130030}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0438d19023648c04b9985294ff933010, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _sizeChanegeOn: 1.1
+  _animSpeed: 0.25
+  ease: 27
 --- !u!1001 &5290488675684471115
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -639,8 +671,18 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 461f37cca8ebdeb4a9215e54e901c001,
+      objectReference: {fileID: 21300000, guid: 6e170a88e8daad44e80b482a37241078,
         type: 3}
+    - target: {fileID: 2915356422939664322, guid: cabc62fd77d7c88409f6e892bba7eeab,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0.0028076172
+      objectReference: {fileID: 0}
+    - target: {fileID: 2915356422939664322, guid: cabc62fd77d7c88409f6e892bba7eeab,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3963817937506721407, guid: cabc62fd77d7c88409f6e892bba7eeab,
         type: 3}
       propertyPath: m_AnchorMin.y
