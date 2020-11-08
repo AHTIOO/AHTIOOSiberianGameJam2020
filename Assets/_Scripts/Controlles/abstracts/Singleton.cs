@@ -27,6 +27,7 @@ public abstract class Singleton<T> :  MonoBehaviour where T : Component
         {
             if (instance == null)
             {
+                Debug.Log($"{typeof(T)} - govno");
                 instance = FindObjectOfType<T>();
                 if (instance == null)
                 {
