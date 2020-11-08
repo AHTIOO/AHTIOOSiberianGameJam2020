@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 78e4414156bba5c4eb4cac5edecb7095, type: 3}
   m_Name: Artur_Dif_Coridor
   m_EditorClassIdentifier: 
-  _dialog: Arthur
+  _dialog: Artur
   _position: {fileID: 11400000, guid: e0a4b43c4ccbe144db4273a349aa5224, type: 2}
