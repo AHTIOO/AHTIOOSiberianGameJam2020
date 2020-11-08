@@ -16,6 +16,7 @@ MonoBehaviour:
   _dialogSprite: {fileID: 21300000, guid: a97f5f0039d50a34f9018c7a3221cc60, type: 3}
   _menuIcon: {fileID: 21300000, guid: 619515f17024c3641ade31a57edde2a5, type: 3}
   _deathDialog: ArturDeadBody
+  _endgameDialog: ArturEndgameOnliner
   _inDarkDialog: ArturScream
   _characterDefinitions:
   - {fileID: 11400000, guid: c3b06d2c49b8fef499e8295f19223dcb, type: 2}
