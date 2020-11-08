@@ -1210,7 +1210,7 @@ MonoBehaviour:
   _idsToActivateOnInteract: []
   _successClip: {fileID: 0}
   _failClip: {fileID: 0}
-  _lever: {fileID: 11400000, guid: f213f4f212eeaf240ac46326284b7f55, type: 2}
+  _lever: {fileID: 11400000, guid: ed1b3a403e0c16f4793538e66459c6d9, type: 2}
   _leverImage: {fileID: 4801003676865962498}
   _upSprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
   _downSprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
