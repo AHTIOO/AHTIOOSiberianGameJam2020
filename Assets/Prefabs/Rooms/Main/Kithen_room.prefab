@@ -37,7 +37,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 106, y: 167}
+  m_AnchoredPosition: {x: 104, y: 167}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &6161940913711082292
@@ -1183,7 +1183,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isMultiInteractable: 1
-  _gameTriggers: []
+  _gameTriggers:
+  - {fileID: 11400000, guid: 2e30ce4a53e065e46abcb3b23be05f19, type: 2}
   _condition: {fileID: 0}
   _objectsToDeactivateOnInteract: []
   _objectsToActivateOnInteract: []
