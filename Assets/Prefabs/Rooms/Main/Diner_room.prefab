@@ -228,7 +228,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 086278c762b0b3c48ba00f3bd0e068db, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _isMultiInteractable: 0
+  _isMultiInteractable: 1
   _gameTriggers: []
   _condition: {fileID: 0}
   _objectsToDeactivateOnInteract: []
@@ -464,7 +464,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 086278c762b0b3c48ba00f3bd0e068db, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _isMultiInteractable: 0
+  _isMultiInteractable: 1
   _gameTriggers: []
   _condition: {fileID: 0}
   _objectsToDeactivateOnInteract: []
@@ -700,7 +700,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 086278c762b0b3c48ba00f3bd0e068db, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _isMultiInteractable: 0
+  _isMultiInteractable: 1
   _gameTriggers: []
   _condition: {fileID: 0}
   _objectsToDeactivateOnInteract: []
@@ -943,7 +943,7 @@ MonoBehaviour:
   _objectsToActivateOnInteract: []
   _successClip: {fileID: 0}
   _failClip: {fileID: 0}
-  _lever: {fileID: 11400000, guid: ddf9880c3fbf4e144b1939d3ff2e1e1a, type: 2}
+  _lever: {fileID: 11400000, guid: 6a897b7c6bb38bc47843897bdb50c283, type: 2}
   _leverImage: {fileID: 6474613473227102978}
   _upSprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
   _downSprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
