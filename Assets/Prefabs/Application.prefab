@@ -527,23 +527,28 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   diags:
   - Anna
+  - AnnaDeadBody
   - AnnaEndingOneliner
   - AnnaScream
   - Artur
+  - ArturDeadBody
   - ArturEndingOneliner
   - ArturScream
   - Maitat
+  - MaitatDeadBody
   - MaitatEndingOneliner
   - MaitatScream
   - Rockwell
+  - RockwellDeadBody
   - RockwellEndingOneliner
   - RockwellScream
   - TestDialog2
   - TetstDialog
   - Victor
+  - VictorDeadBody
   - VictorEndingOneliner
   - VictorScream
-  assignedIndex: 12
+  assignedIndex: 16
   assignedID: 5210
   assignedDialogue: TestDialog2
   interactionCount: 0
@@ -2618,7 +2623,8 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 261e8504f2989114dbd73eeed3644dc3, type: 2}
   - {fileID: 11400000, guid: 0c19fc31bd6697241b9ec87ed57a59f9, type: 2}
   - {fileID: 11400000, guid: 774e0c20281472c409bad13fd1285f3a, type: 2}
-  _levers: []
+  _levers:
+  - {fileID: 11400000, guid: ddf9880c3fbf4e144b1939d3ff2e1e1a, type: 2}
 --- !u!1 &1210183857295239828
 GameObject:
   m_ObjectHideFlags: 0
