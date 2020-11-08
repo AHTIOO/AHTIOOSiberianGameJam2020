@@ -909,7 +909,7 @@ MonoBehaviour:
     - {fileID: 11400000, guid: 3882ece8180ad0041a04626510d6d2da, type: 2}
   - key: AddVictorPart
     gameTriggers:
-    - {fileID: 11400000, guid: ee8e40c39b10beb4e8277c7314a44559, type: 2}
+    - {fileID: 11400000, guid: 465671a27a95ca04b9e0ed9e92f70dac, type: 2}
     - {fileID: 11400000, guid: fc0fb93c9248e2641aa10a6ed7fb0531, type: 2}
     - {fileID: 11400000, guid: 7fda29f8ab9bf6040b2949129ccacf2a, type: 2}
   - key: AddMaitatPart
