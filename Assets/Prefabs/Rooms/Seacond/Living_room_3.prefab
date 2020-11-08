@@ -732,11 +732,11 @@ MonoBehaviour:
   _idsToActivateOnInteract: []
   _successClip: {fileID: 0}
   _failClip: {fileID: 0}
-  _lever: {fileID: 0}
-  _leverImage: {fileID: 0}
-  _upSprite: {fileID: 0}
-  _downSprite: {fileID: 0}
-  _brokeSprite: {fileID: 0}
+  _lever: {fileID: 11400000, guid: ddf9880c3fbf4e144b1939d3ff2e1e1a, type: 2}
+  _leverImage: {fileID: 6474613473227102978}
+  _upSprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  _downSprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  _brokeSprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
 --- !u!1 &7103377479734111663
 GameObject:
   m_ObjectHideFlags: 0
@@ -1339,6 +1339,18 @@ PrefabInstance:
         type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cabc62fd77d7c88409f6e892bba7eeab, type: 3}
+--- !u!114 &6474613473227102978 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1202995248340306505, guid: cabc62fd77d7c88409f6e892bba7eeab,
+    type: 3}
+  m_PrefabInstance: {fileID: 5290488675684471115}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!224 &5807535884201078362 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 1869860769144110865, guid: cabc62fd77d7c88409f6e892bba7eeab,
