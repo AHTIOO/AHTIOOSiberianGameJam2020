@@ -4,29 +4,21 @@ using UnityEngine;
 
 public class Map : Singleton<Map>
 {
-    private Dictionary<Room, MapPart> _mapParts = new Dictionary<Room, MapPart>();
-
-    protected override void Awake()
-    {
-        base.Awake();
-
-        foreach (var mapPart in GetComponentsInChildren<MapPart>())
-        {
-            _mapParts.Add(mapPart.Room, mapPart);
-        }
-    }
-
+    [SerializeField] private List<MapPart> _mapParts = new List<MapPart>();
+    
     public void UpdateMap(Room newRoom)
     {
-        _mapParts[newRoom].gameObject.SetActive(true);
-        _mapParts[newRoom].SetPlayer(true);
-        _mapParts[newRoom].UpdateCharacters();
+        Debug.Log($"{newRoom} - {_mapParts[0].Room}");
+        MapPart mapPart = _mapParts.Find(x => x.Room == newRoom);
+        mapPart.gameObject.SetActive(true);
+        mapPart.SetPlayer(true);
+        mapPart.UpdateCharacters();
 
-        foreach (var partsKey in _mapParts.Keys)
+        foreach (var mp in _mapParts)
         {
-            if (partsKey != newRoom)
+            if (mp.Room != newRoom)
             {
-                _mapParts[partsKey].SetPlayer(false);
+                mp.SetPlayer(false);
             }
         }
     }

@@ -35,6 +35,7 @@ public class RoomSwicher : Singleton<RoomSwicher>
 
         _curentRoom = InitialRoom;
         _roomViews[_curentRoom].gameObject.SetActive(true);
+        Map.Instance.UpdateMap(_curentRoom);
     }
 
     public void GoToRoom(int goesToRoom)

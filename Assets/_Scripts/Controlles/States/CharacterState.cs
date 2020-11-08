@@ -46,11 +46,13 @@ public class CharacterState
             }
 
             if (_currentDefinition != null)
+            {
                 HouseState.Instance.GetRoomState(_currentDefinition.Position).CharactersOnLocations.Remove(_model);
+                RoomSwicher.Instance.ForceUpdate();
+            }
 
             _currentDefinition = value;
             HouseState.Instance.GetRoomState(_currentDefinition.Position).CharactersOnLocations.Add(_model);
-            RoomSwicher.Instance.ForceUpdate();
         }
     }
 
