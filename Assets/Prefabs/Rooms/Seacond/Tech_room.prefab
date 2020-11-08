@@ -228,6 +228,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ba075e698b2ebea41b1479fff83b78e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _isMultiInteractable: 0
+  _gameTriggers: []
+  _condition: {fileID: 0}
+  _objectsToDeactivateOnInteract: []
+  _objectsToActivateOnInteract: []
+  _idsToDeactivateOnInteract: []
+  _idsToActivateOnInteract: []
+  _successClip: {fileID: 0}
+  _failClip: {fileID: 0}
+  _lever: {fileID: 11400000, guid: 24095d367f91f864e88b6b79e2288ca3, type: 2}
+  _leverImage: {fileID: 6474613473227102978}
+  _upSprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  _downSprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  _brokeSprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
 --- !u!1 &1598218758469337982
 GameObject:
   m_ObjectHideFlags: 0
@@ -456,10 +470,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 086278c762b0b3c48ba00f3bd0e068db, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _isMultiInteractable: 1
   _gameTriggers: []
   _condition: {fileID: 0}
   _objectsToDeactivateOnInteract: []
   _objectsToActivateOnInteract: []
+  _idsToDeactivateOnInteract: []
+  _idsToActivateOnInteract: []
   _successClip: {fileID: 0}
   _failClip: {fileID: 0}
   _roomIndex: 0
@@ -477,6 +494,7 @@ GameObject:
   - component: {fileID: 8482827130174845812}
   - component: {fileID: 7331035083162751352}
   - component: {fileID: 3612438273935074779}
+  - component: {fileID: 2832009900681979220}
   m_Layer: 5
   m_Name: DoorToRoom2Blocker
   m_TagString: Untagged
@@ -691,12 +709,32 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 66b5f87398ed4004db648cf7628929fd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _isMultiInteractable: 0
   _gameTriggers: []
-  _condition: {fileID: 0}
-  _objectsToDeactivateOnInteract: []
-  _objectsToActivateOnInteract: []
+  _condition: {fileID: 2832009900681979220}
+  _objectsToDeactivateOnInteract:
+  - {fileID: 2677256340016448735}
+  _objectsToActivateOnInteract:
+  - {fileID: 8849498227486521373}
+  _idsToDeactivateOnInteract: []
+  _idsToActivateOnInteract: []
   _successClip: {fileID: 0}
   _failClip: {fileID: 0}
+--- !u!114 &2832009900681979220
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2677256340016448735}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82a939c452b87fc47be0f903adc3df72, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _unableMessage: 
+  _nessesaryItems:
+  - {fileID: 11400000, guid: 3fccacc078e4d25478c9b9df65329a1b, type: 2}
 --- !u!1 &4414630576271220710
 GameObject:
   m_ObjectHideFlags: 0
@@ -712,7 +750,7 @@ GameObject:
   - component: {fileID: 6049257747366186588}
   - component: {fileID: 6698840946367154679}
   m_Layer: 5
-  m_Name: DoorToRoom2Crowbar
+  m_Name: Crowbar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -925,10 +963,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 66b5f87398ed4004db648cf7628929fd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _gameTriggers: []
+  _isMultiInteractable: 0
+  _gameTriggers:
+  - {fileID: 11400000, guid: a2dda27214bf0dc4989d10c8439fe27f, type: 2}
   _condition: {fileID: 0}
-  _objectsToDeactivateOnInteract: []
+  _objectsToDeactivateOnInteract:
+  - {fileID: 4414630576271220710}
   _objectsToActivateOnInteract: []
+  _idsToDeactivateOnInteract: []
+  _idsToActivateOnInteract: []
   _successClip: {fileID: 0}
   _failClip: {fileID: 0}
 --- !u!1 &8849498227486521373
@@ -951,7 +994,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &4805820523344499821
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1159,13 +1202,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 086278c762b0b3c48ba00f3bd0e068db, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _isMultiInteractable: 1
   _gameTriggers: []
   _condition: {fileID: 0}
   _objectsToDeactivateOnInteract: []
   _objectsToActivateOnInteract: []
+  _idsToDeactivateOnInteract: []
+  _idsToActivateOnInteract: []
   _successClip: {fileID: 0}
   _failClip: {fileID: 0}
-  _roomIndex: 0
+  _roomIndex: 1
 --- !u!1001 &5290488675684471115
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1291,6 +1337,18 @@ PrefabInstance:
         type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cabc62fd77d7c88409f6e892bba7eeab, type: 3}
+--- !u!114 &6474613473227102978 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1202995248340306505, guid: cabc62fd77d7c88409f6e892bba7eeab,
+    type: 3}
+  m_PrefabInstance: {fileID: 5290488675684471115}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!224 &5807535884201078362 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 1869860769144110865, guid: cabc62fd77d7c88409f6e892bba7eeab,

@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _roomPrefab: {fileID: 6998306108923643214, guid: eefb1f9405221fc4eb9fc340fddf76eb,
     type: 3}
-  isLightDefault: 0
+  isLightDefault: 1
   _connectedRoom:
   - connectedRoom: {fileID: 11400000, guid: a69983136b2799b4e9228e16730f243c, type: 2}
     isAvailableByDefault: 1
