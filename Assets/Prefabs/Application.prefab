@@ -3055,6 +3055,21 @@ MonoBehaviour:
   - key: RootVictorSecond
     gameTriggers:
     - {fileID: 11400000, guid: b5bcdf6b4803f1843b47b1f218a2d148, type: 2}
+  - key: RootAnnaDead
+    gameTriggers:
+    - {fileID: 11400000, guid: c6dc50f8d5157534ebb36e57bb00b59d, type: 2}
+  - key: RootArturDead
+    gameTriggers:
+    - {fileID: 11400000, guid: 09b52a05f084cb443a90e2ad689f72ab, type: 2}
+  - key: RootMaitatDead
+    gameTriggers:
+    - {fileID: 11400000, guid: d582fff93623b46448e1f57c2e4af74d, type: 2}
+  - key: RootRockwellDead
+    gameTriggers:
+    - {fileID: 11400000, guid: f6a1c6dcb26a0304cae4263055a783d6, type: 2}
+  - key: RootVictorDead
+    gameTriggers:
+    - {fileID: 11400000, guid: f9e43db7ce3af5a4e9baae0b98683a11, type: 2}
 --- !u!1 &1210183856772383610
 GameObject:
   m_ObjectHideFlags: 0
