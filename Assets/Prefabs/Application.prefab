@@ -914,7 +914,7 @@ MonoBehaviour:
     - {fileID: 11400000, guid: 7fda29f8ab9bf6040b2949129ccacf2a, type: 2}
   - key: AddMaitatPart
     gameTriggers:
-    - {fileID: 11400000, guid: 465671a27a95ca04b9e0ed9e92f70dac, type: 2}
+    - {fileID: 11400000, guid: 508c5ae755f4f6c419e48f3d9fbe413b, type: 2}
     - {fileID: 11400000, guid: d74c2a7cf9aca3040a81732f62a4fe69, type: 2}
     - {fileID: 11400000, guid: 456bbbf34493f7d46a116fc391dd74e6, type: 2}
   - key: AddLeFlerPartDead
