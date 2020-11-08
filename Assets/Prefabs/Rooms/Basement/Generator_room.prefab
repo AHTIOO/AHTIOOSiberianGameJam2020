@@ -823,7 +823,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: b0432e0d2e316da4e810e2faf8e2dc13, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 41131c5a8853c8c439d6e3125baea996, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -995,9 +995,9 @@ MonoBehaviour:
   _failClip: {fileID: 0}
   _lever: {fileID: 11400000, guid: 2dcbaeb39c344d040b4ded7dd827e595, type: 2}
   _leverImage: {fileID: 785700086633192704}
-  _upSprite: {fileID: 21300000, guid: b0432e0d2e316da4e810e2faf8e2dc13, type: 3}
-  _downSprite: {fileID: 21300000, guid: a71cde948564b264b8fdd953fdd6d1ee, type: 3}
-  _brokeSprite: {fileID: 21300000, guid: b0432e0d2e316da4e810e2faf8e2dc13, type: 3}
+  _upSprite: {fileID: 21300000, guid: 41131c5a8853c8c439d6e3125baea996, type: 3}
+  _downSprite: {fileID: 21300000, guid: 61de00b2a74c8fb4190e3b6c4289b0a2, type: 3}
+  _brokeSprite: {fileID: 21300000, guid: 41131c5a8853c8c439d6e3125baea996, type: 3}
 --- !u!114 &1797574130874369100
 MonoBehaviour:
   m_ObjectHideFlags: 0
