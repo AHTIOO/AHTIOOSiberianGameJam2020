@@ -10,11 +10,16 @@ public class DialogActivator : MonoBehaviour
 
     [SerializeField] private List<Button> _talkButtons = new List<Button>();
 
-    public void SetAmountOfButtons(int amount)
+    public void SetAmountOfButtons(List<Character> _characters)
     {
         for (int i = 0; i < _talkButtons.Count; i++)
         {
-            _talkButtons[i].gameObject.SetActive(i <= amount - 1);
+            _talkButtons[i].gameObject.SetActive(i <= _characters.Count - 1);
+        }
+
+        for (int i = 0; i < _characters.Count; i++)
+        {
+            _talkButtons[i].image.sprite = _characters[i].MenuIcon;
         }
     }
 
