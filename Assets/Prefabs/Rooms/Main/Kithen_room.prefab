@@ -1644,7 +1644,6 @@ MonoBehaviour:
   _isMultiInteractable: 0
   _gameTriggers:
   - {fileID: 11400000, guid: 19f37ac4cff72e841807fd585d050e90, type: 2}
-  - {fileID: 11400000, guid: 1653a9dfc7d8d7d48989ef0c2718ade3, type: 2}
   _condition: {fileID: 1233592659771220044}
   _objectsToDeactivateOnInteract:
   - {fileID: 7307325756918381286}
