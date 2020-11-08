@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: AddMirror
   m_EditorClassIdentifier: 
   _items:
-  - {fileID: 11400000, guid: 3fccacc078e4d25478c9b9df65329a1b, type: 2}
+  - {fileID: 11400000, guid: ceaff53f6bdd0064d8927129002c195a, type: 2}
