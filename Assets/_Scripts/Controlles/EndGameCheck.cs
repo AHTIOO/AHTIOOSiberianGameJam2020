@@ -13,7 +13,7 @@ public class EndGameCheck : MonoBehaviour
     public Image TransitionScreen;
     public float TransitionSpeed = 2f;
 
-    private void Start()
+    private void Awake()
     {
         Inventory.Instance.OnGameInventoryChanged += CheckEndInventory;
         GameTimeHolder.Instance.OnGameTimeChanged += CheckEndTime;
@@ -22,6 +22,7 @@ public class EndGameCheck : MonoBehaviour
     {
          if((time.Hours == GameTimeHolder.Instance.EndGameTime.Hours)&&(time.Minutes >= GameTimeHolder.Instance.EndGameTime.Minutes))
         {
+            
             TransitionScreen.gameObject.SetActive(true);
             TransitionScreen.DOFade(1, TransitionSpeed);
             SceneManager.LoadScene(3);
@@ -55,7 +56,7 @@ public class EndGameCheck : MonoBehaviour
 
     void CheckCharsAlives()
     {
-        _charactersToCheck = new List<Character>();
+       
         foreach(var ch in HouseState.Instance.GetCharacters())
         {
             _charactersToCheck.Add(ch);
