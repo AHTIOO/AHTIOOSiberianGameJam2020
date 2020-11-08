@@ -899,7 +899,7 @@ MonoBehaviour:
   - key: AddArthurPart
     gameTriggers:
     - {fileID: 11400000, guid: 324ee939d38b45d4083b991255225645, type: 2}
-    - {fileID: 0}
+    - {fileID: 11400000, guid: 1453b600a5a85b34e9f7ea9ca1e88d53, type: 2}
     - {fileID: 11400000, guid: 4095cd6e93a407f469436fa80d626471, type: 2}
   - key: AddRockwellPart
     gameTriggers:
@@ -914,7 +914,7 @@ MonoBehaviour:
   - key: AddMaitatPart
     gameTriggers:
     - {fileID: 11400000, guid: 465671a27a95ca04b9e0ed9e92f70dac, type: 2}
-    - {fileID: 0}
+    - {fileID: 11400000, guid: d74c2a7cf9aca3040a81732f62a4fe69, type: 2}
     - {fileID: 11400000, guid: 456bbbf34493f7d46a116fc391dd74e6, type: 2}
   - key: AddLeFlerPartDead
     gameTriggers:
