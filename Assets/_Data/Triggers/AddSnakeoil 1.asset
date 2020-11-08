@@ -9,9 +9,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 68444ce06797ab24c8f4d5c21458864a, type: 3}
-  m_Name: WarehouseLights
+  m_Script: {fileID: 11500000, guid: 8b13da97ecea74545a94c1148c1ffdd6, type: 3}
+  m_Name: AddSnakeoil 1
   m_EditorClassIdentifier: 
-  _isWorkByDefault: 1
-  _roomToSwitch:
-  - {fileID: 11400000, guid: a82de073ec3b9ea4cb0a4e991e4c68ed, type: 2}
+  _items:
+  - {fileID: 11400000, guid: 45f1101efa366974295ce732b4200bef, type: 2}

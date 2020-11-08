@@ -32,8 +32,8 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 6998306108923643213}
-  m_RootOrder: 5
+  m_Father: {fileID: 5807535884201078362}
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -228,10 +228,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 086278c762b0b3c48ba00f3bd0e068db, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _isMultiInteractable: 1
   _gameTriggers: []
   _condition: {fileID: 0}
   _objectsToDeactivateOnInteract: []
   _objectsToActivateOnInteract: []
+  _idsToDeactivateOnInteract: []
+  _idsToActivateOnInteract: []
   _successClip: {fileID: 0}
   _failClip: {fileID: 0}
   _roomIndex: 0
@@ -255,7 +258,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &8862875312859319575
 RectTransform:
   m_ObjectHideFlags: 0
@@ -267,8 +270,8 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 6998306108923643213}
-  m_RootOrder: 3
+  m_Father: {fileID: 5807535884201078362}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -463,13 +466,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 086278c762b0b3c48ba00f3bd0e068db, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _isMultiInteractable: 1
   _gameTriggers: []
   _condition: {fileID: 0}
   _objectsToDeactivateOnInteract: []
   _objectsToActivateOnInteract: []
+  _idsToDeactivateOnInteract: []
+  _idsToActivateOnInteract: []
   _successClip: {fileID: 0}
   _failClip: {fileID: 0}
-  _roomIndex: 0
+  _roomIndex: 1
 --- !u!1 &5668600988690502859
 GameObject:
   m_ObjectHideFlags: 0
@@ -502,8 +508,8 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 6998306108923643213}
-  m_RootOrder: 6
+  m_Father: {fileID: 5807535884201078362}
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -698,10 +704,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 66b5f87398ed4004db648cf7628929fd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _isMultiInteractable: 0
   _gameTriggers: []
   _condition: {fileID: 0}
-  _objectsToDeactivateOnInteract: []
-  _objectsToActivateOnInteract: []
+  _objectsToDeactivateOnInteract:
+  - {fileID: 5668600988690502859}
+  _objectsToActivateOnInteract:
+  - {fileID: 1082789580626304677}
+  _idsToDeactivateOnInteract:
+  - 1
+  _idsToActivateOnInteract:
+  - 2
   _successClip: {fileID: 0}
   _failClip: {fileID: 0}
 --- !u!1 &7248348631786682600
@@ -736,8 +749,8 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 6998306108923643213}
-  m_RootOrder: 4
+  m_Father: {fileID: 5807535884201078362}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -932,10 +945,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 66b5f87398ed4004db648cf7628929fd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _gameTriggers: []
+  _isMultiInteractable: 0
+  _gameTriggers:
+  - {fileID: 11400000, guid: 7a4c4a3a0ded66d4dbaa2fecfeef3d3a, type: 2}
   _condition: {fileID: 0}
-  _objectsToDeactivateOnInteract: []
+  _objectsToDeactivateOnInteract:
+  - {fileID: 7248348631786682600}
   _objectsToActivateOnInteract: []
+  _idsToDeactivateOnInteract: []
+  _idsToActivateOnInteract: []
   _successClip: {fileID: 0}
   _failClip: {fileID: 0}
 --- !u!1001 &5290488675684471115
@@ -1063,9 +1081,9 @@ PrefabInstance:
         type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cabc62fd77d7c88409f6e892bba7eeab, type: 3}
---- !u!224 &6998306108923643213 stripped
+--- !u!224 &5807535884201078362 stripped
 RectTransform:
-  m_CorrespondingSourceObject: {fileID: 2915356422314218502, guid: cabc62fd77d7c88409f6e892bba7eeab,
+  m_CorrespondingSourceObject: {fileID: 1869860769144110865, guid: cabc62fd77d7c88409f6e892bba7eeab,
     type: 3}
   m_PrefabInstance: {fileID: 5290488675684471115}
   m_PrefabAsset: {fileID: 0}

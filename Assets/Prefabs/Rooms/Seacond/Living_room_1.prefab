@@ -32,8 +32,8 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 6998306108923643213}
-  m_RootOrder: 4
+  m_Father: {fileID: 5807535884201078362}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -228,9 +228,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 66b5f87398ed4004db648cf7628929fd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _gameTriggers: []
+  _isMultiInteractable: 0
+  _gameTriggers:
+  - {fileID: 11400000, guid: 547e31484f0156a47868d97c5d3f65ec, type: 2}
   _condition: {fileID: 0}
-  _objectsToDeactivateOnInteract: []
+  _objectsToDeactivateOnInteract:
+  - {fileID: 4252805652006330814}
   _objectsToActivateOnInteract: []
   _successClip: {fileID: 0}
   _failClip: {fileID: 0}
@@ -266,8 +269,8 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 6998306108923643213}
-  m_RootOrder: 3
+  m_Father: {fileID: 5807535884201078362}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -462,6 +465,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 086278c762b0b3c48ba00f3bd0e068db, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _isMultiInteractable: 1
   _gameTriggers: []
   _condition: {fileID: 0}
   _objectsToDeactivateOnInteract: []
@@ -501,8 +505,8 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 6998306108923643213}
-  m_RootOrder: 5
+  m_Father: {fileID: 5807535884201078362}
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -697,9 +701,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 66b5f87398ed4004db648cf7628929fd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _gameTriggers: []
+  _isMultiInteractable: 0
+  _gameTriggers:
+  - {fileID: 11400000, guid: ce4398f49e524ff4cac7d4d652923eb5, type: 2}
   _condition: {fileID: 0}
-  _objectsToDeactivateOnInteract: []
+  _objectsToDeactivateOnInteract:
+  - {fileID: 8281300515705665433}
   _objectsToActivateOnInteract: []
   _successClip: {fileID: 0}
   _failClip: {fileID: 0}
@@ -828,9 +835,9 @@ PrefabInstance:
         type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cabc62fd77d7c88409f6e892bba7eeab, type: 3}
---- !u!224 &6998306108923643213 stripped
+--- !u!224 &5807535884201078362 stripped
 RectTransform:
-  m_CorrespondingSourceObject: {fileID: 2915356422314218502, guid: cabc62fd77d7c88409f6e892bba7eeab,
+  m_CorrespondingSourceObject: {fileID: 1869860769144110865, guid: cabc62fd77d7c88409f6e892bba7eeab,
     type: 3}
   m_PrefabInstance: {fileID: 5290488675684471115}
   m_PrefabAsset: {fileID: 0}

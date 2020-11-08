@@ -723,7 +723,7 @@ MonoBehaviour:
   _objectsToActivateOnInteract: []
   _successClip: {fileID: 0}
   _failClip: {fileID: 0}
-  _roomIndex: 0
+  _roomIndex: 1
 --- !u!1 &5623708536192666566
 GameObject:
   m_ObjectHideFlags: 0
@@ -1435,7 +1435,7 @@ MonoBehaviour:
   _objectsToActivateOnInteract: []
   _successClip: {fileID: 0}
   _failClip: {fileID: 0}
-  _roomIndex: 0
+  _roomIndex: 2
 --- !u!1001 &5290488675684471115
 PrefabInstance:
   m_ObjectHideFlags: 0
