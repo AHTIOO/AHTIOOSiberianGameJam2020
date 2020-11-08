@@ -2628,6 +2628,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _characters:
   - {fileID: 11400000, guid: 7e196818e9936f046a91b816fab733c0, type: 2}
+  - {fileID: 11400000, guid: 39e47bd84264e0d41a25745cc7d2d335, type: 2}
+  - {fileID: 11400000, guid: 6916343917130574f80bbe4af11d1243, type: 2}
+  - {fileID: 11400000, guid: 9a8bd9abb26758f42a4a1a73237df48c, type: 2}
+  - {fileID: 11400000, guid: 90c87458d6b9e8548a9a8fb3a5152b54, type: 2}
 --- !u!1 &1210183857179704039
 GameObject:
   m_ObjectHideFlags: 0

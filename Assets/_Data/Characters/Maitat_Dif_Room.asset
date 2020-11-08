@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: Maitat_Dif_Room
   m_EditorClassIdentifier: 
   _dialog: Maitat
-  _position: {fileID: 11400000, guid: 45bf28e2f1cadcf4c9353b4ef136fff9, type: 2}
+  _position: {fileID: 11400000, guid: 45ce9f2595074c945b972120a242ff88, type: 2}

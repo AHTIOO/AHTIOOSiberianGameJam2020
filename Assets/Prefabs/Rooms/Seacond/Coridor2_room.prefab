@@ -474,7 +474,7 @@ MonoBehaviour:
   _objectsToDeactivateOnInteract:
   - {fileID: 2915054180686672281}
   _objectsToActivateOnInteract:
-  - {fileID: 6386713266558719769}
+  - {fileID: 6142219258214884679}
   _idsToDeactivateOnInteract: []
   _idsToActivateOnInteract: []
   _successClip: {fileID: 0}

@@ -9,10 +9,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 62cf400b0cfb8184ea15a45b054d3ad6, type: 3}
-  m_Name: RemoveAnneDialogAboutPortret
+  m_Script: {fileID: 11500000, guid: f0c85bbe7fff0694e9486604a4cef505, type: 3}
+  m_Name: RemoveJarKey
   m_EditorClassIdentifier: 
-  _dialog: Anna
-  _node: 1
-  _comment: 2
-  _isVisible: 0
+  _items:
+  - {fileID: 11400000, guid: a045afb1b468f2044a143f75589218d5, type: 2}

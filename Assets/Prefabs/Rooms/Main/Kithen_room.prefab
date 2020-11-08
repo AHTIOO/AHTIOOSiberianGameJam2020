@@ -230,7 +230,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _isMultiInteractable: 0
   _gameTriggers:
-  - {fileID: 11400000, guid: 99da6109a67b33840b0a2e9189fc14c2, type: 2}
+  - {fileID: 11400000, guid: 530e65092b3a6574f9a510f63dd3b7cb, type: 2}
   _condition: {fileID: 0}
   _objectsToDeactivateOnInteract:
   - {fileID: 1434964918421670539}
