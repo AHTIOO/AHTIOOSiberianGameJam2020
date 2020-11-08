@@ -19,4 +19,4 @@ MonoBehaviour:
   - connectedRoom: {fileID: 11400000, guid: 45ce9f2595074c945b972120a242ff88, type: 2}
     isAvailableByDefault: 1
   - connectedRoom: {fileID: 11400000, guid: 1e2ad3b616ae4f14d893ad436f86c5f9, type: 2}
-    isAvailableByDefault: 0
+    isAvailableByDefault: 1

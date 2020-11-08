@@ -15,7 +15,7 @@ public class RoomView : MonoBehaviour
 
     public void Initialize(Room room)
     {
-        _roomSwitchButtons = GetComponentsInChildren<RoomSwitchButton>().ToList();
+        _roomSwitchButtons = GetComponentsInChildren<RoomSwitchButton>(true).ToList();
         _dialogActivator.SetAmountOfButtons(HouseState.Instance.GetRoomState(room).CharactersOnLocations.Count);
 
         _dialogActivator.OnTalkClicked += InitDialog;
