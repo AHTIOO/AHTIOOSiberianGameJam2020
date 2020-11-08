@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: SetAnneDialogAboutPortret
   m_EditorClassIdentifier: 
   _dialog: Anne
-  _node: 0
-  _comment: 0
-  _isVisible: 0
+  _node: 1
+  _comment: 2
+  _isVisible: 1

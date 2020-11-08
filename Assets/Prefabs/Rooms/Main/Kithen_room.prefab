@@ -229,12 +229,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isMultiInteractable: 0
-  _gameTriggers: []
+  _gameTriggers:
+  - {fileID: 11400000, guid: 99da6109a67b33840b0a2e9189fc14c2, type: 2}
   _condition: {fileID: 0}
   _objectsToDeactivateOnInteract:
   - {fileID: 1434964918421670539}
   _objectsToActivateOnInteract:
   - {fileID: 5901313790628022509}
+  _idsToDeactivateOnInteract: []
+  _idsToActivateOnInteract: []
   _successClip: {fileID: 0}
   _failClip: {fileID: 0}
 --- !u!1 &3964961053564839367
@@ -470,6 +473,8 @@ MonoBehaviour:
   _condition: {fileID: 0}
   _objectsToDeactivateOnInteract: []
   _objectsToActivateOnInteract: []
+  _idsToDeactivateOnInteract: []
+  _idsToActivateOnInteract: []
   _successClip: {fileID: 0}
   _failClip: {fileID: 0}
   _roomIndex: 2
@@ -706,6 +711,8 @@ MonoBehaviour:
   _condition: {fileID: 0}
   _objectsToDeactivateOnInteract: []
   _objectsToActivateOnInteract: []
+  _idsToDeactivateOnInteract: []
+  _idsToActivateOnInteract: []
   _successClip: {fileID: 0}
   _failClip: {fileID: 0}
   _roomIndex: 1
@@ -942,6 +949,8 @@ MonoBehaviour:
   _condition: {fileID: 0}
   _objectsToDeactivateOnInteract: []
   _objectsToActivateOnInteract: []
+  _idsToDeactivateOnInteract: []
+  _idsToActivateOnInteract: []
   _successClip: {fileID: 0}
   _failClip: {fileID: 0}
   _roomIndex: 0
@@ -1178,6 +1187,8 @@ MonoBehaviour:
   _condition: {fileID: 0}
   _objectsToDeactivateOnInteract: []
   _objectsToActivateOnInteract: []
+  _idsToDeactivateOnInteract: []
+  _idsToActivateOnInteract: []
   _successClip: {fileID: 0}
   _failClip: {fileID: 0}
   _lever: {fileID: 11400000, guid: bf84f6177182e0548878eb614d3f4900, type: 2}
@@ -1637,6 +1648,8 @@ MonoBehaviour:
   - {fileID: 7307325756918381286}
   _objectsToActivateOnInteract:
   - {fileID: 3964961053564839367}
+  _idsToDeactivateOnInteract: []
+  _idsToActivateOnInteract: []
   _successClip: {fileID: 0}
   _failClip: {fileID: 0}
 --- !u!114 &1233592659771220044
