@@ -14,7 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _name: "\u041C\u044D\u0439\u0442\u0430\u0442 \u0422\u044D\u0441\u0444\u0430\u0439\u0435"
   _dialogSprite: {fileID: 21300000, guid: 2d137bb7db310554081b111b3639754c, type: 3}
-  _deathDialog: 
+  _deathDialog: MaitatDeadBody
+  _inDarkDialog: MaitatScream
   _characterDefinitions:
   - {fileID: 11400000, guid: edff7cc26624d9d4b8ef3d2c644d4e8f, type: 2}
   - {fileID: 11400000, guid: 372f12fee422d094e80d7eea15c71fb1, type: 2}

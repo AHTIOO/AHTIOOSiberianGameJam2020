@@ -14,6 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _name: "\u041C\u0438\u0441\u0441 \u0420\u043E\u043A\u0432\u0435\u043B\u043B"
   _dialogSprite: {fileID: 21300000, guid: 2d137bb7db310554081b111b3639754c, type: 3}
-  _deathDialog: 
+  _deathDialog: RockwellDeadBody
+  _inDarkDialog: RockwellScream
   _characterDefinitions:
   - {fileID: 11400000, guid: 87551ceb61b83b94a8103a0c35cdb6ce, type: 2}
