@@ -547,6 +547,7 @@ MonoBehaviour:
   - Victor
   - VictorDeadBody
   - VictorEndingOneliner
+  - VictorEndingOneliner1
   - VictorScream
   assignedIndex: 16
   assignedID: 5210
@@ -2625,6 +2626,9 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 774e0c20281472c409bad13fd1285f3a, type: 2}
   _levers:
   - {fileID: 11400000, guid: ddf9880c3fbf4e144b1939d3ff2e1e1a, type: 2}
+  - {fileID: 11400000, guid: bf84f6177182e0548878eb614d3f4900, type: 2}
+  - {fileID: 11400000, guid: 6a897b7c6bb38bc47843897bdb50c283, type: 2}
+  - {fileID: 11400000, guid: f213f4f212eeaf240ac46326284b7f55, type: 2}
 --- !u!1 &1210183857295239828
 GameObject:
   m_ObjectHideFlags: 0
