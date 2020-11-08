@@ -1211,7 +1211,7 @@ MonoBehaviour:
   _successClip: {fileID: 0}
   _failClip: {fileID: 0}
   _lever: {fileID: 11400000, guid: f213f4f212eeaf240ac46326284b7f55, type: 2}
-  _leverImage: {fileID: 6474613473227102978}
+  _leverImage: {fileID: 4801003676865962498}
   _upSprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
   _downSprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
   _brokeSprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
@@ -1584,15 +1584,3 @@ RectTransform:
     type: 3}
   m_PrefabInstance: {fileID: 5290488675684471115}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &6474613473227102978 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 1202995248340306505, guid: cabc62fd77d7c88409f6e892bba7eeab,
-    type: 3}
-  m_PrefabInstance: {fileID: 5290488675684471115}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 

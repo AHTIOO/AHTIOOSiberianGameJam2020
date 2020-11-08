@@ -16,6 +16,7 @@ MonoBehaviour:
   _dialogSprite: {fileID: 10917, guid: 0000000000000000f000000000000000, type: 0}
   _menuIcon: {fileID: 0}
   _deathDialog: VictorDeadBody
+  _endgameDialog: 
   _inDarkDialog: VictorScream
   _characterDefinitions:
-  - {fileID: 11400000, guid: 27f079c8994888b41a1857ac3fe39b5e, type: 2}
+  - {fileID: 11400000, guid: 0f44a93741aab074799214cb19b68e81, type: 2}
