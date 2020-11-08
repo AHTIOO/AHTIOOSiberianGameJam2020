@@ -50,6 +50,7 @@ public class CharacterState
 
             _currentDefinition = value;
             HouseState.Instance.GetRoomState(_currentDefinition.Position).CharactersOnLocations.Add(_model);
+            RoomSwicher.Instance.ForceUpdate();
         }
     }
 
