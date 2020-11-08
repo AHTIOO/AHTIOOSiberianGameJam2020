@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 6440363263202689347}
   - component: {fileID: 5011086913462493162}
   - component: {fileID: 2889005852482495964}
+  - component: {fileID: 312731621568052422}
   m_Layer: 5
   m_Name: FireplaseOn
   m_TagString: Untagged
@@ -32,14 +33,14 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 6998306108923643213}
-  m_RootOrder: 5
+  m_Father: {fileID: 5807535884201078362}
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 106, y: 167}
+  m_AnchoredPosition: {x: 871.52875, y: 142.39713}
   m_SizeDelta: {x: 100, y: 100}
-  m_Pivot: {x: 0.5, y: 0.5}
+  m_Pivot: {x: 8.155288, y: 0.2539712}
 --- !u!222 &2946279124313465864
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -228,12 +229,30 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 66b5f87398ed4004db648cf7628929fd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _isMultiInteractable: 0
   _gameTriggers: []
-  _condition: {fileID: 0}
-  _objectsToDeactivateOnInteract: []
-  _objectsToActivateOnInteract: []
+  _condition: {fileID: 312731621568052422}
+  _objectsToDeactivateOnInteract:
+  - {fileID: 1760504566120488072}
+  _objectsToActivateOnInteract:
+  - {fileID: 2380918836143497513}
   _successClip: {fileID: 0}
   _failClip: {fileID: 0}
+--- !u!114 &312731621568052422
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1760504566120488072}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82a939c452b87fc47be0f903adc3df72, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _unableMessage: 
+  _nessesaryItems:
+  - {fileID: 11400000, guid: 7c7410a96a452314f94d44c117108abd, type: 2}
 --- !u!1 &2380918836143497513
 GameObject:
   m_ObjectHideFlags: 0
@@ -254,7 +273,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1332139345087664
 RectTransform:
   m_ObjectHideFlags: 0
@@ -266,8 +285,8 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 6998306108923643213}
-  m_RootOrder: 8
+  m_Father: {fileID: 5807535884201078362}
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -462,6 +481,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 66b5f87398ed4004db648cf7628929fd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _isMultiInteractable: 0
   _gameTriggers: []
   _condition: {fileID: 0}
   _objectsToDeactivateOnInteract: []
@@ -500,8 +520,8 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 6998306108923643213}
-  m_RootOrder: 7
+  m_Father: {fileID: 5807535884201078362}
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -696,6 +716,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 086278c762b0b3c48ba00f3bd0e068db, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _isMultiInteractable: 0
   _gameTriggers: []
   _condition: {fileID: 0}
   _objectsToDeactivateOnInteract: []
@@ -735,8 +756,8 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 6998306108923643213}
-  m_RootOrder: 3
+  m_Father: {fileID: 5807535884201078362}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -931,6 +952,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 086278c762b0b3c48ba00f3bd0e068db, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _isMultiInteractable: 0
   _gameTriggers: []
   _condition: {fileID: 0}
   _objectsToDeactivateOnInteract: []
@@ -970,8 +992,8 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 6998306108923643213}
-  m_RootOrder: 4
+  m_Father: {fileID: 5807535884201078362}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -1166,6 +1188,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ba075e698b2ebea41b1479fff83b78e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _isMultiInteractable: 0
+  _gameTriggers: []
+  _condition: {fileID: 0}
+  _objectsToDeactivateOnInteract: []
+  _objectsToActivateOnInteract: []
+  _successClip: {fileID: 0}
+  _failClip: {fileID: 0}
+  _lever: {fileID: 11400000, guid: f213f4f212eeaf240ac46326284b7f55, type: 2}
+  _leverImage: {fileID: 6474613473227102978}
+  _upSprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  _downSprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  _brokeSprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
 --- !u!1 &9072653464988240270
 GameObject:
   m_ObjectHideFlags: 0
@@ -1198,8 +1232,8 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 6998306108923643213}
-  m_RootOrder: 6
+  m_Father: {fileID: 5807535884201078362}
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -1394,6 +1428,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 086278c762b0b3c48ba00f3bd0e068db, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _isMultiInteractable: 0
   _gameTriggers: []
   _condition: {fileID: 0}
   _objectsToDeactivateOnInteract: []
@@ -1526,9 +1561,21 @@ PrefabInstance:
         type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cabc62fd77d7c88409f6e892bba7eeab, type: 3}
---- !u!224 &6998306108923643213 stripped
+--- !u!224 &5807535884201078362 stripped
 RectTransform:
-  m_CorrespondingSourceObject: {fileID: 2915356422314218502, guid: cabc62fd77d7c88409f6e892bba7eeab,
+  m_CorrespondingSourceObject: {fileID: 1869860769144110865, guid: cabc62fd77d7c88409f6e892bba7eeab,
     type: 3}
   m_PrefabInstance: {fileID: 5290488675684471115}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &6474613473227102978 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1202995248340306505, guid: cabc62fd77d7c88409f6e892bba7eeab,
+    type: 3}
+  m_PrefabInstance: {fileID: 5290488675684471115}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

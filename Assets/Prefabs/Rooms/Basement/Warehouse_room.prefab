@@ -229,9 +229,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 66b5f87398ed4004db648cf7628929fd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _isMultiInteractable: 0
-  _gameTriggers: []
-  _condition: {fileID: 0}
+  _isMultiInteractable: 1
+  _gameTriggers:
+  - {fileID: 11400000, guid: 6a5eb4a2c136c78439b989baa0247efd, type: 2}
+  _condition: {fileID: 1905312422065730356}
   _objectsToDeactivateOnInteract:
   - {fileID: 1409096336178701168}
   _objectsToActivateOnInteract:
@@ -482,11 +483,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isMultiInteractable: 0
-  _gameTriggers: []
+  _gameTriggers:
+  - {fileID: 11400000, guid: 583e23358ac08f24383955fbb8b66445, type: 2}
   _condition: {fileID: 0}
-  _objectsToDeactivateOnInteract: []
-  _objectsToActivateOnInteract:
+  _objectsToDeactivateOnInteract:
   - {fileID: 2022705135730128383}
+  _objectsToActivateOnInteract: []
   _successClip: {fileID: 0}
   _failClip: {fileID: 0}
 --- !u!1 &2367598607548744249
@@ -953,7 +955,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 086278c762b0b3c48ba00f3bd0e068db, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _isMultiInteractable: 0
+  _isMultiInteractable: 1
   _gameTriggers: []
   _condition: {fileID: 0}
   _objectsToDeactivateOnInteract: []
@@ -1191,11 +1193,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isMultiInteractable: 0
-  _gameTriggers: []
+  _gameTriggers:
+  - {fileID: 11400000, guid: a2dda27214bf0dc4989d10c8439fe27f, type: 2}
   _condition: {fileID: 7633283013478036468}
-  _objectsToDeactivateOnInteract: []
-  _objectsToActivateOnInteract:
+  _objectsToDeactivateOnInteract:
   - {fileID: 6425947440665380343}
+  _objectsToActivateOnInteract: []
   _successClip: {fileID: 0}
   _failClip: {fileID: 0}
 --- !u!114 &7633283013478036468
@@ -1211,7 +1214,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _unableMessage: 
-  _nessesaryItems: []
+  _nessesaryItems:
+  - {fileID: 11400000, guid: 93db0849dd0207247b563f1bbe923b93, type: 2}
 --- !u!1001 &5290488675684471115
 PrefabInstance:
   m_ObjectHideFlags: 0
