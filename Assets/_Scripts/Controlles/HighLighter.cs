@@ -7,9 +7,9 @@ using DG.Tweening;
 public class HighLighter : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
 {
     private RectTransform rectTransform;
-    [SerializeField] private float _sizeChanegeOn = 2f;
+    [SerializeField] private float _sizeChanegeOn = 1.1f;
     [SerializeField] private float _animSpeed = 0.25f;
-    [SerializeField] private Ease ease;
+    [SerializeField] private Ease ease = Ease.OutBack;
 
     public void Start()
     {
