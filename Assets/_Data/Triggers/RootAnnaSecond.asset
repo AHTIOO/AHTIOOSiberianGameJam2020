@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b88d4025b0897fa4eb14b54299bd92f2, type: 3}
   m_Name: RootAnnaSecond
   m_EditorClassIdentifier: 
-  _dialog: 
-  _newNode: 0
+  _dialog: Anna
+  _newNode: 11
