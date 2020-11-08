@@ -26,6 +26,11 @@ public class RoomView : MonoBehaviour
         }
     }
 
+    public void UpdateRoom(Room room)
+    {
+        _dialogActivator.SetAmountOfButtons(HouseState.Instance.GetRoomState(room).CharactersOnLocations.Count);
+    }
+
     private void InitDialog(int index)
     {
         OnCharacterTalkClick.Invoke(index);

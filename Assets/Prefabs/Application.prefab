@@ -673,7 +673,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_RaycastTarget: 1
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -2074,7 +2074,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 35226c0839b5b504ea29604afbf6820f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _triggers: []
+  _triggers:
+  - key: LeFlerToKithen
+    gameTriggers:
+    - {fileID: 11400000, guid: ee8e40c39b10beb4e8277c7314a44559, type: 2}
 --- !u!1 &1210183856772383610
 GameObject:
   m_ObjectHideFlags: 0
@@ -3227,7 +3230,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_RaycastTarget: 1
   m_Maskable: 1
   m_OnCullStateChanged:

@@ -57,6 +57,7 @@ public class RoomSwicher : MonoBehaviour
 
             _curentRoom = roomToGo;
             _roomViews[_curentRoom].gameObject.SetActive(true);
+            _roomViews[_curentRoom].UpdateRoom(_curentRoom);
         });
 
         _transitionSequence.Append(_transitionEffect.DoTransition());

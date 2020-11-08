@@ -9,10 +9,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 62cf400b0cfb8184ea15a45b054d3ad6, type: 3}
-  m_Name: SetAnneDialogAboutPortret
+  m_Script: {fileID: 11500000, guid: 32f08e22f1efe5e4490c34e50f372e9d, type: 3}
+  m_Name: LeFlerToKithen
   m_EditorClassIdentifier: 
-  _dialog: Anna
-  _node: 1
-  _comment: 2
-  _isVisible: 1
+  _character: {fileID: 11400000, guid: 7e196818e9936f046a91b816fab733c0, type: 2}
+  _definitionIndex: 1
