@@ -13,7 +13,8 @@ MonoBehaviour:
   m_Name: Maitat
   m_EditorClassIdentifier: 
   _name: "\u041C\u044D\u0439\u0442\u0430\u0442 \u0422\u044D\u0441\u0444\u0430\u0439\u0435"
-  _dialogSprite: {fileID: 21300000, guid: 2d137bb7db310554081b111b3639754c, type: 3}
+  _dialogSprite: {fileID: 21300000, guid: befe328e57eb4e141a3737d36a8830cd, type: 3}
+  _menuIcon: {fileID: 21300000, guid: b337c88116f0cbe44b9080d116d8546c, type: 3}
   _deathDialog: MaitatDeadBody
   _inDarkDialog: MaitatScream
   _characterDefinitions:

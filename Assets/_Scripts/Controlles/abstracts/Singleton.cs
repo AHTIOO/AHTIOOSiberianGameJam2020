@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -29,9 +30,11 @@ public abstract class Singleton<T> :  MonoBehaviour where T : Component
                 instance = FindObjectOfType<T>();
                 if (instance == null)
                 {
-                    GameObject obj = new GameObject();
-                    obj.name = typeof(T).Name;
-                    instance = obj.AddComponent<T>();
+                    //GameObject obj = new GameObject();
+                    //obj.name = typeof(T).Name;
+                    //instance = obj.AddComponent<T>();
+
+                    throw new Exception($"{typeof(T)} - doesn't exist'");
                 }
             }
             return instance;
