@@ -16,10 +16,10 @@ public class MessegePopUp : Singleton<MessegePopUp>
 
 
     [EditorButton]
-    public void MessegePlayer(string messege)
+    public void MessegePlayer(string messege, float time = 2f)
     {
         textBox.text = messege;
         popUpBox.DOAnchorPos(new Vector2(0, -popUpRange),PopUpTime).SetEase(ease);
-        popUpBox.DOAnchorPos(new Vector2(0, popUpRange), PopUpTime).SetEase(ease).SetDelay(ShowUpTime);
+        popUpBox.DOAnchorPos(new Vector2(0, popUpRange), PopUpTime).SetEase(ease).SetDelay(time);
     }
 }

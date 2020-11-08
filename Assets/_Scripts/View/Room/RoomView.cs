@@ -15,8 +15,11 @@ public class RoomView : MonoBehaviour
 
     public void Initialize(Room room)
     {
+        DialogManager.Instance.CurentDialogBegin += DeactivateDialogButtons;
+        DialogManager.Instance.CurentDialogEnds += ActivateDialogButtons;
+
         _roomSwitchButtons = GetComponentsInChildren<RoomSwitchButton>(true).ToList();
-        _dialogActivator.SetAmountOfButtons(HouseState.Instance.GetRoomState(room).CharactersOnLocations.Count);
+        _dialogActivator.SetAmountOfButtons(HouseState.Instance.GetRoomState(room).CharactersOnLocations);
 
         _dialogActivator.OnTalkClicked += InitDialog;
 
@@ -28,7 +31,17 @@ public class RoomView : MonoBehaviour
 
     public void UpdateRoom(Room room)
     {
-        _dialogActivator.SetAmountOfButtons(HouseState.Instance.GetRoomState(room).CharactersOnLocations.Count);
+        _dialogActivator.SetAmountOfButtons(HouseState.Instance.GetRoomState(room).CharactersOnLocations);
+    }
+
+    private void DeactivateDialogButtons()
+    {
+        _dialogActivator.gameObject.SetActive(false);
+    }
+
+    private void ActivateDialogButtons()
+    {
+        _dialogActivator.gameObject.SetActive(true);
     }
 
     private void InitDialog(int index)
