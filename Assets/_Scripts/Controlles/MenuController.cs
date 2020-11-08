@@ -33,6 +33,7 @@ public class MenuController : MonoBehaviour
         if (GamePrefab != null)
             Destroy(GamePrefab);
         GamePrefab = Instantiate(_prefab);
+        _newGameButton.gameObject.SetActive(false);
         _menuParrant.SetActive(false);
         _continueButton.gameObject.SetActive(true);
     }
