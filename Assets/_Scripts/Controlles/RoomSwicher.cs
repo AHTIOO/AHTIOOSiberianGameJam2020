@@ -15,14 +15,26 @@ public class RoomSwicher : MonoBehaviour
     [SerializeField] private float _transitionSpeed = 0.15f;
     [SerializeField] private RoomTransitionEffect _transitionEffect;
     
-    private RoomView _currentRoomView;
+    private Dictionary<Room,RoomView> _roomViews = new Dictionary<Room, RoomView>();
     private Room _curentRoom;
 
     private Sequence _transitionSequence;
 
-    private void Awake()
+    private void Start()
     {
-        CreateRoom(InitialRoom);
+        foreach (var room in HouseState.Instance.GetAllRooms())
+        {
+            var roomView = Instantiate(room.RoomPrefab, RoomParent.transform);
+            roomView.Initialize(room);
+            _roomViews.Add(room, roomView);
+            roomView.gameObject.SetActive(false);
+
+            roomView.OnRoomSwitchClick += GoToRoom;
+            roomView.OnCharacterTalkClick += InitializeDialog;
+        }
+
+        _curentRoom = InitialRoom;
+        _roomViews[_curentRoom].gameObject.SetActive(true);
     }
 
     public void GoToRoom(int goesToRoom)
@@ -41,9 +53,10 @@ public class RoomSwicher : MonoBehaviour
         _transitionSequence.AppendCallback(() =>
         {
             Room roomToGo = _curentRoom.ConnectedRoom[goesToRoom].connectedRoom;
-            Destroy(_currentRoomView.gameObject);
+            _roomViews[_curentRoom].gameObject.SetActive(false);
 
-            CreateRoom(roomToGo);
+            _curentRoom = roomToGo;
+            _roomViews[_curentRoom].gameObject.SetActive(true);
         });
 
         _transitionSequence.Append(_transitionEffect.DoTransition());
@@ -65,16 +78,6 @@ public class RoomSwicher : MonoBehaviour
             : character.DeathDialog;
 
         DialogManager.Begin(dialog, character, characterState.IsAlive);
-    }
-
-    private void CreateRoom(Room newRoom)
-    {
-        _curentRoom = newRoom;
-        _currentRoomView = Instantiate(_curentRoom.RoomPrefab, RoomParent.transform);
-        _currentRoomView.Initialize(newRoom);
-
-        _currentRoomView.OnRoomSwitchClick += GoToRoom;
-        _currentRoomView.OnCharacterTalkClick += InitializeDialog;
     }
 }
 

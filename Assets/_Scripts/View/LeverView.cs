@@ -25,6 +25,9 @@ public class LeverView : InteractableObject
 
     private void OnEnable()
     {
+        if (_lever == null)
+            return;
+
         if (!HouseState.Instance.GetLeverState(_lever).IsWork)
             _leverImage.sprite = _brokeSprite;
     }
