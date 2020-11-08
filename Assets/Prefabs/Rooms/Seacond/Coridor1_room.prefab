@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 4500998140302123830}
   - component: {fileID: 1622492845338982529}
   - component: {fileID: 719415024302738813}
+  - component: {fileID: 6176975755929140435}
   m_Layer: 5
   m_Name: DoorToTech
   m_TagString: Untagged
@@ -37,8 +38,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 361, y: 55}
-  m_SizeDelta: {x: 100, y: 100}
+  m_AnchoredPosition: {x: 853, y: -82}
+  m_SizeDelta: {x: 110, y: 110}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &8889366409916288018
 CanvasRenderer:
@@ -67,9 +68,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
-  m_PreserveAspect: 0
+  m_Sprite: {fileID: 21300000, guid: c313a0908ac2b0840abf0038024ec824, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 1
   m_FillCenter: 1
   m_FillMethod: 4
   m_FillAmount: 1
@@ -238,6 +239,21 @@ MonoBehaviour:
   _successClip: {fileID: 0}
   _failClip: {fileID: 0}
   _roomIndex: 1
+--- !u!114 &6176975755929140435
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 630222405392571913}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0438d19023648c04b9985294ff933010, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _sizeChanegeOn: 1.1
+  _animSpeed: 0.25
+  ease: 27
 --- !u!1 &1881838502880040577
 GameObject:
   m_ObjectHideFlags: 0
@@ -252,6 +268,7 @@ GameObject:
   - component: {fileID: 3340425260908173110}
   - component: {fileID: 3169613518561465750}
   - component: {fileID: 6597782981055897865}
+  - component: {fileID: 1423929387181400540}
   m_Layer: 5
   m_Name: DoorToFireplce
   m_TagString: Untagged
@@ -275,8 +292,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 361, y: 157}
-  m_SizeDelta: {x: 100, y: 100}
+  m_AnchoredPosition: {x: 0, y: -464}
+  m_SizeDelta: {x: 110, y: 110}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &6835922663480832885
 CanvasRenderer:
@@ -305,9 +322,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
-  m_PreserveAspect: 0
+  m_Sprite: {fileID: 21300000, guid: c313a0908ac2b0840abf0038024ec824, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 1
   m_FillCenter: 1
   m_FillMethod: 4
   m_FillAmount: 1
@@ -476,6 +493,21 @@ MonoBehaviour:
   _successClip: {fileID: 0}
   _failClip: {fileID: 0}
   _roomIndex: 0
+--- !u!114 &1423929387181400540
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1881838502880040577}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0438d19023648c04b9985294ff933010, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _sizeChanegeOn: 1.1
+  _animSpeed: 0.25
+  ease: 27
 --- !u!1 &3620298508081612285
 GameObject:
   m_ObjectHideFlags: 0
@@ -491,6 +523,7 @@ GameObject:
   - component: {fileID: 6258698347516347625}
   - component: {fileID: 2410717853808816792}
   - component: {fileID: 7434479223743399801}
+  - component: {fileID: 8365327556567543679}
   m_Layer: 5
   m_Name: DoorToRoom2
   m_TagString: Untagged
@@ -514,8 +547,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 361, y: -50}
-  m_SizeDelta: {x: 100, y: 100}
+  m_AnchoredPosition: {x: 140, y: -55}
+  m_SizeDelta: {x: 110, y: 110}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &6792716861994864359
 CanvasRenderer:
@@ -544,9 +577,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
-  m_PreserveAspect: 0
+  m_Sprite: {fileID: 21300000, guid: c313a0908ac2b0840abf0038024ec824, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 1
   m_FillCenter: 1
   m_FillMethod: 4
   m_FillAmount: 1
@@ -729,6 +762,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ids:
   - 2
+--- !u!114 &8365327556567543679
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3620298508081612285}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0438d19023648c04b9985294ff933010, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _sizeChanegeOn: 1.1
+  _animSpeed: 0.25
+  ease: 27
 --- !u!1 &3894301534811437010
 GameObject:
   m_ObjectHideFlags: 0
@@ -743,6 +791,7 @@ GameObject:
   - component: {fileID: 9143441968541255151}
   - component: {fileID: 4985623029883206271}
   - component: {fileID: 5641713214718845916}
+  - component: {fileID: 4947833645764507329}
   m_Layer: 5
   m_Name: DoorToCoridor2
   m_TagString: Untagged
@@ -766,8 +815,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 254, y: 157}
-  m_SizeDelta: {x: 100, y: 100}
+  m_AnchoredPosition: {x: -394, y: -59}
+  m_SizeDelta: {x: 110, y: 110}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &2944640439232318222
 CanvasRenderer:
@@ -796,9 +845,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
-  m_PreserveAspect: 0
+  m_Sprite: {fileID: 21300000, guid: c313a0908ac2b0840abf0038024ec824, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 1
   m_FillCenter: 1
   m_FillMethod: 4
   m_FillAmount: 1
@@ -967,6 +1016,21 @@ MonoBehaviour:
   _successClip: {fileID: 0}
   _failClip: {fileID: 0}
   _roomIndex: 4
+--- !u!114 &4947833645764507329
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3894301534811437010}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0438d19023648c04b9985294ff933010, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _sizeChanegeOn: 1.1
+  _animSpeed: 0.25
+  ease: 27
 --- !u!1 &4393163859090514045
 GameObject:
   m_ObjectHideFlags: 0
@@ -983,6 +1047,7 @@ GameObject:
   - component: {fileID: 7978923002959041409}
   - component: {fileID: 8937700444576729840}
   - component: {fileID: 1462329262895025254}
+  - component: {fileID: 5928457855257495429}
   m_Layer: 5
   m_Name: DoorToRoom2Blocker
   m_TagString: Untagged
@@ -1006,8 +1071,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 106, y: 167}
-  m_SizeDelta: {x: 100, y: 100}
+  m_AnchoredPosition: {x: 140, y: -55}
+  m_SizeDelta: {x: 110, y: 110}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &5402074527575275587
 CanvasRenderer:
@@ -1036,9 +1101,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10901, guid: 0000000000000000f000000000000000, type: 0}
+  m_Sprite: {fileID: 21300000, guid: 5e4df82f9ddf8b34294cc317fd43f51c, type: 3}
   m_Type: 0
-  m_PreserveAspect: 0
+  m_PreserveAspect: 1
   m_FillCenter: 1
   m_FillMethod: 4
   m_FillAmount: 1
@@ -1238,6 +1303,21 @@ MonoBehaviour:
   _timeForMessage: 2
   _nessesaryItems:
   - {fileID: 11400000, guid: a1f5a9c8293cacc49978199f93a4c023, type: 2}
+--- !u!114 &5928457855257495429
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4393163859090514045}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0438d19023648c04b9985294ff933010, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _sizeChanegeOn: 1.1
+  _animSpeed: 0.25
+  ease: 27
 --- !u!1 &6484414431500567249
 GameObject:
   m_ObjectHideFlags: 0
@@ -1252,6 +1332,7 @@ GameObject:
   - component: {fileID: 9014756384520905515}
   - component: {fileID: 4085843460368738052}
   - component: {fileID: 1502480760807104257}
+  - component: {fileID: 4859356336399185869}
   m_Layer: 5
   m_Name: DoorToRoom4
   m_TagString: Untagged
@@ -1275,8 +1356,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 254, y: -52}
-  m_SizeDelta: {x: 100, y: 100}
+  m_AnchoredPosition: {x: -822, y: 0}
+  m_SizeDelta: {x: 110, y: 110}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &7070133889612950344
 CanvasRenderer:
@@ -1305,9 +1386,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
-  m_PreserveAspect: 0
+  m_Sprite: {fileID: 21300000, guid: c313a0908ac2b0840abf0038024ec824, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 1
   m_FillCenter: 1
   m_FillMethod: 4
   m_FillAmount: 1
@@ -1476,6 +1557,21 @@ MonoBehaviour:
   _successClip: {fileID: 0}
   _failClip: {fileID: 0}
   _roomIndex: 3
+--- !u!114 &4859356336399185869
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6484414431500567249}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0438d19023648c04b9985294ff933010, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _sizeChanegeOn: 1.1
+  _animSpeed: 0.25
+  ease: 27
 --- !u!1001 &5290488675684471115
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1637,7 +1733,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: e2a4ef4acfbf8014586ad0775da4e619,
+      objectReference: {fileID: 21300000, guid: 4e577ed0c84b70541aebcd98dd860b16,
         type: 3}
     - target: {fileID: 3963817937506721407, guid: cabc62fd77d7c88409f6e892bba7eeab,
         type: 3}
