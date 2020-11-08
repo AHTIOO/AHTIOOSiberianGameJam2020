@@ -6,6 +6,10 @@ using UnityEngine;
 public class InventoryItem : ScriptableObject
 {
     [SerializeField] private string _itemName;
+    [TextArea]
+    [SerializeField] private string _itemDescription;
 
     public string ItemName => _itemName;
+
+    public string ItemDescription => _itemDescription;
 }
