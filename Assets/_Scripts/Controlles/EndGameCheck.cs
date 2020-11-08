@@ -13,7 +13,7 @@ public class EndGameCheck : MonoBehaviour
     public Image TransitionScreen;
     public float TransitionSpeed = 2f;
 
-    private void Awake()
+    private void Start()
     {
         Inventory.Instance.OnGameInventoryChanged += CheckEndInventory;
         GameTimeHolder.Instance.OnGameTimeChanged += CheckEndTime;
