@@ -10,7 +10,6 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f0c85bbe7fff0694e9486604a4cef505, type: 3}
-  m_Name: RemoveJarKey
+  m_Name: RemoveBacket
   m_EditorClassIdentifier: 
-  _items:
-  - {fileID: 11400000, guid: a045afb1b468f2044a143f75589218d5, type: 2}
+  _items: []

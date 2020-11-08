@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8b13da97ecea74545a94c1148c1ffdd6, type: 3}
-  m_Name: AddJarKeyTrigger 1
+  m_Name: AddPartVictor
   m_EditorClassIdentifier: 
   _items:
-  - {fileID: 11400000, guid: a045afb1b468f2044a143f75589218d5, type: 2}
+  - {fileID: 11400000, guid: ea0d261ceb422624d8e923b5ff7c9944, type: 2}
