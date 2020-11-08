@@ -16,7 +16,7 @@ MonoBehaviour:
   _dialogSprite: {fileID: 21300000, guid: bf7a5b9eb59fc894dbaa682579714759, type: 3}
   _menuIcon: {fileID: 21300000, guid: 4a6f8083646214947af2d777772470c9, type: 3}
   _deathDialog: RockwellDeadBody
-  _endgameDialog: RockwellEndgameOnliner
+  _endgameDialog: RockwellEndingOneliner
   _inDarkDialog: RockwellScream
   _characterDefinitions:
   - {fileID: 11400000, guid: 87551ceb61b83b94a8103a0c35cdb6ce, type: 2}

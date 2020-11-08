@@ -16,7 +16,7 @@ MonoBehaviour:
   _dialogSprite: {fileID: 21300000, guid: befe328e57eb4e141a3737d36a8830cd, type: 3}
   _menuIcon: {fileID: 21300000, guid: b337c88116f0cbe44b9080d116d8546c, type: 3}
   _deathDialog: MaitatDeadBody
-  _endgameDialog: MaitatEndgameOnliner
+  _endgameDialog: MaitatEndingOneliner
   _inDarkDialog: MaitatScream
   _characterDefinitions:
   - {fileID: 11400000, guid: edff7cc26624d9d4b8ef3d2c644d4e8f, type: 2}
