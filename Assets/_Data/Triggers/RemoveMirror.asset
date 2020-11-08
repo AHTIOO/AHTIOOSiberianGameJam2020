@@ -12,4 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0c85bbe7fff0694e9486604a4cef505, type: 3}
   m_Name: RemoveMirror
   m_EditorClassIdentifier: 
-  _items: []
+  _items:
+  - {fileID: 11400000, guid: ceaff53f6bdd0064d8927129002c195a, type: 2}
