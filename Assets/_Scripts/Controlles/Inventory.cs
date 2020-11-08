@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -6,6 +7,7 @@ public class Inventory : Singleton<Inventory>
 {
     [SerializeField] private List<InventoryItem> _initialItems = new List<InventoryItem>();
 
+    public Action<List<InventoryItem>> OnGameInventoryChanged = (curentItems => { });
     public readonly List<InventoryItem> CurrentItems = new List<InventoryItem>();
     public readonly List<inventoryData> ItemsHistory = new List<inventoryData>();
 
@@ -24,6 +26,7 @@ public class Inventory : Singleton<Inventory>
     {
         CurrentItems.Add(item);
         ItemsHistory.Add(new inventoryData(item, false));
+        OnGameInventoryChanged.Invoke(CurrentItems);
     }
 
     public void AddList(List<InventoryItem> items)
