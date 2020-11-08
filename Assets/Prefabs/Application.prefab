@@ -2990,7 +2990,7 @@ MonoBehaviour:
     gameTriggers:
     - {fileID: 11400000, guid: ee8e40c39b10beb4e8277c7314a44559, type: 2}
     - {fileID: 11400000, guid: 51e15cacc1d30c045bce306dd9d5154b, type: 2}
-  - key: AddLeFlerPart
+  - key: AddAnnaPart
     gameTriggers:
     - {fileID: 11400000, guid: 5014a008a3015b34c964a55a66e2551c, type: 2}
     - {fileID: 11400000, guid: 146cefba03aec0742b4c6b60dd7546da, type: 2}
@@ -3018,63 +3018,38 @@ MonoBehaviour:
   - key: AddLeFlerPartDead
     gameTriggers:
     - {fileID: 11400000, guid: 146cefba03aec0742b4c6b60dd7546da, type: 2}
+    - {fileID: 11400000, guid: c6dc50f8d5157534ebb36e57bb00b59d, type: 2}
   - key: AddArthurPartDead
     gameTriggers:
     - {fileID: 11400000, guid: 324ee939d38b45d4083b991255225645, type: 2}
+    - {fileID: 11400000, guid: 09b52a05f084cb443a90e2ad689f72ab, type: 2}
   - key: AddRockwellPartDead
     gameTriggers:
     - {fileID: 11400000, guid: 57e867528b14f1442bbfcd3e453410a6, type: 2}
+    - {fileID: 11400000, guid: f6a1c6dcb26a0304cae4263055a783d6, type: 2}
   - key: AddMaitatPartDead
     gameTriggers:
     - {fileID: 11400000, guid: 508c5ae755f4f6c419e48f3d9fbe413b, type: 2}
+    - {fileID: 11400000, guid: d582fff93623b46448e1f57c2e4af74d, type: 2}
   - key: AddVictorPartDead
     gameTriggers:
     - {fileID: 11400000, guid: 465671a27a95ca04b9e0ed9e92f70dac, type: 2}
-  - key: RootAnnaEnd
-    gameTriggers:
-    - {fileID: 11400000, guid: eba5afde4c63b2545a8e7791e0e8232d, type: 2}
+    - {fileID: 11400000, guid: f9e43db7ce3af5a4e9baae0b98683a11, type: 2}
   - key: RootAnnaSecond
     gameTriggers:
     - {fileID: 11400000, guid: b69924fa988d672459a4780c38811b41, type: 2}
-  - key: RootArturEnd
-    gameTriggers:
-    - {fileID: 11400000, guid: 4095cd6e93a407f469436fa80d626471, type: 2}
   - key: RootArturSecond
     gameTriggers:
     - {fileID: 11400000, guid: 6a916f8eb0765c04cac6f83883e72779, type: 2}
-  - key: RootMaitatEnd
-    gameTriggers:
-    - {fileID: 11400000, guid: 456bbbf34493f7d46a116fc391dd74e6, type: 2}
   - key: RootMaitatSecond
     gameTriggers:
     - {fileID: 11400000, guid: 2d9d2e23112f2ac468324bd5e13f5c60, type: 2}
-  - key: RootRockwellEnd
-    gameTriggers:
-    - {fileID: 11400000, guid: 3882ece8180ad0041a04626510d6d2da, type: 2}
   - key: RootRockwellSecond
     gameTriggers:
     - {fileID: 11400000, guid: a056d797fbed8394ca4351f5173fee2b, type: 2}
-  - key: RootVictorEnd
-    gameTriggers:
-    - {fileID: 11400000, guid: 7fda29f8ab9bf6040b2949129ccacf2a, type: 2}
   - key: RootVictorSecond
     gameTriggers:
     - {fileID: 11400000, guid: b5bcdf6b4803f1843b47b1f218a2d148, type: 2}
-  - key: RootAnnaDead
-    gameTriggers:
-    - {fileID: 11400000, guid: c6dc50f8d5157534ebb36e57bb00b59d, type: 2}
-  - key: RootArturDead
-    gameTriggers:
-    - {fileID: 11400000, guid: 09b52a05f084cb443a90e2ad689f72ab, type: 2}
-  - key: RootMaitatDead
-    gameTriggers:
-    - {fileID: 11400000, guid: d582fff93623b46448e1f57c2e4af74d, type: 2}
-  - key: RootRockwellDead
-    gameTriggers:
-    - {fileID: 11400000, guid: f6a1c6dcb26a0304cae4263055a783d6, type: 2}
-  - key: RootVictorDead
-    gameTriggers:
-    - {fileID: 11400000, guid: f9e43db7ce3af5a4e9baae0b98683a11, type: 2}
 --- !u!1 &1210183856772383610
 GameObject:
   m_ObjectHideFlags: 0
