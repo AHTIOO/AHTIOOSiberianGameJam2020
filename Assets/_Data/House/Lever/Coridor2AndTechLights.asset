@@ -15,4 +15,4 @@ MonoBehaviour:
   _isWorkByDefault: 1
   _roomToSwitch:
   - {fileID: 11400000, guid: f7b24964f16de8442b307d007e1e096a, type: 2}
-  - {fileID: 11400000, guid: 3229606d4f536f04eb9ab37c0c3414a7, type: 2}
+  - {fileID: 11400000, guid: 1e2ad3b616ae4f14d893ad436f86c5f9, type: 2}
