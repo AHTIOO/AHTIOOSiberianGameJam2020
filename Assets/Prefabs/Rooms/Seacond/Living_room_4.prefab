@@ -739,11 +739,11 @@ MonoBehaviour:
   _idsToActivateOnInteract: []
   _successClip: {fileID: 0}
   _failClip: {fileID: 0}
-  _lever: {fileID: 0}
-  _leverImage: {fileID: 0}
-  _upSprite: {fileID: 0}
-  _downSprite: {fileID: 0}
-  _brokeSprite: {fileID: 0}
+  _lever: {fileID: 11400000, guid: f213f4f212eeaf240ac46326284b7f55, type: 2}
+  _leverImage: {fileID: 4734650495565583131}
+  _upSprite: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
+  _downSprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  _brokeSprite: {fileID: 10911, guid: 0000000000000000f000000000000000, type: 0}
 --- !u!1 &5374567783052295553
 GameObject:
   m_ObjectHideFlags: 0
