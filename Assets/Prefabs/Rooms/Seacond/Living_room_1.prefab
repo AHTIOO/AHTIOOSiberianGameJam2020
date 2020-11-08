@@ -235,6 +235,8 @@ MonoBehaviour:
   _objectsToDeactivateOnInteract:
   - {fileID: 4252805652006330814}
   _objectsToActivateOnInteract: []
+  _idsToDeactivateOnInteract: []
+  _idsToActivateOnInteract: []
   _successClip: {fileID: 0}
   _failClip: {fileID: 0}
 --- !u!1 &5935911490972549918
@@ -470,6 +472,8 @@ MonoBehaviour:
   _condition: {fileID: 0}
   _objectsToDeactivateOnInteract: []
   _objectsToActivateOnInteract: []
+  _idsToDeactivateOnInteract: []
+  _idsToActivateOnInteract: []
   _successClip: {fileID: 0}
   _failClip: {fileID: 0}
   _roomIndex: 0
@@ -708,6 +712,8 @@ MonoBehaviour:
   _objectsToDeactivateOnInteract:
   - {fileID: 8281300515705665433}
   _objectsToActivateOnInteract: []
+  _idsToDeactivateOnInteract: []
+  _idsToActivateOnInteract: []
   _successClip: {fileID: 0}
   _failClip: {fileID: 0}
 --- !u!1001 &5290488675684471115

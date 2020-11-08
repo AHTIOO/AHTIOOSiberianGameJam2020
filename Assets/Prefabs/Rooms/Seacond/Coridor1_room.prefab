@@ -982,6 +982,7 @@ GameObject:
   - component: {fileID: 8676617376451917942}
   - component: {fileID: 7978923002959041409}
   - component: {fileID: 8937700444576729840}
+  - component: {fileID: 1462329262895025254}
   m_Layer: 5
   m_Name: DoorToRoom2Blocker
   m_TagString: Untagged
@@ -1198,7 +1199,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _isMultiInteractable: 0
   _gameTriggers: []
-  _condition: {fileID: 0}
+  _condition: {fileID: 1462329262895025254}
   _objectsToDeactivateOnInteract: []
   _objectsToActivateOnInteract: []
   _idsToDeactivateOnInteract: []
@@ -1219,6 +1220,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ids:
   - 1
+--- !u!114 &1462329262895025254
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4393163859090514045}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82a939c452b87fc47be0f903adc3df72, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _unableMessage: 
+  _nessesaryItems:
+  - {fileID: 11400000, guid: a1f5a9c8293cacc49978199f93a4c023, type: 2}
 --- !u!1 &6484414431500567249
 GameObject:
   m_ObjectHideFlags: 0

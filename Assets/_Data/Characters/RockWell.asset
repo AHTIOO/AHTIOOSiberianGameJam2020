@@ -13,7 +13,8 @@ MonoBehaviour:
   m_Name: RockWell
   m_EditorClassIdentifier: 
   _name: "\u041C\u0438\u0441\u0441 \u0420\u043E\u043A\u0432\u0435\u043B\u043B"
-  _dialogSprite: {fileID: 21300000, guid: 2d137bb7db310554081b111b3639754c, type: 3}
+  _dialogSprite: {fileID: 21300000, guid: bf7a5b9eb59fc894dbaa682579714759, type: 3}
+  _menuIcon: {fileID: 21300000, guid: 4a6f8083646214947af2d777772470c9, type: 3}
   _deathDialog: RockwellDeadBody
   _inDarkDialog: RockwellScream
   _characterDefinitions:
