@@ -3,6 +3,7 @@
 public abstract class InteractionCondition : MonoBehaviour
 {
     [SerializeField] protected string _unableMessage;
+    [SerializeField] private float _timeForMessage = 2f;
 
     public bool CanBeInteracted()
     {
@@ -12,7 +13,7 @@ public abstract class InteractionCondition : MonoBehaviour
         }
         else
         {
-            //send global message
+            MessegePopUp.Instance.MessegePlayer(_unableMessage, _timeForMessage);
         }
 
         return false;

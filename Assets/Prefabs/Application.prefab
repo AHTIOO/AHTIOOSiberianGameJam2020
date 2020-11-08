@@ -749,14 +749,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 0, b: 0, a: 1}
+  m_Color: {r: 0.8584906, g: 0.84470767, b: 0.7248576, a: 1}
   m_RaycastTarget: 1
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
-  m_Type: 0
+  m_Sprite: {fileID: 21300000, guid: 09de87a63a1a8dc4191a9cf2747a35aa, type: 3}
+  m_Type: 1
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -764,7 +764,7 @@ MonoBehaviour:
   m_FillClockwise: 1
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
+  m_PixelsPerUnitMultiplier: 6
 --- !u!1 &1210183856637137702
 GameObject:
   m_ObjectHideFlags: 0
@@ -791,7 +791,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1210183856637137702}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 30}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1210183857258756352}
@@ -800,7 +800,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_SizeDelta: {x: -60, y: -60}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1210183856637137701
 CanvasRenderer:
@@ -899,7 +899,7 @@ MonoBehaviour:
   - key: AddArthurPart
     gameTriggers:
     - {fileID: 11400000, guid: 324ee939d38b45d4083b991255225645, type: 2}
-    - {fileID: 0}
+    - {fileID: 11400000, guid: 1453b600a5a85b34e9f7ea9ca1e88d53, type: 2}
     - {fileID: 11400000, guid: 4095cd6e93a407f469436fa80d626471, type: 2}
   - key: AddRockwellPart
     gameTriggers:
@@ -909,12 +909,12 @@ MonoBehaviour:
   - key: AddVictorPart
     gameTriggers:
     - {fileID: 11400000, guid: ee8e40c39b10beb4e8277c7314a44559, type: 2}
-    - {fileID: 11400000, guid: 51e15cacc1d30c045bce306dd9d5154b, type: 2}
+    - {fileID: 11400000, guid: fc0fb93c9248e2641aa10a6ed7fb0531, type: 2}
     - {fileID: 11400000, guid: 7fda29f8ab9bf6040b2949129ccacf2a, type: 2}
   - key: AddMaitatPart
     gameTriggers:
     - {fileID: 11400000, guid: 465671a27a95ca04b9e0ed9e92f70dac, type: 2}
-    - {fileID: 0}
+    - {fileID: 11400000, guid: d74c2a7cf9aca3040a81732f62a4fe69, type: 2}
     - {fileID: 11400000, guid: 456bbbf34493f7d46a116fc391dd74e6, type: 2}
   - key: AddLeFlerPartDead
     gameTriggers:
@@ -1161,6 +1161,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 6916343917130574f80bbe4af11d1243, type: 2}
   - {fileID: 11400000, guid: 9a8bd9abb26758f42a4a1a73237df48c, type: 2}
   - {fileID: 11400000, guid: 90c87458d6b9e8548a9a8fb3a5152b54, type: 2}
+  - {fileID: 11400000, guid: 6c54f8c256bbf984ebd6b35776bf091c, type: 2}
 --- !u!1 &1210183857179704039
 GameObject:
   m_ObjectHideFlags: 0

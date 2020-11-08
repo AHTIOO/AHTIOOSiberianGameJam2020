@@ -9,8 +9,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 78e4414156bba5c4eb4cac5edecb7095, type: 3}
-  m_Name: Note_dif
+  m_Script: {fileID: 11500000, guid: b88d4025b0897fa4eb14b54299bd92f2, type: 3}
+  m_Name: RootArturEnd 1
   m_EditorClassIdentifier: 
-  _dialog: GeneratorNote
-  _position: {fileID: 11400000, guid: 45ce9f2595074c945b972120a242ff88, type: 2}
+  _dialog: Artur
+  _newNode: 10

@@ -33,7 +33,7 @@ public class DialogManager : Singleton<DialogManager>
     public void Begin(string dialog, Character character, bool isCharAlive)
     {
         characterImage.sprite = character.DialogSprite;
-        CurentDialogBegin.Invoke();
+        CurentDialogBegin?.Invoke();
         characterImage.color = isCharAlive ? Color.white : Color.black;
         characterName.text = character.Name;
         pushDialogNext.gameObject.SetActive(true);
@@ -86,7 +86,7 @@ public class DialogManager : Singleton<DialogManager>
     void End(VD.NodeData data)
     {
         container_NPC.SetActive(false);
-        CurentDialogEnds.Invoke();
+        CurentDialogEnds?.Invoke();
         container_PLAYER.SetActive(false);
         pushDialogNext.gameObject.SetActive(false);
         stopClicking.gameObject.SetActive(false);
