@@ -9,6 +9,7 @@ public class Character : ScriptableObject
     [SerializeField] private Sprite _dialogSprite;
     [SerializeField] private Sprite _menuIcon;
     [SerializeField] private string _deathDialog;
+    [SerializeField] private string _endgameDialog;
     [SerializeField] private string _inDarkDialog;
     [SerializeField] private List<CharacterDefinition> _characterDefinitions;
 
@@ -20,4 +21,6 @@ public class Character : ScriptableObject
     public string InDarkDialog => _inDarkDialog;
 
     public Sprite MenuIcon => _menuIcon;
+
+    public string EndGameDialog => _endgameDialog;
 }

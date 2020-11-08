@@ -16,6 +16,10 @@ public class HouseState : Singleton<HouseState>
     {
         return _rooms.Keys;
     }
+    public IEnumerable<Character> GetCharacters()
+    {
+        return _characters.Keys;
+    }
 
     public RoomState GetRoomState(Room room)
     {

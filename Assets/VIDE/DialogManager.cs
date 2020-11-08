@@ -15,6 +15,8 @@ public class DialogManager : Singleton<DialogManager>
     public AudioSource audioSource;
     public Image stopClicking;
 
+    private float dclick_threshold = 0.25f;
+    private double timerdclick = 0;
     // Use this for initialization
     void Start()
     {
@@ -23,7 +25,23 @@ public class DialogManager : Singleton<DialogManager>
         container_PLAYER.SetActive(false);
         pushDialogNext.gameObject.SetActive(false);
     }
-
+    public void /*Fixed*/Update()
+    {
+        if (Input.GetMouseButtonDown(0))
+        {
+            if ((Time.time - timerdclick) > dclick_threshold)
+            {
+                stopClicking.gameObject.SetActive(false);
+            } 
+            else
+            {
+                stopClicking.gameObject.SetActive(true);
+                //call the DoubleClick() function, not shown
+            }
+            timerdclick = Time.time;
+        }
+    }
+   
     public void Begin(string dialog, Character character, bool isCharAlive)
     {
         characterImage.sprite = character.DialogSprite;
