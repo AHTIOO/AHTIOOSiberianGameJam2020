@@ -484,9 +484,9 @@ MonoBehaviour:
   _isMultiInteractable: 0
   _gameTriggers: []
   _condition: {fileID: 0}
-  _objectsToDeactivateOnInteract: []
-  _objectsToActivateOnInteract:
+  _objectsToDeactivateOnInteract:
   - {fileID: 2022705135730128383}
+  _objectsToActivateOnInteract: []
   _successClip: {fileID: 0}
   _failClip: {fileID: 0}
 --- !u!1 &2367598607548744249
@@ -1191,11 +1191,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isMultiInteractable: 0
-  _gameTriggers: []
+  _gameTriggers:
+  - {fileID: 0}
   _condition: {fileID: 7633283013478036468}
-  _objectsToDeactivateOnInteract: []
-  _objectsToActivateOnInteract:
+  _objectsToDeactivateOnInteract:
   - {fileID: 6425947440665380343}
+  _objectsToActivateOnInteract: []
   _successClip: {fileID: 0}
   _failClip: {fileID: 0}
 --- !u!114 &7633283013478036468
