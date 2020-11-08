@@ -37,9 +37,14 @@ public class TimeTriggerController : Singleton<TimeTriggerController>
                 {
                     trigger.ActivateTrigger();
                 }
-                _initialTimeTriggers.Remove(x);
+                triggersToActivate.Add(x);
             }
         });
+
+        foreach (var timeTrigger in triggersToActivate)
+        {
+            _initialTimeTriggers.Remove(timeTrigger);
+        }
     }
 
     public void AddTimeTrigger(TimeTrigger timeTrigger)
