@@ -979,7 +979,7 @@ MonoBehaviour:
   _objectsToActivateOnInteract: []
   _idsToDeactivateOnInteract: []
   _idsToActivateOnInteract: []
-  _successClip: {fileID: 0}
+  _successClip: {fileID: 8300000, guid: 3f81a8754a869204cbd53ff85e89d92a, type: 3}
   _failClip: {fileID: 0}
 --- !u!114 &6573650250330526287
 MonoBehaviour:
