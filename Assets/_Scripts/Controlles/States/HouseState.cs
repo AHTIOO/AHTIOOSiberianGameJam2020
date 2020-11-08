@@ -12,6 +12,11 @@ public class HouseState : Singleton<HouseState>
     private Dictionary<Character, CharacterState> _characters;
     private Dictionary<Lever, LeverState> _levers;
 
+    public IEnumerable<Room> GetAllRooms()
+    {
+        return _rooms.Keys;
+    }
+
     public RoomState GetRoomState(Room room)
     {
         return _rooms[room];

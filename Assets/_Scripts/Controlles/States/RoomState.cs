@@ -11,7 +11,7 @@ public class RoomState
         get => _isLighted;
         set
         {
-            isLighting = value;
+            _isLighted = value;
             if (!isLighting)
             {
                 foreach (var character in CharactersOnLocations)
@@ -28,7 +28,7 @@ public class RoomState
 
     public RoomState(Room room)
     {
-        isLighting = room.IsLightDefault;
+        _isLighted = room.IsLightDefault;
         CharactersOnLocations = new List<Character>();
         RoomConnections = new List<Room.RoomConnection>();
 

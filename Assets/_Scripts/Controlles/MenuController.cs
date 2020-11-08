@@ -47,9 +47,13 @@ public class MenuController : MonoBehaviour
     }
     private void Update()
     {
-        if (Input.GetKey(KeyCode.Escape))
+        if (Input.GetKeyUp(KeyCode.Escape) && (!_menuParrant.activeSelf))
         {
             _menuParrant.SetActive(true);
+        }
+        else if (Input.GetKeyUp(KeyCode.Escape) && (_menuParrant.activeSelf))
+        {
+            _menuParrant.SetActive(false);
         }
     }
 }
