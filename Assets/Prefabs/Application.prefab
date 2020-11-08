@@ -2994,22 +2994,27 @@ MonoBehaviour:
     gameTriggers:
     - {fileID: 11400000, guid: 5014a008a3015b34c964a55a66e2551c, type: 2}
     - {fileID: 11400000, guid: 146cefba03aec0742b4c6b60dd7546da, type: 2}
+    - {fileID: 11400000, guid: eba5afde4c63b2545a8e7791e0e8232d, type: 2}
   - key: AddArthurPart
     gameTriggers:
     - {fileID: 11400000, guid: 324ee939d38b45d4083b991255225645, type: 2}
     - {fileID: 11400000, guid: 309fab21d9515c14b8b0cade6293b590, type: 2}
+    - {fileID: 11400000, guid: 4095cd6e93a407f469436fa80d626471, type: 2}
   - key: AddRockwellPart
     gameTriggers:
     - {fileID: 11400000, guid: 57e867528b14f1442bbfcd3e453410a6, type: 2}
     - {fileID: 11400000, guid: 96296e7a6da57b74a84e328b5d556a90, type: 2}
+    - {fileID: 11400000, guid: 3882ece8180ad0041a04626510d6d2da, type: 2}
   - key: AddVictorPart
     gameTriggers:
     - {fileID: 11400000, guid: ee8e40c39b10beb4e8277c7314a44559, type: 2}
     - {fileID: 11400000, guid: 51e15cacc1d30c045bce306dd9d5154b, type: 2}
+    - {fileID: 11400000, guid: 7fda29f8ab9bf6040b2949129ccacf2a, type: 2}
   - key: AddMaitatPart
     gameTriggers:
     - {fileID: 11400000, guid: 465671a27a95ca04b9e0ed9e92f70dac, type: 2}
     - {fileID: 11400000, guid: fe8fad808be5de14e8eaf6187f150c27, type: 2}
+    - {fileID: 11400000, guid: 456bbbf34493f7d46a116fc391dd74e6, type: 2}
   - key: AddLeFlerPartDead
     gameTriggers:
     - {fileID: 11400000, guid: 146cefba03aec0742b4c6b60dd7546da, type: 2}
