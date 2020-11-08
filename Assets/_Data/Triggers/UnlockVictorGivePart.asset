@@ -14,5 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _dialog: Victor
   _node: 4
-  _comment: 1
-  _isVisible: 0
+  _comment: 2
+  _isVisible: 1

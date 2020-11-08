@@ -14,5 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _dialog: Rockwell
   _node: 5
-  _comment: 3
+  _comment: 2
   _isVisible: 1
