@@ -11,10 +11,9 @@ public class RootNodeTrigger : GameTrigger
 
     public override void ActivateTrigger()
     {
-        VD.LoadDialogues(_dialog);
-        VD.BeginDialogue(_dialog);
+
         VD.assigned.overrideStartNode = _newNode;
-        VD.EndDialogue();
+
 
     }
 }
