@@ -2099,6 +2099,21 @@ MonoBehaviour:
     gameTriggers:
     - {fileID: 11400000, guid: 465671a27a95ca04b9e0ed9e92f70dac, type: 2}
     - {fileID: 11400000, guid: fe8fad808be5de14e8eaf6187f150c27, type: 2}
+  - key: AddLeFlerPartDead
+    gameTriggers:
+    - {fileID: 11400000, guid: 146cefba03aec0742b4c6b60dd7546da, type: 2}
+  - key: AddArthurPartDead
+    gameTriggers:
+    - {fileID: 11400000, guid: 324ee939d38b45d4083b991255225645, type: 2}
+  - key: AddRockwellPartDead
+    gameTriggers:
+    - {fileID: 11400000, guid: 57e867528b14f1442bbfcd3e453410a6, type: 2}
+  - key: AddMaitatPartDead
+    gameTriggers:
+    - {fileID: 11400000, guid: 508c5ae755f4f6c419e48f3d9fbe413b, type: 2}
+  - key: AddVictorPartDead
+    gameTriggers:
+    - {fileID: 11400000, guid: 465671a27a95ca04b9e0ed9e92f70dac, type: 2}
 --- !u!1 &1210183856772383610
 GameObject:
   m_ObjectHideFlags: 0
