@@ -985,7 +985,7 @@ MonoBehaviour:
   - {fileID: 2380918836143497513}
   _idsToDeactivateOnInteract: []
   _idsToActivateOnInteract: []
-  _successClip: {fileID: 0}
+  _successClip: {fileID: 8300000, guid: 719737d1be0b0034d9a1c11cad6ae3d7, type: 3}
   _failClip: {fileID: 0}
 --- !u!114 &1373668444244674415
 MonoBehaviour:
@@ -1044,8 +1044,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -450, y: 76}
-  m_SizeDelta: {x: 100, y: 100}
+  m_AnchoredPosition: {x: -433, y: 64}
+  m_SizeDelta: {x: 169.17297, y: 160.15045}
   m_Pivot: {x: 0.49999994, y: 0.5}
 --- !u!222 &502008322347140059
 CanvasRenderer:
@@ -1074,7 +1074,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
+  m_Sprite: {fileID: 21300000, guid: 5a498536d63085e48bf6112a71feba06, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1500,7 +1500,7 @@ MonoBehaviour:
   _objectsToActivateOnInteract: []
   _idsToDeactivateOnInteract: []
   _idsToActivateOnInteract: []
-  _successClip: {fileID: 0}
+  _successClip: {fileID: 8300000, guid: 6a8b3d784ba47754abd27a01aa97143b, type: 3}
   _failClip: {fileID: 0}
   _roomIndex: 2
 --- !u!114 &3002705799072234337
