@@ -972,7 +972,8 @@ MonoBehaviour:
   - {fileID: 11400000, guid: ed0440674bd25f24e98b36b53c1212ed, type: 2}
   - {fileID: 11400000, guid: af0e2c8f5c59f364d8941b66d183e561, type: 2}
   _condition: {fileID: 0}
-  _objectsToDeactivateOnInteract: []
+  _objectsToDeactivateOnInteract:
+  - {fileID: 3672721432120605924}
   _objectsToActivateOnInteract: []
   _idsToDeactivateOnInteract: []
   _idsToActivateOnInteract: []
