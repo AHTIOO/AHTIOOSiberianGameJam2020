@@ -230,9 +230,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isMultiInteractable: 0
-  _gameTriggers:
-  - {fileID: 11400000, guid: 402d0071a6d33db45b924b05ec1bd50b, type: 2}
-  _condition: {fileID: 0}
+  _gameTriggers: []
+  _condition: {fileID: 4351891888933495404}
   _objectsToDeactivateOnInteract:
   - {fileID: 102881958933003221}
   _objectsToActivateOnInteract:
