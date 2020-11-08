@@ -229,9 +229,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isMultiInteractable: 0
-  _gameTriggers: []
+  _gameTriggers:
+  - {fileID: 11400000, guid: 84dd09df3c0a52e46b06b6cba46d131e, type: 2}
+  - {fileID: 11400000, guid: 76567b73e2707114a81d2d3ba066113f, type: 2}
   _condition: {fileID: 0}
-  _objectsToDeactivateOnInteract: []
+  _objectsToDeactivateOnInteract:
+  - {fileID: 768703827729683261}
   _objectsToActivateOnInteract: []
   _idsToDeactivateOnInteract: []
   _idsToActivateOnInteract: []
@@ -469,6 +472,7 @@ MonoBehaviour:
   _isMultiInteractable: 0
   _gameTriggers:
   - {fileID: 11400000, guid: 7f3942677d0369345835707afee8eb21, type: 2}
+  - {fileID: 11400000, guid: 622ccdfeacc0d6642ae5f3abbc8cdf9f, type: 2}
   _condition: {fileID: 2133932286740128775}
   _objectsToDeactivateOnInteract:
   - {fileID: 1932856203478322848}

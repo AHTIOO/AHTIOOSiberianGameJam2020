@@ -230,11 +230,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _isMultiInteractable: 0
   _gameTriggers:
-  - {fileID: 11400000, guid: a2dda27214bf0dc4989d10c8439fe27f, type: 2}
+  - {fileID: 11400000, guid: 8ef4e0a96194626499e5d8212a1935ce, type: 2}
+  - {fileID: 11400000, guid: 622ccdfeacc0d6642ae5f3abbc8cdf9f, type: 2}
   _condition: {fileID: 0}
   _objectsToDeactivateOnInteract:
   - {fileID: 2100292573028909186}
   _objectsToActivateOnInteract: []
+  _idsToDeactivateOnInteract: []
+  _idsToActivateOnInteract: []
   _successClip: {fileID: 0}
   _failClip: {fileID: 0}
 --- !u!1 &7793050066082130030
@@ -470,6 +473,8 @@ MonoBehaviour:
   _condition: {fileID: 0}
   _objectsToDeactivateOnInteract: []
   _objectsToActivateOnInteract: []
+  _idsToDeactivateOnInteract: []
+  _idsToActivateOnInteract: []
   _successClip: {fileID: 0}
   _failClip: {fileID: 0}
   _roomIndex: 0

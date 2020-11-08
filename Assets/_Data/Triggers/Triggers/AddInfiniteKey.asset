@@ -9,8 +9,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f0c85bbe7fff0694e9486604a4cef505, type: 3}
-  m_Name: RemoveSnakeOil
+  m_Script: {fileID: 11500000, guid: 8b13da97ecea74545a94c1148c1ffdd6, type: 3}
+  m_Name: AddInfiniteKey
   m_EditorClassIdentifier: 
   _items:
-  - {fileID: 11400000, guid: 45f1101efa366974295ce732b4200bef, type: 2}
+  - {fileID: 11400000, guid: 1aeb6e4a646efea4c8394404c651bd19, type: 2}
