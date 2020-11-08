@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 7780158203561295105}
   - component: {fileID: 1335333035533690649}
   - component: {fileID: 677513248302809645}
+  - component: {fileID: 1190364458705898134}
   m_Layer: 5
   m_Name: Mirror
   m_TagString: Untagged
@@ -32,8 +33,8 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 6998306108923643213}
-  m_RootOrder: 5
+  m_Father: {fileID: 5807535884201078362}
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -229,12 +230,31 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isMultiInteractable: 0
-  _gameTriggers: []
+  _gameTriggers:
+  - {fileID: 11400000, guid: a2dda27214bf0dc4989d10c8439fe27f, type: 2}
   _condition: {fileID: 0}
-  _objectsToDeactivateOnInteract: []
+  _objectsToDeactivateOnInteract:
+  - {fileID: 101066273700157463}
   _objectsToActivateOnInteract: []
+  _idsToDeactivateOnInteract: []
+  _idsToActivateOnInteract: []
   _successClip: {fileID: 0}
   _failClip: {fileID: 0}
+--- !u!114 &1190364458705898134
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 101066273700157463}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82a939c452b87fc47be0f903adc3df72, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _unableMessage: 
+  _nessesaryItems:
+  - {fileID: 11400000, guid: 51ec57fc020a4a141ae706cffddb6a09, type: 2}
 --- !u!1 &3100886290740662791
 GameObject:
   m_ObjectHideFlags: 0
@@ -267,8 +287,8 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 6998306108923643213}
-  m_RootOrder: 3
+  m_Father: {fileID: 5807535884201078362}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -468,6 +488,8 @@ MonoBehaviour:
   _condition: {fileID: 0}
   _objectsToDeactivateOnInteract: []
   _objectsToActivateOnInteract: []
+  _idsToDeactivateOnInteract: []
+  _idsToActivateOnInteract: []
   _successClip: {fileID: 0}
   _failClip: {fileID: 0}
   _roomIndex: 0
@@ -503,8 +525,8 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 6998306108923643213}
-  m_RootOrder: 4
+  m_Father: {fileID: 5807535884201078362}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -704,6 +726,8 @@ MonoBehaviour:
   _condition: {fileID: 0}
   _objectsToDeactivateOnInteract: []
   _objectsToActivateOnInteract: []
+  _idsToDeactivateOnInteract: []
+  _idsToActivateOnInteract: []
   _successClip: {fileID: 0}
   _failClip: {fileID: 0}
   _lever: {fileID: 11400000, guid: ef471593363c38a48a20a70b586af14c, type: 2}
@@ -725,6 +749,7 @@ GameObject:
   - component: {fileID: 5703667915582982574}
   - component: {fileID: 5948454349970752396}
   - component: {fileID: 8686352007613376806}
+  - component: {fileID: 6573650250330526287}
   m_Layer: 5
   m_Name: Bath
   m_TagString: Untagged
@@ -743,8 +768,8 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 6998306108923643213}
-  m_RootOrder: 6
+  m_Father: {fileID: 5807535884201078362}
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -940,12 +965,31 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isMultiInteractable: 0
-  _gameTriggers: []
+  _gameTriggers:
+  - {fileID: 11400000, guid: ed0440674bd25f24e98b36b53c1212ed, type: 2}
+  - {fileID: 11400000, guid: af0e2c8f5c59f364d8941b66d183e561, type: 2}
   _condition: {fileID: 0}
   _objectsToDeactivateOnInteract: []
   _objectsToActivateOnInteract: []
+  _idsToDeactivateOnInteract: []
+  _idsToActivateOnInteract: []
   _successClip: {fileID: 0}
   _failClip: {fileID: 0}
+--- !u!114 &6573650250330526287
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3672721432120605924}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82a939c452b87fc47be0f903adc3df72, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _unableMessage: 
+  _nessesaryItems:
+  - {fileID: 11400000, guid: 7fe87a04fadc1004c9b3cdb7efff9575, type: 2}
 --- !u!1001 &5290488675684471115
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1091,9 +1135,9 @@ PrefabInstance:
         type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cabc62fd77d7c88409f6e892bba7eeab, type: 3}
---- !u!224 &6998306108923643213 stripped
+--- !u!224 &5807535884201078362 stripped
 RectTransform:
-  m_CorrespondingSourceObject: {fileID: 2915356422314218502, guid: cabc62fd77d7c88409f6e892bba7eeab,
+  m_CorrespondingSourceObject: {fileID: 1869860769144110865, guid: cabc62fd77d7c88409f6e892bba7eeab,
     type: 3}
   m_PrefabInstance: {fileID: 5290488675684471115}
   m_PrefabAsset: {fileID: 0}
