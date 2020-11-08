@@ -7,9 +7,9 @@ public class Inventory : Singleton<Inventory>
     [SerializeField] private List<InventoryItem> _initialItems = new List<InventoryItem>();
 
     public readonly List<InventoryItem> CurrentItems = new List<InventoryItem>();
-    private List<inventoryData> ItemsHistory = new List<inventoryData>();
+    public readonly List<inventoryData> ItemsHistory = new List<inventoryData>();
 
-    class inventoryData
+    public class inventoryData
     {
         public InventoryItem Iteam;
         public bool isRemoved;
