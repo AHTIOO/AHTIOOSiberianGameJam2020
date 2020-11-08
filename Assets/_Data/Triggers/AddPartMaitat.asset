@@ -12,5 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8b13da97ecea74545a94c1148c1ffdd6, type: 3}
   m_Name: AddPartMaitat
   m_EditorClassIdentifier: 
-  _items:
-  - {fileID: 11400000, guid: 285668a76a40d2a498dd668e2aa7fa10, type: 2}
+  _items: []

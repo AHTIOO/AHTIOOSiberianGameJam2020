@@ -12,5 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8b13da97ecea74545a94c1148c1ffdd6, type: 3}
   m_Name: AddPartVictor
   m_EditorClassIdentifier: 
-  _items:
-  - {fileID: 11400000, guid: ea0d261ceb422624d8e923b5ff7c9944, type: 2}
+  _items: []

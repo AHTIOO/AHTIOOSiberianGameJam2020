@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: AddFireKey
   m_EditorClassIdentifier: 
   _items:
-  - {fileID: 11400000, guid: 4d1402b88339c634c82bad015ac460c9, type: 2}
+  - {fileID: 11400000, guid: b4e37954031b48e4eadc4da67d3c45be, type: 2}

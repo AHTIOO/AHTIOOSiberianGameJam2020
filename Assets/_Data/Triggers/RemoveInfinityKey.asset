@@ -12,5 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0c85bbe7fff0694e9486604a4cef505, type: 3}
   m_Name: RemoveInfinityKey
   m_EditorClassIdentifier: 
-  _items:
-  - {fileID: 11400000, guid: 1aeb6e4a646efea4c8394404c651bd19, type: 2}
+  _items: []
