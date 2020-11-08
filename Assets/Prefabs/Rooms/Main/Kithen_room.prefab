@@ -1664,7 +1664,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 82a939c452b87fc47be0f903adc3df72, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _unableMessage: 
+  _unableMessage: "\u041D\u0435 \u043F\u043E\u0434\u0434\u0430\u0451\u0442\u0441\u044F,
+    \u043D\u0435 \u043E\u0442\u043A\u0440\u044B\u0432\u0430\u0435\u0442\u0441\u044F."
   _nessesaryItems:
   - {fileID: 11400000, guid: 4d1402b88339c634c82bad015ac460c9, type: 2}
 --- !u!1001 &5290488675684471115
