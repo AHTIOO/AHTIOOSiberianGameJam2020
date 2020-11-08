@@ -3050,6 +3050,21 @@ MonoBehaviour:
   - key: RootVictorSecond
     gameTriggers:
     - {fileID: 11400000, guid: b5bcdf6b4803f1843b47b1f218a2d148, type: 2}
+  - key: RootVictorSecond
+    gameTriggers:
+    - {fileID: 11400000, guid: b5bcdf6b4803f1843b47b1f218a2d148, type: 2}
+  - key: RootVictorSecond
+    gameTriggers:
+    - {fileID: 11400000, guid: b5bcdf6b4803f1843b47b1f218a2d148, type: 2}
+  - key: RootVictorSecond
+    gameTriggers:
+    - {fileID: 11400000, guid: b5bcdf6b4803f1843b47b1f218a2d148, type: 2}
+  - key: RootVictorSecond
+    gameTriggers:
+    - {fileID: 11400000, guid: b5bcdf6b4803f1843b47b1f218a2d148, type: 2}
+  - key: RootVictorSecond
+    gameTriggers:
+    - {fileID: 11400000, guid: b5bcdf6b4803f1843b47b1f218a2d148, type: 2}
 --- !u!1 &1210183856772383610
 GameObject:
   m_ObjectHideFlags: 0

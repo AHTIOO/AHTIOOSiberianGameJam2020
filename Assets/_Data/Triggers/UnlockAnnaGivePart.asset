@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 62cf400b0cfb8184ea15a45b054d3ad6, type: 3}
   m_Name: UnlockAnnaGivePart
   m_EditorClassIdentifier: 
-  _dialog: 
-  _node: 0
-  _comment: 0
-  _isVisible: 0
+  _dialog: Anna
+  _node: 1
+  _comment: 1
+  _isVisible: 1
