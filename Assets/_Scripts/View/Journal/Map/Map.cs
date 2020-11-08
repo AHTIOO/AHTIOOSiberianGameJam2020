@@ -8,11 +8,9 @@ public class Map : Singleton<Map>
     
     public void UpdateMap(Room newRoom)
     {
-        Debug.Log($"{newRoom} - {_mapParts[0].Room}");
         MapPart mapPart = _mapParts.Find(x => x.Room == newRoom);
         mapPart.gameObject.SetActive(true);
         mapPart.SetPlayer(true);
-        mapPart.UpdateCharacters();
 
         foreach (var mp in _mapParts)
         {
@@ -20,6 +18,15 @@ public class Map : Singleton<Map>
             {
                 mp.SetPlayer(false);
             }
+        }
+    }
+
+    private void Update()
+    {
+        foreach (var mapPart in _mapParts)
+        {
+            mapPart.UpdateLight();
+            mapPart.UpdateCharacters();
         }
     }
 }
