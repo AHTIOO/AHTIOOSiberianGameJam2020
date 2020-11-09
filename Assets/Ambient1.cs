@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using DG.Tweening;
 using UnityEngine;
 
-public class Ambient : MonoBehaviour
+public class Ambient1 : MonoBehaviour
 {
     [SerializeField] private AudioSource _initial;
     [SerializeField] private AudioSource _main;
@@ -18,7 +18,7 @@ public class Ambient : MonoBehaviour
         _initial.volume = 1f;
         _main.volume = 0f;
     }
-
+  
     public void CHange()
     {
         _sequence?.Kill();
