@@ -89,7 +89,7 @@ public class EndGameCheck : MonoBehaviour
         if (HouseState.Instance.GetCharacterState(_charactersToCheck[_currentCharToCheck]).IsAlive)
         {
             isAtLeastOneCharacterAlive = true;
-            DialogManager.Instance.Begin(_charactersToCheck[_currentCharToCheck].EndGameDialog, _charactersToCheck[_currentCharToCheck], true);
+            DialogManager.Instance.Begin(_charactersToCheck[_currentCharToCheck].EndGameDialog, _charactersToCheck[_currentCharToCheck], true, null);
 
             _currentCharToCheck += 1;
         }

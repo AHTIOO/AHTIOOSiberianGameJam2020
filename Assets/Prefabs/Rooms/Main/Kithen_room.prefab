@@ -239,7 +239,7 @@ MonoBehaviour:
   - {fileID: 5901313790628022509}
   _idsToDeactivateOnInteract: []
   _idsToActivateOnInteract: []
-  _successClip: {fileID: 0}
+  _successClip: {fileID: 8300000, guid: 908f2105cc2deff41881a545cfe47e35, type: 3}
   _failClip: {fileID: 0}
 --- !u!114 &1734737631305363516
 MonoBehaviour:
@@ -492,7 +492,7 @@ MonoBehaviour:
   _objectsToActivateOnInteract: []
   _idsToDeactivateOnInteract: []
   _idsToActivateOnInteract: []
-  _successClip: {fileID: 0}
+  _successClip: {fileID: 8300000, guid: b920176a6d099d7469c3c90223a9b5eb, type: 3}
   _failClip: {fileID: 0}
   _roomIndex: 2
 --- !u!114 &5039557873468336896
@@ -1056,8 +1056,13 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
+<<<<<<< HEAD
   m_AnchoredPosition: {x: 578.9, y: 14.9}
   m_SizeDelta: {x: 129.70459, y: 129.70459}
+=======
+  m_AnchoredPosition: {x: 568.4, y: 10}
+  m_SizeDelta: {x: 108.888794, y: 119.99982}
+>>>>>>> 0931eb3cc6cfc633062a58d5f50be4eb07ada597
   m_Pivot: {x: 0.5, y: 0.4999999}
 --- !u!222 &4045866158934771142
 CanvasRenderer:
@@ -1733,8 +1738,8 @@ MonoBehaviour:
   - {fileID: 3964961053564839367}
   _idsToDeactivateOnInteract: []
   _idsToActivateOnInteract: []
-  _successClip: {fileID: 0}
-  _failClip: {fileID: 0}
+  _successClip: {fileID: 8300000, guid: 35182e7420fa3a045967410d1cdcc3d1, type: 3}
+  _failClip: {fileID: 8300000, guid: 291e74a6896fc9e45a9a6a62f8744d13, type: 3}
 --- !u!114 &1233592659771220044
 MonoBehaviour:
   m_ObjectHideFlags: 0

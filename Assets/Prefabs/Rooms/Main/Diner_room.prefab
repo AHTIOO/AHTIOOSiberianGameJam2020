@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 5436780251442159866}
   - component: {fileID: 7904984466423138346}
   - component: {fileID: 3861233606417955769}
+  - component: {fileID: 8691078183872648680}
   m_Layer: 5
   m_Name: DoorToFireplace
   m_TagString: Untagged
@@ -235,9 +236,24 @@ MonoBehaviour:
   _objectsToActivateOnInteract: []
   _idsToDeactivateOnInteract: []
   _idsToActivateOnInteract: []
-  _successClip: {fileID: 0}
+  _successClip: {fileID: 8300000, guid: 6a8b3d784ba47754abd27a01aa97143b, type: 3}
   _failClip: {fileID: 0}
   _roomIndex: 1
+--- !u!114 &8691078183872648680
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 492457143003535934}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0438d19023648c04b9985294ff933010, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _sizeChanegeOn: 1.1
+  _animSpeed: 0.25
+  ease: 27
 --- !u!1 &1051965296568369924
 GameObject:
   m_ObjectHideFlags: 0
@@ -252,6 +268,7 @@ GameObject:
   - component: {fileID: 8398800572277810975}
   - component: {fileID: 2905571036374059191}
   - component: {fileID: 1474894582753436353}
+  - component: {fileID: 7851050464525599049}
   m_Layer: 5
   m_Name: DoorToWarehouse
   m_TagString: Untagged
@@ -473,9 +490,24 @@ MonoBehaviour:
   _objectsToActivateOnInteract: []
   _idsToDeactivateOnInteract: []
   _idsToActivateOnInteract: []
-  _successClip: {fileID: 0}
+  _successClip: {fileID: 8300000, guid: aef95af6c8211ed47b951ba5b252fbd3, type: 3}
   _failClip: {fileID: 0}
   _roomIndex: 0
+--- !u!114 &7851050464525599049
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1051965296568369924}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0438d19023648c04b9985294ff933010, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _sizeChanegeOn: 1.1
+  _animSpeed: 0.25
+  ease: 27
 --- !u!1 &1987720188838372634
 GameObject:
   m_ObjectHideFlags: 0
@@ -490,6 +522,7 @@ GameObject:
   - component: {fileID: 459278398391533024}
   - component: {fileID: 2222970627220792441}
   - component: {fileID: 1063368518223345677}
+  - component: {fileID: 9121994198906647895}
   m_Layer: 5
   m_Name: DoorToKithen
   m_TagString: Untagged
@@ -714,6 +747,21 @@ MonoBehaviour:
   _successClip: {fileID: 0}
   _failClip: {fileID: 0}
   _roomIndex: 2
+--- !u!114 &9121994198906647895
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1987720188838372634}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0438d19023648c04b9985294ff933010, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _sizeChanegeOn: 1.1
+  _animSpeed: 0.25
+  ease: 27
 --- !u!1 &6386892421028960016
 GameObject:
   m_ObjectHideFlags: 0
@@ -728,6 +776,7 @@ GameObject:
   - component: {fileID: 5550536234245703907}
   - component: {fileID: 7960145179362934362}
   - component: {fileID: 5061063084331023227}
+  - component: {fileID: 4874570387987286662}
   m_Layer: 5
   m_Name: LightsToKithen
   m_TagString: Untagged
@@ -956,6 +1005,21 @@ MonoBehaviour:
   _upSprite: {fileID: 21300000, guid: 6ce7f6943992f3d46b5265941e3f8627, type: 3}
   _downSprite: {fileID: 21300000, guid: 1a4aafac4636d85488c0cf1dca04026a, type: 3}
   _brokeSprite: {fileID: 21300000, guid: 1a4aafac4636d85488c0cf1dca04026a, type: 3}
+--- !u!114 &4874570387987286662
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6386892421028960016}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0438d19023648c04b9985294ff933010, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _sizeChanegeOn: 1.1
+  _animSpeed: 0.25
+  ease: 27
 --- !u!1001 &5290488675684471115
 PrefabInstance:
   m_ObjectHideFlags: 0
