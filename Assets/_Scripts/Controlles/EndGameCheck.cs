@@ -50,28 +50,36 @@ public class EndGameCheck : MonoBehaviour
         
     }
 
-    private int _currentCharToCheck;
+    private int _currentCharToCheck = -1;
     private List<Character> _charactersToCheck;
     private bool isAtLeastOneCharacterAlive;
+    VD.NodeData data;
 
-    void CheckCharsAlives()
+    public void CheckCharsAlives()
     {
-       
-        foreach(var ch in HouseState.Instance.GetCharacters())
+        _isGameEnded = true;
+        _charactersToCheck = new List<Character>();
+        foreach (var ch in HouseState.Instance.GetCharacters())
         {
             _charactersToCheck.Add(ch);
         }
-        _currentCharToCheck = 0;
-
-        CheckNextCharacter(null);
-        VD.OnEnd += CheckNextCharacter;
+       
     }
-
-    void CheckNextCharacter(VD.NodeData data)
+    private void Update()
     {
-        if (_currentCharToCheck > _charactersToCheck.Count - 1)
+        if ((_isGameEnded) && (Input.GetMouseButton(0)) && (!VD.isActive) && (_currentCharToCheck < _charactersToCheck.Count - 1))
         {
-            VD.OnEnd -= CheckNextCharacter;
+            _currentCharToCheck += 1;
+            CheckNextCharacter();
+            
+        }
+    }
+    void CheckNextCharacter()
+    {
+        
+        if (_currentCharToCheck > _charactersToCheck.Count - 2)
+        {
+            
             if (isAtLeastOneCharacterAlive)
             {
                 TransitionScreen.gameObject.SetActive(true);
@@ -86,17 +94,17 @@ public class EndGameCheck : MonoBehaviour
             }
         }
 
-        if (HouseState.Instance.GetCharacterState(_charactersToCheck[_currentCharToCheck]).IsAlive)
+        else if (HouseState.Instance.GetCharacterState(_charactersToCheck[_currentCharToCheck]).IsAlive)
         {
             isAtLeastOneCharacterAlive = true;
             DialogManager.Instance.Begin(_charactersToCheck[_currentCharToCheck].EndGameDialog, _charactersToCheck[_currentCharToCheck], true);
 
-            _currentCharToCheck += 1;
+            
         }
         else
         {
-            _currentCharToCheck += 1;
-            CheckNextCharacter(data);
+           
+
         }
     }
 
