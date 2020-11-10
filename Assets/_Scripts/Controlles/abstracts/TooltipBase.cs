@@ -5,7 +5,7 @@ using UnityEngine.EventSystems;
 
 public abstract class TooltipBase : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
 {
-    TooltipView tooltipView = new TooltipView();
+    protected TooltipView tooltipView = new TooltipView();
 
     public void OnPointerEnter(PointerEventData eventData)
     {

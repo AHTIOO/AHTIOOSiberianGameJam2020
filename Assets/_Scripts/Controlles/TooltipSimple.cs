@@ -5,7 +5,6 @@ using UnityEngine;
 public class TooltipSimple : TooltipBase
 {
     public string Message;
-    TooltipView tooltipView = new TooltipView();
 
     protected override void UpdateTooltipMessage()
     {
