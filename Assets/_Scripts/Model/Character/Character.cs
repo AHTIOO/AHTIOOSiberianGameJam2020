@@ -13,9 +13,6 @@ public class Character : ScriptableObject
     [SerializeField] private string _inDarkDialog;
     [SerializeField] private List<CharacterDefinition> _characterDefinitions;
 
-    [SerializeField] private AudioClip _standartCLip;
-    [SerializeField] private AudioClip _darkCLip;
-
 
     public string Name => _name;
     public Sprite DialogSprite => _dialogSprite;
@@ -26,8 +23,4 @@ public class Character : ScriptableObject
     public Sprite MenuIcon => _menuIcon;
 
     public string EndGameDialog => _endgameDialog;
-
-    public AudioClip StandartCLip => _standartCLip;
-
-    public AudioClip DarkCLip => _darkCLip;
 }

@@ -236,7 +236,7 @@ MonoBehaviour:
   _objectsToActivateOnInteract: []
   _idsToDeactivateOnInteract: []
   _idsToActivateOnInteract: []
-  _successClip: {fileID: 8300000, guid: 35182e7420fa3a045967410d1cdcc3d1, type: 3}
+  _successClip: {fileID: 0}
   _failClip: {fileID: 0}
   _roomIndex: 1
 --- !u!114 &6176975755929140435
@@ -490,7 +490,7 @@ MonoBehaviour:
   _objectsToActivateOnInteract: []
   _idsToDeactivateOnInteract: []
   _idsToActivateOnInteract: []
-  _successClip: {fileID: 8300000, guid: 6a8b3d784ba47754abd27a01aa97143b, type: 3}
+  _successClip: {fileID: 0}
   _failClip: {fileID: 0}
   _roomIndex: 0
 --- !u!114 &1423929387181400540
@@ -745,7 +745,7 @@ MonoBehaviour:
   _objectsToActivateOnInteract: []
   _idsToDeactivateOnInteract: []
   _idsToActivateOnInteract: []
-  _successClip: {fileID: 8300000, guid: b920176a6d099d7469c3c90223a9b5eb, type: 3}
+  _successClip: {fileID: 0}
   _failClip: {fileID: 0}
   _roomIndex: 2
 --- !u!114 &7434479223743399801
@@ -1013,7 +1013,7 @@ MonoBehaviour:
   _objectsToActivateOnInteract: []
   _idsToDeactivateOnInteract: []
   _idsToActivateOnInteract: []
-  _successClip: {fileID: 8300000, guid: 6a8b3d784ba47754abd27a01aa97143b, type: 3}
+  _successClip: {fileID: 0}
   _failClip: {fileID: 0}
   _roomIndex: 4
 --- !u!114 &4947833645764507329
@@ -1269,8 +1269,8 @@ MonoBehaviour:
   _objectsToActivateOnInteract: []
   _idsToDeactivateOnInteract: []
   _idsToActivateOnInteract: []
-  _successClip: {fileID: 8300000, guid: 51e42c79dc6569f47869147d9b04d732, type: 3}
-  _failClip: {fileID: 8300000, guid: da7b83a37082dc940b0fb946caf57fef, type: 3}
+  _successClip: {fileID: 0}
+  _failClip: {fileID: 0}
 --- !u!114 &8937700444576729840
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1554,7 +1554,7 @@ MonoBehaviour:
   _objectsToActivateOnInteract: []
   _idsToDeactivateOnInteract: []
   _idsToActivateOnInteract: []
-  _successClip: {fileID: 8300000, guid: 35182e7420fa3a045967410d1cdcc3d1, type: 3}
+  _successClip: {fileID: 0}
   _failClip: {fileID: 0}
   _roomIndex: 3
 --- !u!114 &4859356336399185869

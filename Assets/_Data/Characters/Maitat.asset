@@ -21,5 +21,3 @@ MonoBehaviour:
   _characterDefinitions:
   - {fileID: 11400000, guid: edff7cc26624d9d4b8ef3d2c644d4e8f, type: 2}
   - {fileID: 11400000, guid: 372f12fee422d094e80d7eea15c71fb1, type: 2}
-  _standartCLip: {fileID: 8300000, guid: 76e9705f2facfb6408b9319a664b081b, type: 3}
-  _darkCLip: {fileID: 8300000, guid: b8a39c06850b6e54ca52b07878b53bf9, type: 3}

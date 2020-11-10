@@ -20,5 +20,3 @@ MonoBehaviour:
   _inDarkDialog: VictorScream
   _characterDefinitions:
   - {fileID: 11400000, guid: 27f079c8994888b41a1857ac3fe39b5e, type: 2}
-  _standartCLip: {fileID: 8300000, guid: 252a88dec6ca3144388917202ae9e212, type: 3}
-  _darkCLip: {fileID: 8300000, guid: 7932ef49f58a794499ccf1de8fc17ef2, type: 3}

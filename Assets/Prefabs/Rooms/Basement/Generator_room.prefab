@@ -991,8 +991,8 @@ MonoBehaviour:
   _objectsToActivateOnInteract: []
   _idsToDeactivateOnInteract: []
   _idsToActivateOnInteract: []
-  _successClip: {fileID: 8300000, guid: 89c3f0a932a9ff6428507f3b67d25a0b, type: 3}
-  _failClip: {fileID: 8300000, guid: 89c3f0a932a9ff6428507f3b67d25a0b, type: 3}
+  _successClip: {fileID: 0}
+  _failClip: {fileID: 0}
   _lever: {fileID: 11400000, guid: 2dcbaeb39c344d040b4ded7dd827e595, type: 2}
   _leverImage: {fileID: 785700086633192704}
   _upSprite: {fileID: 21300000, guid: 41131c5a8853c8c439d6e3125baea996, type: 3}

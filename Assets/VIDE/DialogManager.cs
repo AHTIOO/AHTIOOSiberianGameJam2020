@@ -30,7 +30,7 @@ public class DialogManager : Singleton<DialogManager>
     }
    
    
-    public void Begin(string dialog, Character character, bool isCharAlive, AudioClip clip)
+    public void Begin(string dialog, Character character, bool isCharAlive)
     {
         characterImage.sprite = character.DialogSprite;
         CurentDialogBegin?.Invoke();
@@ -41,12 +41,6 @@ public class DialogManager : Singleton<DialogManager>
         VD.OnNodeChange += UpdateUI;
         VD.OnEnd += End;
         VD.BeginDialogue(dialog);
-
-        if (clip != null && isCharAlive)
-        {
-            audioSource.clip = clip;
-            audioSource.Play();
-        }
     }
 
     void UpdateUI(VD.NodeData data)
@@ -78,6 +72,13 @@ public class DialogManager : Singleton<DialogManager>
             if (VD.GetNext(true, false).isPlayer)
             {
                 VD.Next();
+            }
+            //Play Audio if any
+            if (audioSource != null)
+            {
+                if (data.audios[data.commentIndex] != null)
+                    audioSource.clip = data.audios[data.commentIndex];
+                audioSource.Play();
             }
         }
     }
