@@ -291,11 +291,11 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 5807535884201078362}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -483.17, y: -216.5}
+  m_AnchoredPosition: {x: -483.17, y: -219}
   m_SizeDelta: {x: 856.34705, y: 647.0042}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &8831809866806459643
@@ -492,8 +492,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 622ccdfeacc0d6642ae5f3abbc8cdf9f, type: 2}
   - {fileID: 11400000, guid: 0d887c534a43488478f238302508851a, type: 2}
   _condition: {fileID: 2133932286740128775}
-  _objectsToDeactivateOnInteract:
-  - {fileID: 1932856203478322848}
+  _objectsToDeactivateOnInteract: []
   _objectsToActivateOnInteract: []
   _idsToDeactivateOnInteract: []
   _idsToActivateOnInteract: []
@@ -569,7 +568,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 5807535884201078362}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
