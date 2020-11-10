@@ -11,6 +11,8 @@ public class MenuController : MonoBehaviour
     [SerializeField] private Button _exitButton;
     [SerializeField] private GameObject _prefab;
     [SerializeField] private GameObject _menuParrant;
+    [SerializeField] private GameObject _authors;
+    
 
     void Start()
     {
@@ -44,6 +46,13 @@ public class MenuController : MonoBehaviour
     public void CLoseGame()
     {
         Application.Quit();
+    }
+
+    public void ShowAthors()
+    {
+        _menuParrant.SetActive(false);
+        _authors.SetActive(true);
+        
     }
     private void Update()
     {
