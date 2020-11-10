@@ -157,7 +157,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 1593, y: -212}
+  m_AnchoredPosition: {x: 1542, y: -176}
   m_SizeDelta: {x: 512.35803, y: 33.257324}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &3798860
@@ -235,8 +235,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
-  m_AnchoredPosition: {x: -55.79995, y: -87.39999}
-  m_SizeDelta: {x: 588.796, y: 38.29239}
+  m_AnchoredPosition: {x: -51.1, y: -88.6}
+  m_SizeDelta: {x: 598.19666, y: 40.601532}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &14005443
 MonoBehaviour:
@@ -270,7 +270,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Gameplay: \u0410\u043B\u0435\u043A\u0441\u0435\u0439 \"dddushesss\" \u041F\u0430\u0432\u043B\u043E\u0432"
+  m_Text: "Gameplay:   \u0410\u043B\u0435\u043A\u0441\u0435\u0439 \"dddushesss\"
+    \u041F\u0430\u0432\u043B\u043E\u0432"
 --- !u!222 &14005444
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -316,7 +317,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 1199, y: -606}
+  m_AnchoredPosition: {x: 1124, y: -628}
   m_SizeDelta: {x: 350, y: 40}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &96978552
@@ -540,8 +541,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
-  m_AnchoredPosition: {x: -56, y: -120.8}
-  m_SizeDelta: {x: 590.3242, y: 38.57965}
+  m_AnchoredPosition: {x: 62.407, y: -120.8}
+  m_SizeDelta: {x: 827.1384, y: 38.57965}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &324225304
 MonoBehaviour:
@@ -633,8 +634,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u0421\u0430\u0443\u043D\u0434 \u0434\u0438\u0437\u0430\u0439\u043D: \u0410\u0440\u0442\u0451\u043C
-    \"Daywin\" \u041A\u0430\u0437\u0430\u043A\u043E\u0432"
+  m_Text: "\u0421\u0430\u0443\u043D\u0434 \u0434\u0438\u0437\u0430\u0439\u043D \u0438
+    \u043C\u0443\u0437\u044B\u043A\u0430:   \u0410\u0440\u0442\u0451\u043C \"Daywin\"
+    \u041A\u0430\u0437\u0430\u043A\u043E\u0432"
 --- !u!222 &324225306
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1015,8 +1017,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
-  m_AnchoredPosition: {x: -57, y: -43}
-  m_SizeDelta: {x: 592.32446, y: 37}
+  m_AnchoredPosition: {x: 61.4, y: -43}
+  m_SizeDelta: {x: 829.15344, y: 37}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &547393141
 MonoBehaviour:
@@ -1108,7 +1110,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Lead: \u041E\u043A\u043E\u0448\u043A\u043E - https://vk.com/okoshkodraw"
+  m_Text: "Lead 2D Artist:   \u041E\u043A\u043E\u0448\u043A\u043E - https://vk.com/okoshkodraw"
 --- !u!222 &547393143
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2049,7 +2051,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 1437, y: -416}
+  m_AnchoredPosition: {x: 1439, y: -426}
   m_SizeDelta: {x: 350, y: 40}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1023737473
@@ -2321,8 +2323,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
-  m_AnchoredPosition: {x: -103.16199, y: -81.5}
-  m_SizeDelta: {x: 500, y: 40}
+  m_AnchoredPosition: {x: 61.407, y: -81.505}
+  m_SizeDelta: {x: 829.1387, y: 40.010193}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1079021966
 MonoBehaviour:
@@ -2414,7 +2416,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "2D: \u041D\u043E\u0440\u0442 - https://vk.com/northfireart"
+  m_Text: "2D Artist:   \u041D\u043E\u0440\u0442 - https://vk.com/northfireart"
 --- !u!222 &1079021968
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3193,8 +3195,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
-  m_AnchoredPosition: {x: -256, y: -77}
-  m_SizeDelta: {x: 512.35986, y: 33.169556}
+  m_AnchoredPosition: {x: -224, y: -82.2}
+  m_SizeDelta: {x: 576.39197, y: 43.602722}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1714268909
 MonoBehaviour:
@@ -3228,8 +3230,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u041D\u0430\u0440\u0430\u0442\u0438\u0432\u043D\u044B\u0439: \u041D\u0438\u043A\u0438\u0442\u0430
-    \"Racoon Box\" \u041B\u043E\u0433\u0438\u043D\u043E\u0432"
+  m_Text: "Narrative:   \u041D\u0438\u043A\u0438\u0442\u0430 \"Racoon Box\" \u041B\u043E\u0433\u0438\u043D\u043E\u0432"
 --- !u!222 &1714268910
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3735,7 +3736,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Lead: \u0410\u043D\u0442\u043E\u043D \"ahitoo\" \u0428\u0438\u0440\u043E\u043A\u043E\u0432"
+  m_Text: "Lead:   \u0410\u043D\u0442\u043E\u043D \"ahitoo\" \u0428\u0438\u0440\u043E\u043A\u043E\u0432"
 --- !u!222 &1963024474
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3778,8 +3779,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
-  m_AnchoredPosition: {x: -51.1, y: -48.3}
-  m_SizeDelta: {x: 598.19727, y: 40}
+  m_AnchoredPosition: {x: -40.7, y: -48.3}
+  m_SizeDelta: {x: 618.98, y: 39.999268}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2059901501
 MonoBehaviour:
@@ -3813,7 +3814,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Lead: \u041C\u0430\u043A\u0441\u0438\u043C \"SquarePolynomial\" \u041A\u0443\u0440\u0448\u0438\u043D"
+  m_Text: "Lead:   \u041C\u0430\u043A\u0441\u0438\u043C \"SquarePolynomial\" \u041A\u0443\u0440\u0448\u0438\u043D"
 --- !u!222 &2059901502
 CanvasRenderer:
   m_ObjectHideFlags: 0
