@@ -20,5 +20,3 @@ MonoBehaviour:
   _inDarkDialog: RockwellScream
   _characterDefinitions:
   - {fileID: 11400000, guid: 87551ceb61b83b94a8103a0c35cdb6ce, type: 2}
-  _standartCLip: {fileID: 8300000, guid: bcdd9d3fc3576b24ba7f11bba8d5c968, type: 3}
-  _darkCLip: {fileID: 8300000, guid: 9f55353131a4abe418a17d1bad096266, type: 3}

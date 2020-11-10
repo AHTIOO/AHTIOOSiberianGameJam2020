@@ -233,8 +233,6 @@ MonoBehaviour:
   _condition: {fileID: 0}
   _objectsToDeactivateOnInteract: []
   _objectsToActivateOnInteract: []
-  _idsToDeactivateOnInteract: []
-  _idsToActivateOnInteract: []
   _successClip: {fileID: 0}
   _failClip: {fileID: 0}
   _lever: {fileID: 11400000, guid: 27785486886116d49abf4b66dd64afc6, type: 2}

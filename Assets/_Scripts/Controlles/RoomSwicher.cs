@@ -81,7 +81,7 @@ public class RoomSwicher : Singleton<RoomSwicher>
             ? characterState.CurrentCharacterDefinition.Dialog
             : character.DeathDialog;
 
-        DialogManager.Begin(dialog, character, characterState.IsAlive, character.StandartCLip);
+        DialogManager.Begin(dialog, character, characterState.IsAlive);
     }
 
     public void ForceUpdate()
