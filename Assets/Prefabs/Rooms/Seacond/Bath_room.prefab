@@ -315,7 +315,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 43, y: -440.42}
-  m_SizeDelta: {x: 164.81836, y: 199.16113}
+  m_SizeDelta: {x: 150, y: 150}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &4088356384786339458
 CanvasRenderer:
@@ -1023,8 +1023,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: ed0440674bd25f24e98b36b53c1212ed, type: 2}
   - {fileID: 11400000, guid: af0e2c8f5c59f364d8941b66d183e561, type: 2}
   _condition: {fileID: 6573650250330526287}
-  _objectsToDeactivateOnInteract:
-  - {fileID: 3672721432120605924}
+  _objectsToDeactivateOnInteract: []
   _objectsToActivateOnInteract: []
   _idsToDeactivateOnInteract: []
   _idsToActivateOnInteract: []
