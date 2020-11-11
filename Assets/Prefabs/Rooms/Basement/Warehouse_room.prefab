@@ -1743,7 +1743,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 66b5f87398ed4004db648cf7628929fd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _successInteractinMessage: 
+  _successInteractinMessage: "\u0412\u043D\u0443\u0442\u0440\u0438 \u044F\u0449\u0438\u043A\u0430
+    \u043E\u043A\u0430\u0437\u0430\u043B\u0441\u044F \u0441\u0430\u0434\u043E\u0432\u044B\u0439
+    \u0433\u043D\u043E\u043C."
   _messageTime: 3
   _isMultiInteractable: 0
   _gameTriggers:
@@ -1789,7 +1791,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tooltipView: {fileID: 6526989243375756370}
-  Message: "\u042F\u0449\u0438\u043A"
+  Message: "\u0417\u0430\u043A\u0440\u044B\u0442\u044B\u0439 \u044F\u0449\u0438\u043A."
 --- !u!114 &3547792944136430172
 MonoBehaviour:
   m_ObjectHideFlags: 0
