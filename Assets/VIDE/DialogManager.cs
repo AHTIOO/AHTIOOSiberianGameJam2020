@@ -18,6 +18,7 @@ public class DialogManager : Singleton<DialogManager>
     public Text[] text_Choices;
     public AudioSource audioSource;
     public Image stopClicking;
+    public GameObject nameBack;
 
 
     // Use this for initialization
@@ -33,6 +34,14 @@ public class DialogManager : Singleton<DialogManager>
     public void Begin(string dialog, Character character, bool isCharAlive, AudioClip audioClip)
     {
         characterImage.sprite = character.DialogSprite;
+        if(character.Name == "")
+        {
+            nameBack.SetActive(false);
+        }
+        else
+        {
+            nameBack.SetActive(true);
+        }
         CurentDialogBegin?.Invoke();
         characterImage.color = isCharAlive ? Color.white : Color.black;
         characterName.text = character.Name;
@@ -48,6 +57,8 @@ public class DialogManager : Singleton<DialogManager>
             audioSource.Play();
         }
     }
+
+    
 
     void UpdateUI(VD.NodeData data)
     {
