@@ -12,8 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 681abda9dec641e40b83c29be9ab6236, type: 3}
   m_Name: Room_Second_Coridor_1
   m_EditorClassIdentifier: 
-  _roomNameForTransition: "\u0432 \u0431\u043B\u0438\u0436\u043D\u044E\u044E \u0447\u0430\u0441\u0442\u044C
-    \u043A\u043E\u0440\u0438\u0434\u043E\u0440\u0430"
+  _roomNameForTransition: "\u0432 \u043D\u0430\u0447\u0430\u043B\u043E \u043A\u043E\u0440\u0438\u0434\u043E\u0440\u0430"
   _roomPrefab: {fileID: 6998306108923643214, guid: 7e30ee3d745af8446b54537763dfd081,
     type: 3}
   isLightDefault: 1
