@@ -41,6 +41,7 @@ public class MapPart : MonoBehaviour
             else
             {
                 _characterImages[i].sprite = chars[i].MenuIcon;
+                _characterImages[i].gameObject.SetActive(true);
             }
         }
     }
