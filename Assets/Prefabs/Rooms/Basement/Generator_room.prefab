@@ -374,6 +374,7 @@ GameObject:
   - component: {fileID: 1559355614268409237}
   - component: {fileID: 6293573313274179212}
   - component: {fileID: 2747902324521480730}
+  - component: {fileID: 7830057280897994391}
   m_Layer: 5
   m_Name: DoorToWarehouse
   m_TagString: Untagged
@@ -615,6 +616,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tooltipView: {fileID: 6337153661161564220}
   _room: {fileID: 11400000, guid: a82de073ec3b9ea4cb0a4e991e4c68ed, type: 2}
+--- !u!114 &7830057280897994391
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6530495069317374737}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0438d19023648c04b9985294ff933010, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _sizeChanegeOn: 1.1
+  _animSpeed: 0.25
+  ease: 27
 --- !u!1 &7215063682420758480
 GameObject:
   m_ObjectHideFlags: 0
