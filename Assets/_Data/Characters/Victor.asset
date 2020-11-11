@@ -20,3 +20,5 @@ MonoBehaviour:
   _inDarkDialog: VictorScream
   _characterDefinitions:
   - {fileID: 11400000, guid: 27f079c8994888b41a1857ac3fe39b5e, type: 2}
+  _standartClip: {fileID: 8300000, guid: 2b1ccdd1371fce0439cb4be850402d4e, type: 3}
+  _darkClip: {fileID: 8300000, guid: 1820f7568ef529c43bad49b45ada6097, type: 3}

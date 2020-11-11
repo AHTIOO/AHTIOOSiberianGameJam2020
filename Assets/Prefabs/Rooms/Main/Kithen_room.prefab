@@ -229,6 +229,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 66b5f87398ed4004db648cf7628929fd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _successInteractinMessage: 
+  _messageTime: 3
   _isMultiInteractable: 0
   _gameTriggers:
   - {fileID: 11400000, guid: 530e65092b3a6574f9a510f63dd3b7cb, type: 2}
@@ -485,6 +487,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 086278c762b0b3c48ba00f3bd0e068db, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _successInteractinMessage: 
+  _messageTime: 3
   _isMultiInteractable: 1
   _gameTriggers: []
   _condition: {fileID: 0}
@@ -739,8 +743,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 086278c762b0b3c48ba00f3bd0e068db, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _successInteractinMessage: 
+  _messageTime: 3
   _isMultiInteractable: 1
-  _gameTriggers: []
+  _gameTriggers:
+  - {fileID: 11400000, guid: 2e30ce4a53e065e46abcb3b23be05f19, type: 2}
   _condition: {fileID: 0}
   _objectsToDeactivateOnInteract: []
   _objectsToActivateOnInteract: []
@@ -993,6 +1000,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 086278c762b0b3c48ba00f3bd0e068db, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _successInteractinMessage: 
+  _messageTime: 3
   _isMultiInteractable: 1
   _gameTriggers:
   - {fileID: 11400000, guid: 2e30ce4a53e065e46abcb3b23be05f19, type: 2}
@@ -1248,6 +1257,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ba075e698b2ebea41b1479fff83b78e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _successInteractinMessage: 
+  _messageTime: 3
   _isMultiInteractable: 1
   _gameTriggers: []
   _condition: {fileID: 0}
@@ -1722,6 +1733,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 66b5f87398ed4004db648cf7628929fd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _successInteractinMessage: 
+  _messageTime: 3
   _isMultiInteractable: 0
   _gameTriggers:
   - {fileID: 11400000, guid: 19f37ac4cff72e841807fd585d050e90, type: 2}
