@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -6,6 +7,8 @@ using UnityEngine.UI;
 [RequireComponent(typeof(Button), typeof(AudioSource))]
 public class InteractableObject : MonoBehaviour
 {
+    [SerializeField] private string _successInteractinMessage = "";
+    [SerializeField] private float _messageTime = 3f;
     [SerializeField] private bool _isMultiInteractable;
 
     [SerializeField] protected List<GameTrigger> _gameTriggers = new List<GameTrigger>();
@@ -68,6 +71,12 @@ public class InteractableObject : MonoBehaviour
             }
 
             InteractionAction();
+
+            if (!String.IsNullOrEmpty(_successInteractinMessage))
+            {
+                MessegePopUp.Instance.MessegePlayer(_successInteractinMessage, _messageTime);
+            }
+
 
             foreach (var o in _objectsToActivateOnInteract)
             {
