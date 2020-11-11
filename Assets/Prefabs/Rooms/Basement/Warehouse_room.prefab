@@ -16,6 +16,7 @@ GameObject:
   - component: {fileID: 3648826887624343639}
   - component: {fileID: 1905312422065730356}
   - component: {fileID: 4093884257997472650}
+  - component: {fileID: 8051160132908539598}
   m_Layer: 5
   m_Name: DoorToDinerBlocker
   m_TagString: Untagged
@@ -278,6 +279,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tooltipView: {fileID: 2656637306955714899}
   Message: "\u0414\u0432\u0435\u0440\u044C \u043D\u0430 \u043B\u0435\u0441\u0442\u043D\u0438\u0446\u0443"
+--- !u!114 &8051160132908539598
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1409096336178701168}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0438d19023648c04b9985294ff933010, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _sizeChanegeOn: 1.1
+  _animSpeed: 0.25
+  ease: 27
 --- !u!1 &2022705135730128383
 GameObject:
   m_ObjectHideFlags: 0
@@ -293,6 +309,7 @@ GameObject:
   - component: {fileID: 5653416286553162532}
   - component: {fileID: 4687737320176792319}
   - component: {fileID: 1268149560885357831}
+  - component: {fileID: 3794989287838312919}
   m_Layer: 5
   m_Name: Jar
   m_TagString: Untagged
@@ -535,6 +552,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tooltipView: {fileID: 5163856500573289788}
   Message: "\u0411\u0430\u043D\u043A\u0430"
+--- !u!114 &3794989287838312919
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2022705135730128383}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0438d19023648c04b9985294ff933010, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _sizeChanegeOn: 1.1
+  _animSpeed: 0.25
+  ease: 27
 --- !u!1 &2367598607548744249
 GameObject:
   m_ObjectHideFlags: 0
@@ -550,6 +582,7 @@ GameObject:
   - component: {fileID: 6697221329598717435}
   - component: {fileID: 2176841832249640702}
   - component: {fileID: 5366390579537173466}
+  - component: {fileID: 6494864655304115467}
   m_Layer: 5
   m_Name: DoorToDiner
   m_TagString: Untagged
@@ -791,6 +824,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tooltipView: {fileID: 8622498121333833587}
   _room: {fileID: 11400000, guid: 1e2ad3b616ae4f14d893ad436f86c5f9, type: 2}
+--- !u!114 &6494864655304115467
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2367598607548744249}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0438d19023648c04b9985294ff933010, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _sizeChanegeOn: 1.1
+  _animSpeed: 0.25
+  ease: 27
 --- !u!1 &4462395281930286800
 GameObject:
   m_ObjectHideFlags: 0
@@ -806,6 +854,7 @@ GameObject:
   - component: {fileID: 2346736447756402241}
   - component: {fileID: 7741051782388042799}
   - component: {fileID: 8914405653733132657}
+  - component: {fileID: 7879253709943632041}
   m_Layer: 5
   m_Name: DoorToGenerator
   m_TagString: Untagged
@@ -1047,6 +1096,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tooltipView: {fileID: 1714442559756657167}
   _room: {fileID: 11400000, guid: 45ce9f2595074c945b972120a242ff88, type: 2}
+--- !u!114 &7879253709943632041
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4462395281930286800}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0438d19023648c04b9985294ff933010, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _sizeChanegeOn: 1.1
+  _animSpeed: 0.25
+  ease: 27
 --- !u!1 &6425947440665380343
 GameObject:
   m_ObjectHideFlags: 0
