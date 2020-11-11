@@ -13,6 +13,11 @@ public class Character : ScriptableObject
     [SerializeField] private string _inDarkDialog;
     [SerializeField] private List<CharacterDefinition> _characterDefinitions;
 
+    [SerializeField] private AudioClip _standartClip;
+    [SerializeField] private AudioClip _darkClip;
+
+    public AudioClip StandartClip => _standartClip;
+    public AudioClip DarkClip => _darkClip;
 
     public string Name => _name;
     public Sprite DialogSprite => _dialogSprite;
