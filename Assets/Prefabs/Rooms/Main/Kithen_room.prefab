@@ -239,7 +239,7 @@ MonoBehaviour:
   - {fileID: 5901313790628022509}
   _idsToDeactivateOnInteract: []
   _idsToActivateOnInteract: []
-  _successClip: {fileID: 0}
+  _successClip: {fileID: 8300000, guid: 4f4b33ac117ac5e4d8b187ca5b0ff669, type: 3}
   _failClip: {fileID: 0}
 --- !u!114 &1734737631305363516
 MonoBehaviour:
@@ -492,7 +492,7 @@ MonoBehaviour:
   _objectsToActivateOnInteract: []
   _idsToDeactivateOnInteract: []
   _idsToActivateOnInteract: []
-  _successClip: {fileID: 0}
+  _successClip: {fileID: 8300000, guid: 1a3bec7370ca5ad4ea06dd963b925945, type: 3}
   _failClip: {fileID: 0}
   _roomIndex: 2
 --- !u!114 &5039557873468336896
@@ -746,7 +746,7 @@ MonoBehaviour:
   _objectsToActivateOnInteract: []
   _idsToDeactivateOnInteract: []
   _idsToActivateOnInteract: []
-  _successClip: {fileID: 0}
+  _successClip: {fileID: 8300000, guid: e6a152f8f5d8d3c459134c91fd4ea096, type: 3}
   _failClip: {fileID: 0}
   _roomIndex: 1
 --- !u!114 &1475529702059968644
@@ -1001,7 +1001,7 @@ MonoBehaviour:
   _objectsToActivateOnInteract: []
   _idsToDeactivateOnInteract: []
   _idsToActivateOnInteract: []
-  _successClip: {fileID: 8300000, guid: 35182e7420fa3a045967410d1cdcc3d1, type: 3}
+  _successClip: {fileID: 8300000, guid: e6a152f8f5d8d3c459134c91fd4ea096, type: 3}
   _failClip: {fileID: 0}
   _roomIndex: 0
 --- !u!114 &8582044286980076929
@@ -1255,7 +1255,7 @@ MonoBehaviour:
   _objectsToActivateOnInteract: []
   _idsToDeactivateOnInteract: []
   _idsToActivateOnInteract: []
-  _successClip: {fileID: 0}
+  _successClip: {fileID: 8300000, guid: 494cd8216a474b9408f8bfedc15fca6a, type: 3}
   _failClip: {fileID: 0}
   _lever: {fileID: 11400000, guid: bf84f6177182e0548878eb614d3f4900, type: 2}
   _leverImage: {fileID: 5282635897644526878}
@@ -1733,8 +1733,8 @@ MonoBehaviour:
   - {fileID: 3964961053564839367}
   _idsToDeactivateOnInteract: []
   _idsToActivateOnInteract: []
-  _successClip: {fileID: 0}
-  _failClip: {fileID: 0}
+  _successClip: {fileID: 8300000, guid: 754a00c21431f9949a13c142f2eb8677, type: 3}
+  _failClip: {fileID: 8300000, guid: 9e5a1948824757e428a3c55ed42862f7, type: 3}
 --- !u!114 &1233592659771220044
 MonoBehaviour:
   m_ObjectHideFlags: 0

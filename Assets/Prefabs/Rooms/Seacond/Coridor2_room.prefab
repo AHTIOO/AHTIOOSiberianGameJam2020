@@ -238,7 +238,7 @@ MonoBehaviour:
   _objectsToActivateOnInteract: []
   _idsToDeactivateOnInteract: []
   _idsToActivateOnInteract: []
-  _successClip: {fileID: 0}
+  _successClip: {fileID: 8300000, guid: 5ee7400739c11f44fb5243af75cef45e, type: 3}
   _failClip: {fileID: 0}
 --- !u!114 &6992563908990268656
 MonoBehaviour:
@@ -494,8 +494,8 @@ MonoBehaviour:
   - {fileID: 6142219258214884679}
   _idsToDeactivateOnInteract: []
   _idsToActivateOnInteract: []
-  _successClip: {fileID: 0}
-  _failClip: {fileID: 0}
+  _successClip: {fileID: 8300000, guid: 8cfeaf4d9ca97e945ab7f8740438c82f, type: 3}
+  _failClip: {fileID: 8300000, guid: e2b8ba1246972a5469b19cba2763cf8b, type: 3}
 --- !u!114 &6611284262538872155
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -765,7 +765,7 @@ MonoBehaviour:
   _objectsToActivateOnInteract: []
   _idsToDeactivateOnInteract: []
   _idsToActivateOnInteract: []
-  _successClip: {fileID: 0}
+  _successClip: {fileID: 8300000, guid: ff560584f4f42954fad15830e1631e6e, type: 3}
   _failClip: {fileID: 0}
   _roomIndex: 1
 --- !u!114 &4512853925285151491
@@ -1019,7 +1019,7 @@ MonoBehaviour:
   _objectsToActivateOnInteract: []
   _idsToDeactivateOnInteract: []
   _idsToActivateOnInteract: []
-  _successClip: {fileID: 0}
+  _successClip: {fileID: 8300000, guid: ff560584f4f42954fad15830e1631e6e, type: 3}
   _failClip: {fileID: 0}
   _roomIndex: 2
 --- !u!114 &566850871931575227
@@ -1276,8 +1276,8 @@ MonoBehaviour:
   - {fileID: 5491860522146300301}
   _idsToDeactivateOnInteract: []
   _idsToActivateOnInteract: []
-  _successClip: {fileID: 0}
-  _failClip: {fileID: 0}
+  _successClip: {fileID: 8300000, guid: 07f05096a6c7d5c479359f6448480fcc, type: 3}
+  _failClip: {fileID: 8300000, guid: 99a4b97306ae4c049a0e48b05cc9dd3f, type: 3}
 --- !u!114 &2029131198198828629
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1549,7 +1549,7 @@ MonoBehaviour:
   _objectsToActivateOnInteract: []
   _idsToDeactivateOnInteract: []
   _idsToActivateOnInteract: []
-  _successClip: {fileID: 0}
+  _successClip: {fileID: 8300000, guid: e6a152f8f5d8d3c459134c91fd4ea096, type: 3}
   _failClip: {fileID: 0}
   _roomIndex: 0
 --- !u!114 &5346748669896583848

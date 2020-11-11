@@ -235,7 +235,7 @@ MonoBehaviour:
   _objectsToActivateOnInteract: []
   _idsToDeactivateOnInteract: []
   _idsToActivateOnInteract: []
-  _successClip: {fileID: 0}
+  _successClip: {fileID: 8300000, guid: 6cc349daad0259f4b8f27c07e07c9e83, type: 3}
   _failClip: {fileID: 0}
   _roomIndex: 0
 --- !u!1 &1082789580626304677
@@ -473,7 +473,7 @@ MonoBehaviour:
   _objectsToActivateOnInteract: []
   _idsToDeactivateOnInteract: []
   _idsToActivateOnInteract: []
-  _successClip: {fileID: 0}
+  _successClip: {fileID: 8300000, guid: ff560584f4f42954fad15830e1631e6e, type: 3}
   _failClip: {fileID: 0}
   _roomIndex: 1
 --- !u!1 &5668600988690502859
@@ -715,7 +715,7 @@ MonoBehaviour:
   - 1
   _idsToActivateOnInteract:
   - 2
-  _successClip: {fileID: 0}
+  _successClip: {fileID: 8300000, guid: 99a4b97306ae4c049a0e48b05cc9dd3f, type: 3}
   _failClip: {fileID: 0}
 --- !u!1 &7248348631786682600
 GameObject:

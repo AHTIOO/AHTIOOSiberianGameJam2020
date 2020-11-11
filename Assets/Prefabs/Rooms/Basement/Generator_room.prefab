@@ -592,7 +592,7 @@ MonoBehaviour:
   _objectsToActivateOnInteract: []
   _idsToDeactivateOnInteract: []
   _idsToActivateOnInteract: []
-  _successClip: {fileID: 0}
+  _successClip: {fileID: 8300000, guid: ff560584f4f42954fad15830e1631e6e, type: 3}
   _failClip: {fileID: 0}
   _roomIndex: 0
 --- !u!1 &7215063682420758480
@@ -1144,7 +1144,7 @@ MonoBehaviour:
   _objectsToActivateOnInteract: []
   _idsToDeactivateOnInteract: []
   _idsToActivateOnInteract: []
-  _successClip: {fileID: 0}
+  _successClip: {fileID: 8300000, guid: 494cd8216a474b9408f8bfedc15fca6a, type: 3}
   _failClip: {fileID: 0}
   _lever: {fileID: 11400000, guid: 2dcbaeb39c344d040b4ded7dd827e595, type: 2}
   _leverImage: {fileID: 785700086633192704}

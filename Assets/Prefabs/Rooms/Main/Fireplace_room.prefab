@@ -20,7 +20,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1332139345087664
 RectTransform:
   m_ObjectHideFlags: 0
@@ -473,7 +473,7 @@ MonoBehaviour:
   _objectsToActivateOnInteract: []
   _idsToDeactivateOnInteract: []
   _idsToActivateOnInteract: []
-  _successClip: {fileID: 0}
+  _successClip: {fileID: 8300000, guid: e6a152f8f5d8d3c459134c91fd4ea096, type: 3}
   _failClip: {fileID: 0}
   _roomIndex: 1
 --- !u!114 &5995442257606721975
@@ -727,7 +727,7 @@ MonoBehaviour:
   _objectsToActivateOnInteract: []
   _idsToDeactivateOnInteract: []
   _idsToActivateOnInteract: []
-  _successClip: {fileID: 0}
+  _successClip: {fileID: 8300000, guid: e6a152f8f5d8d3c459134c91fd4ea096, type: 3}
   _failClip: {fileID: 0}
   _roomIndex: 0
 --- !u!114 &4623670275053804016
@@ -985,7 +985,7 @@ MonoBehaviour:
   - {fileID: 2380918836143497513}
   _idsToDeactivateOnInteract: []
   _idsToActivateOnInteract: []
-  _successClip: {fileID: 8300000, guid: 719737d1be0b0034d9a1c11cad6ae3d7, type: 3}
+  _successClip: {fileID: 8300000, guid: 4d063c5acb500f34da8f7cb1f68e0fcb, type: 3}
   _failClip: {fileID: 0}
 --- !u!114 &1373668444244674415
 MonoBehaviour:
@@ -1242,7 +1242,7 @@ MonoBehaviour:
   _objectsToActivateOnInteract: []
   _idsToDeactivateOnInteract: []
   _idsToActivateOnInteract: []
-  _successClip: {fileID: 0}
+  _successClip: {fileID: 8300000, guid: 494cd8216a474b9408f8bfedc15fca6a, type: 3}
   _failClip: {fileID: 0}
   _lever: {fileID: 11400000, guid: ed1b3a403e0c16f4793538e66459c6d9, type: 2}
   _leverImage: {fileID: 4801003676865962498}
@@ -1500,7 +1500,7 @@ MonoBehaviour:
   _objectsToActivateOnInteract: []
   _idsToDeactivateOnInteract: []
   _idsToActivateOnInteract: []
-  _successClip: {fileID: 8300000, guid: 6a8b3d784ba47754abd27a01aa97143b, type: 3}
+  _successClip: {fileID: 8300000, guid: e6a152f8f5d8d3c459134c91fd4ea096, type: 3}
   _failClip: {fileID: 0}
   _roomIndex: 2
 --- !u!114 &3002705799072234337
