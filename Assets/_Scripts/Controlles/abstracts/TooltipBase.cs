@@ -5,7 +5,14 @@ using UnityEngine.EventSystems;
 
 public abstract class TooltipBase : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
 {
-    protected TooltipView tooltipView = new TooltipView();
+    [SerializeField]
+    protected TooltipView tooltipView;
+
+    protected void Start()
+    {
+        tooltipView.SetTooltipInactive();
+        UpdateTooltipMessage();
+    }
 
     public void OnPointerEnter(PointerEventData eventData)
     {
