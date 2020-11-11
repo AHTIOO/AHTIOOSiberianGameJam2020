@@ -273,7 +273,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tooltipView: {fileID: 8931363831784110501}
-  Message: 
+  Message: "\u0411\u0443\u0442\u044B\u043B\u043A\u0430 \u0441\u043E \u0437\u043C\u0435\u0438\u043D\u044B\u043C
+    \u043C\u0430\u0441\u043B\u043E\u043C"
 --- !u!1 &7793050066082130030
 GameObject:
   m_ObjectHideFlags: 0
