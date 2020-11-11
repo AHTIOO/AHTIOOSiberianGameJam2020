@@ -18,10 +18,10 @@ public class TooltipView : MonoBehaviour
 
     public void SetTooltipActive()
     {
-        _tooltipBody.DOFade(0, fadeTime);
+        _tooltipBody.DOFade(1, fadeTime);
     }
     public void SetTooltipInactive()
     {
-        _tooltipBody.DOFade(1, fadeTime);
+        _tooltipBody.DOFade(0, fadeTime);
     }
 }

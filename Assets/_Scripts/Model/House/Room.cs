@@ -20,6 +20,7 @@ public class Room : ScriptableObject
     }
 
     [Header("Room data")]
+    [SerializeField] private string _roomNameForTransition;
     [SerializeField] private RoomView _roomPrefab;
     [SerializeField] private bool isLightDefault;
 
@@ -29,4 +30,6 @@ public class Room : ScriptableObject
     public RoomView RoomPrefab => _roomPrefab;
     public List<RoomConnection> ConnectedRoom => _connectedRoom;
     public bool IsLightDefault => isLightDefault;
+
+    public string RoomNameForTransition => _roomNameForTransition;
 }
