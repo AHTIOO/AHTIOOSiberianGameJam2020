@@ -9,7 +9,7 @@ public class TooltipRoomTransition : TooltipBase
 
     [SerializeField] private Room _room;
 
-    private  string RoomTransitionText => $"Перейти в {_room.RoomNameForTransition}. \n{(IsLightOn ? RoomLightOn : RoomLightOff)}";
+    private  string RoomTransitionText => $"Перейти {_room.RoomNameForTransition.ToString()}. \n{(IsLightOn ? RoomLightOn : RoomLightOff)}";
 
     private bool IsLightOn => HouseState.Instance.GetRoomState(_room).isLighting;
 

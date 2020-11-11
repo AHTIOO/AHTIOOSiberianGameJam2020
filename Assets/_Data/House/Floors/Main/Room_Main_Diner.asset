@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 681abda9dec641e40b83c29be9ab6236, type: 3}
   m_Name: Room_Main_Diner
   m_EditorClassIdentifier: 
+  _roomNameForTransition: "\u0432 \u0441\u0442\u043E\u043B\u043E\u0432\u0443\u044E"
   _roomPrefab: {fileID: 6998306108923643214, guid: 2cc6973d584f92449b37b2d2e4f225e5,
     type: 3}
   isLightDefault: 1

@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 681abda9dec641e40b83c29be9ab6236, type: 3}
   m_Name: Room_Second_Living_1
   m_EditorClassIdentifier: 
+  _roomNameForTransition: "\u0432 \u0436\u0438\u043B\u0443\u044E \u043A\u043E\u043C\u043D\u0430\u0442\u0443"
   _roomPrefab: {fileID: 6998306108923643214, guid: eb6efa4ba3bdde04cb351b3436435bfe,
     type: 3}
   isLightDefault: 1
