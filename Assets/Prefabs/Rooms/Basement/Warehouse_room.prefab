@@ -229,6 +229,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 66b5f87398ed4004db648cf7628929fd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _successInteractinMessage: 
+  _messageTime: 3
   _isMultiInteractable: 1
   _gameTriggers:
   - {fileID: 11400000, guid: 96ced733980e2964aacb9ea1e3965292, type: 2}
@@ -488,6 +490,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 66b5f87398ed4004db648cf7628929fd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _successInteractinMessage: 
+  _messageTime: 3
   _isMultiInteractable: 0
   _gameTriggers:
   - {fileID: 11400000, guid: 583e23358ac08f24383955fbb8b66445, type: 2}
@@ -727,6 +731,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 086278c762b0b3c48ba00f3bd0e068db, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _successInteractinMessage: 
+  _messageTime: 3
   _isMultiInteractable: 1
   _gameTriggers: []
   _condition: {fileID: 0}
@@ -965,6 +971,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 086278c762b0b3c48ba00f3bd0e068db, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _successInteractinMessage: 
+  _messageTime: 3
   _isMultiInteractable: 1
   _gameTriggers: []
   _condition: {fileID: 0}
@@ -1013,7 +1021,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 511, y: -145}
+  m_AnchoredPosition: {x: 523, y: -111}
   m_SizeDelta: {x: 250, y: 250}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &9178683292097595060
@@ -1043,7 +1051,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: f51f6f9ad60f6274194b0ca9153ef84e, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 409488b45f11fa442a6bc4ae5c5613c0, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1204,6 +1212,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 66b5f87398ed4004db648cf7628929fd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _successInteractinMessage: 
+  _messageTime: 3
   _isMultiInteractable: 0
   _gameTriggers:
   - {fileID: 11400000, guid: 9f555230d69e80a4d80a804b0943dbbd, type: 2}
