@@ -909,7 +909,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 66b5f87398ed4004db648cf7628929fd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _successInteractinMessage: 
+  _successInteractinMessage: "[\u0412\u044B \u043E\u0442\u043F\u0438\u0440\u0430\u0435\u0442\u0435
+    \u0437\u0430\u0441\u043E\u0432]"
   _messageTime: 3
   _isMultiInteractable: 0
   _gameTriggers: []
@@ -1317,7 +1318,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 66b5f87398ed4004db648cf7628929fd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _successInteractinMessage: 
+  _successInteractinMessage: "[\u0412 \u0431\u043E\u0442\u0438\u043D\u043A\u0435
+    \u043E\u043A\u0430\u0437\u0430\u043B\u0441\u044F \u043A\u043B\u044E\u0447]"
   _messageTime: 3
   _isMultiInteractable: 0
   _gameTriggers:

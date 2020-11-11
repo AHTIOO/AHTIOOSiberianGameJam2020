@@ -1209,7 +1209,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 66b5f87398ed4004db648cf7628929fd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _successInteractinMessage: 
+  _successInteractinMessage: '[]'
   _messageTime: 3
   _isMultiInteractable: 0
   _gameTriggers:

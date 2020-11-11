@@ -231,7 +231,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 66b5f87398ed4004db648cf7628929fd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _successInteractinMessage: 
+  _successInteractinMessage: "[\u0412\u044B \u043D\u0430\u0448\u043B\u0438 \u0437\u043C\u0435\u0438\u043D\u043E\u0435
+    \u043C\u0430\u0441\u043B\u043E]"
   _messageTime: 3
   _isMultiInteractable: 0
   _gameTriggers:
