@@ -363,8 +363,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 66b5f87398ed4004db648cf7628929fd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _successInteractinMessage: "\u0412\u044B \u043D\u0430\u0445\u043E\u0434\u0438\u0442\u0435
-    \u043F\u043B\u0451\u043D\u043A\u0443."
+  _successInteractinMessage: "[\u0412\u044B \u043D\u0430\u0448\u043B\u0438 \u043F\u043B\u0435\u043D\u043A\u0443]"
   _messageTime: 3
   _isMultiInteractable: 0
   _gameTriggers:
