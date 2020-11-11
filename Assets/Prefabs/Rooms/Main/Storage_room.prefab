@@ -32,16 +32,16 @@ RectTransform:
   m_GameObject: {fileID: 2100292573028909186}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 2, y: 2, z: 2}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 6583641906735059402}
+  - {fileID: 8845460862683725786}
   m_Father: {fileID: 5807535884201078362}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -746, y: 104}
-  m_SizeDelta: {x: 100, y: 100}
+  m_AnchoredPosition: {x: -739, y: 126.61}
+  m_SizeDelta: {x: 278.43665, y: 253.22278}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &6058997817706920953
 CanvasRenderer:
@@ -72,7 +72,7 @@ MonoBehaviour:
       m_Calls: []
   m_Sprite: {fileID: 21300000, guid: e3113069849ae4542a42cc75ab641b49, type: 3}
   m_Type: 0
-  m_PreserveAspect: 0
+  m_PreserveAspect: 1
   m_FillCenter: 1
   m_FillMethod: 4
   m_FillAmount: 1
@@ -259,7 +259,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _sizeChanegeOn: 1.1
   _animSpeed: 0.25
-  ease: 27
+  ease: 11
 --- !u!114 &659511891634165716
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -272,7 +272,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0ffb9df3c6212f741998f9156d1c4ad9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tooltipView: {fileID: 8931363831784110501}
+  tooltipView: {fileID: 6516212441774348213}
   Message: "\u0411\u0443\u0442\u044B\u043B\u043A\u0430 \u0441\u043E \u0437\u043C\u0435\u0438\u043D\u044B\u043C
     \u043C\u0430\u0441\u043B\u043E\u043C"
 --- !u!1 &7793050066082130030
@@ -532,7 +532,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _sizeChanegeOn: 1.1
   _animSpeed: 0.25
-  ease: 27
+  ease: 5
 --- !u!114 &7289345198715705552
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -547,7 +547,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tooltipView: {fileID: 1287828098072222519}
   _room: {fileID: 11400000, guid: a69983136b2799b4e9228e16730f243c, type: 2}
---- !u!1001 &2773140976734013423
+--- !u!1001 &567600484550715903
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -634,12 +634,12 @@ PrefabInstance:
     - target: {fileID: 9016741264214595109, guid: 64b690f3874e98f4d8152d82c80fbc0e,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 6
+      value: 18
       objectReference: {fileID: 0}
     - target: {fileID: 9016741264214595109, guid: 64b690f3874e98f4d8152d82c80fbc0e,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -77
+      value: -108.21
       objectReference: {fileID: 0}
     - target: {fileID: 9016741264214595109, guid: 64b690f3874e98f4d8152d82c80fbc0e,
         type: 3}
@@ -681,34 +681,19 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
-    - target: {fileID: 9016741264214595109, guid: 64b690f3874e98f4d8152d82c80fbc0e,
-        type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 9016741264214595109, guid: 64b690f3874e98f4d8152d82c80fbc0e,
-        type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 9016741264214595109, guid: 64b690f3874e98f4d8152d82c80fbc0e,
-        type: 3}
-      propertyPath: m_LocalScale.z
-      value: 0.5
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 64b690f3874e98f4d8152d82c80fbc0e, type: 3}
---- !u!224 &6583641906735059402 stripped
+--- !u!224 &8845460862683725786 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 9016741264214595109, guid: 64b690f3874e98f4d8152d82c80fbc0e,
     type: 3}
-  m_PrefabInstance: {fileID: 2773140976734013423}
+  m_PrefabInstance: {fileID: 567600484550715903}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &8931363831784110501 stripped
+--- !u!114 &6516212441774348213 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 6741529184130891338, guid: 64b690f3874e98f4d8152d82c80fbc0e,
     type: 3}
-  m_PrefabInstance: {fileID: 2773140976734013423}
+  m_PrefabInstance: {fileID: 567600484550715903}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1

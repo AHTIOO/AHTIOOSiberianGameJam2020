@@ -259,7 +259,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _sizeChanegeOn: 1.1
   _animSpeed: 0.25
-  ease: 27
+  ease: 5
 --- !u!114 &2282634569504776559
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -289,6 +289,7 @@ GameObject:
   - component: {fileID: 7806426744713065584}
   - component: {fileID: 7411080152199707802}
   - component: {fileID: 5039557873468336896}
+  - component: {fileID: 6946362464938717262}
   m_Layer: 5
   m_Name: DoorToStorage
   m_TagString: Untagged
@@ -530,7 +531,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _sizeChanegeOn: 1.1
   _animSpeed: 0.25
-  ease: 27
+  ease: 5
+--- !u!114 &6946362464938717262
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3964961053564839367}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8afc3b3184770d541846f3114ee5285d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tooltipView: {fileID: 3667382830156820586}
+  _room: {fileID: 11400000, guid: 38ea2c75cd2538d4788d0fff519d59d1, type: 2}
 --- !u!1 &4316329201491539307
 GameObject:
   m_ObjectHideFlags: 0
@@ -789,7 +804,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _sizeChanegeOn: 1.1
   _animSpeed: 0.25
-  ease: 27
+  ease: 5
 --- !u!114 &3004554830806463687
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1062,7 +1077,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _sizeChanegeOn: 1.1
   _animSpeed: 0.25
-  ease: 27
+  ease: 5
 --- !u!114 &1351104159822563978
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1338,7 +1353,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _sizeChanegeOn: 1.1
   _animSpeed: 0.25
-  ease: 27
+  ease: 5
 --- !u!114 &8288381681458265454
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1846,7 +1861,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _sizeChanegeOn: 1.1
   _animSpeed: 0.25
-  ease: 27
+  ease: 5
 --- !u!114 &2313070960938014473
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2011,12 +2026,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 64b690f3874e98f4d8152d82c80fbc0e, type: 3}
---- !u!224 &8840627195001981823 stripped
-RectTransform:
-  m_CorrespondingSourceObject: {fileID: 9016741264214595109, guid: 64b690f3874e98f4d8152d82c80fbc0e,
-    type: 3}
-  m_PrefabInstance: {fileID: 545447859296558426}
-  m_PrefabAsset: {fileID: 0}
 --- !u!114 &6494024512123872016 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 6741529184130891338, guid: 64b690f3874e98f4d8152d82c80fbc0e,
@@ -2029,6 +2038,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 155984ea63306834ea57a057bc45b709, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!224 &8840627195001981823 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 9016741264214595109, guid: 64b690f3874e98f4d8152d82c80fbc0e,
+    type: 3}
+  m_PrefabInstance: {fileID: 545447859296558426}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1034810439238564941
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2116,12 +2131,12 @@ PrefabInstance:
     - target: {fileID: 9016741264214595109, guid: 64b690f3874e98f4d8152d82c80fbc0e,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 1
+      value: -40
       objectReference: {fileID: 0}
     - target: {fileID: 9016741264214595109, guid: 64b690f3874e98f4d8152d82c80fbc0e,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 78
+      value: 73
       objectReference: {fileID: 0}
     - target: {fileID: 9016741264214595109, guid: 64b690f3874e98f4d8152d82c80fbc0e,
         type: 3}
@@ -2865,6 +2880,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: ToolipView
       objectReference: {fileID: 0}
+    - target: {fileID: 2642517197320183141, guid: 64b690f3874e98f4d8152d82c80fbc0e,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 9016741264214595109, guid: 64b690f3874e98f4d8152d82c80fbc0e,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2923,12 +2943,12 @@ PrefabInstance:
     - target: {fileID: 9016741264214595109, guid: 64b690f3874e98f4d8152d82c80fbc0e,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -28
+      value: -50
       objectReference: {fileID: 0}
     - target: {fileID: 9016741264214595109, guid: 64b690f3874e98f4d8152d82c80fbc0e,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 71
+      value: 73
       objectReference: {fileID: 0}
     - target: {fileID: 9016741264214595109, guid: 64b690f3874e98f4d8152d82c80fbc0e,
         type: 3}
