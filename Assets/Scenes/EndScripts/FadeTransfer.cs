@@ -12,10 +12,8 @@ public class FadeTransfer : MonoBehaviour
     {
         image.DOFade(0, TransitionSpeed);
     }
-
-    // Update is called once per frame
-    void Update()
+    public void CloseGame()
     {
-        
+        Application.Quit();
     }
 }
