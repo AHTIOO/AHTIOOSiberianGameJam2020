@@ -28,9 +28,9 @@ public class InventoryView : MonoBehaviour
 
         for (int i = 0; i < inv.Count; i++)
         {
-            Transform parent = i <= _maxAmountOfItemsOnPage ? _pageOne : _pageTwo;
+            Transform parent = i < _maxAmountOfItemsOnPage ? _pageOne : _pageTwo;
 
-            var view = Instantiate(_prefab, _pageOne);
+            var view = Instantiate(_prefab, parent);
             view.SetItem(inv[i]);
             _inventoryItemViews.Add(view);
         }

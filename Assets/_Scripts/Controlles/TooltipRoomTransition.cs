@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class TooltipRoomTransition : TooltipBase
 {
-    private const string RoomLightOn = "В этой комнате светло.";
-    private const string RoomLightOff = "В этой комнате нет света.";
+    private const string RoomLightOn = "Эта комната освещена";
+    private const string RoomLightOff = "В этой комнате нет света";
 
     [SerializeField] private Room _room;
 

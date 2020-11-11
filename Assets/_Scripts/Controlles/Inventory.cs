@@ -22,6 +22,8 @@ public class Inventory : Singleton<Inventory>
             this.isRemoved = isRemoved;
         }
     }
+
+    [EditorButton]
     public void Add(InventoryItem item)
     {
         CurrentItems.Add(item);

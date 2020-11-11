@@ -19,11 +19,11 @@ public class InteractableObject : MonoBehaviour
     [SerializeField] private List<string> _idsToActivateOnInteract;
 
     [Header("Audio")]
-    [SerializeField] private AudioClip _successClip;
-    [SerializeField] private AudioClip _failClip;
+    [SerializeField] protected AudioClip _successClip;
+    [SerializeField] protected AudioClip _failClip;
 
     private bool _wasInteracted;
-    private AudioSource _audioSource;
+    [SerializeField] private AudioSource _audioSource;
     private Button _button;
 
     private Button Button
@@ -43,7 +43,9 @@ public class InteractableObject : MonoBehaviour
     private void Awake()
     {
         Button.onClick.AddListener(Interact);
-        _audioSource = GetComponent<AudioSource>();
+        if (_audioSource == null)
+            _audioSource = GetComponent<AudioSource>();
+        _audioSource.playOnAwake = false;
     }
 
     private void OnDestroy()

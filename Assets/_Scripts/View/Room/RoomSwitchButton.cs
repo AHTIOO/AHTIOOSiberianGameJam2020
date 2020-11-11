@@ -14,6 +14,7 @@ public class RoomSwitchButton : InteractableObject
 
     protected override void InteractionAction()
     {
+        AudioManager.Instance.PlaySound(_successClip);
         OnSwitchClick.Invoke(_roomIndex);
     }
 }
